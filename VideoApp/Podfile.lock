@@ -1,0 +1,21 @@
+PODS:
+  - iOS-Slide-Menu (1.5)
+  - IQKeyboardManager (4.0.7)
+  - MBProgressHUD (1.0.0)
+  - PureLayout (3.0.2)
+
+DEPENDENCIES:
+  - iOS-Slide-Menu
+  - IQKeyboardManager
+  - MBProgressHUD
+  - PureLayout
+
+SPEC CHECKSUMS:
+  iOS-Slide-Menu: 40b0cbd8916c42afc755f0869793cd09e7a32102
+  IQKeyboardManager: 69002bb4fea60596b710e57d426abc00e5063630
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+
+PODFILE CHECKSUM: 37f5834e7214ea0f311f4ddce26cb34d9d3e142a
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,48 @@
+# Uncomment this line to define a global platform for your project
+
+platform :ios, ‘8.0'
+source ‘https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+def cocoapods_prefix
+    "org.cocoapods"
+end
+
+# Custom framework bundle ID prefix
+def custom_prefix
+    "VirtusVentures.VideoApp"
+end
+
+# Patch bundle ID in a file
+def patch_bundle_id(file)
+    contents = File.read(file).gsub(cocoapods_prefix, custom_prefix)
+    File.open(file, "w") { |file| file << contents }
+end
+
+# Post-install hook
+post_install do |installer|
+    puts "Update debug pod settings to speed up build time"
+    Dir.glob(File.join("Pods", "**", "Pods*{debug,Private}.xcconfig")).each do |file|
+        patch_bundle_id(file)
+    end
+    
+    # Path CocoaPods targets build settings
+    puts "Patch dynamic frameworks product bundle identifiers"
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            patch_bundle_id(config.base_configuration_reference.real_path)
+            if config.build_settings["PRODUCT_BUNDLE_IDENTIFIER"]
+                config.build_settings["PRODUCT_BUNDLE_IDENTIFIER"] = config.build_settings["PRODUCT_BUNDLE_IDENTIFIER"].sub(cocoapods_prefix, custom_prefix)
+            end
+        end
+    end
+end
+
+target "VideoApp" do
+
+pod 'IQKeyboardManager'
+pod 'PureLayout'
+pod 'MBProgressHUD'
+pod 'iOS-Slide-Menu'
+
+end
