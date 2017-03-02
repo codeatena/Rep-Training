@@ -37,20 +37,27 @@
 
 - (IBAction)onActivate:(id)sender
 {
-    if ([_codeField.text isEqualToString:@"1"])
-         _activateView.hidden = YES;
+    if ([_codeField.text isEqualToString:_password])
+    {
+        NSInteger count = [GVUserDefaults standardUserDefaults].passCount;
+        [GVUserDefaults standardUserDefaults].passCount = count + 1;
+        [GVUserDefaults standardUserDefaults].expiredDate = [[NSDate date] dateByAddingTimeInterval:TOKEN_EXPIRE_DURATION];
+        SlideNavigationController *navVc = (SlideNavigationController *)self.presentingViewController;
+        VideoViewController *vc = (VideoViewController *)[navVc topViewController];
+        [self dismissViewControllerAnimated:YES completion:^(void){
+            
+            [vc.playerVC.player play];
+        }];
+    }
     else
         _failLbl.hidden = NO;
+
 }
 
 - (IBAction)onSuccess:(id)sender
 {
-    SlideNavigationController *navVc = (SlideNavigationController *)self.presentingViewController;
-    VideoViewController *vc = (VideoViewController *)[navVc topViewController];
-    [self dismissViewControllerAnimated:YES completion:^(void){
-        
-        [vc.playerVC.player play];
-    }];
+    _activateView.hidden = NO;
+    _alertView.hidden = YES;
 }
 
 @end

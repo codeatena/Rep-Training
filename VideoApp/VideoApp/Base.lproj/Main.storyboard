@@ -96,46 +96,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fhQ-at-gfu">
-                                <rect key="frame" x="144" y="362" width="480" height="300"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please activate your 2 week  access to the training videos" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tu8-Fq-906">
-                                        <rect key="frame" x="40" y="40" width="400" height="86"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="86" id="HIt-n1-Cs9"/>
-                                            <constraint firstAttribute="width" constant="400" id="iZP-i0-OXH"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wkh-WA-ML7">
-                                        <rect key="frame" x="123" y="208" width="234" height="61"/>
-                                        <color key="backgroundColor" red="0.96078431369999995" green="0.023529411760000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="234" id="aO5-pv-dFE"/>
-                                            <constraint firstAttribute="height" constant="61" id="v5s-Nd-UWI"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
-                                        <state key="normal" title="Activate">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="onSuccess:" destination="Y7K-Rl-vgq" eventType="touchUpInside" id="AgE-6b-ces"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="Wkh-WA-ML7" secondAttribute="bottom" constant="31" id="9AL-cT-woK"/>
-                                    <constraint firstItem="Wkh-WA-ML7" firstAttribute="centerX" secondItem="fhQ-at-gfu" secondAttribute="centerX" id="9tr-k5-8gQ"/>
-                                    <constraint firstAttribute="width" constant="480" id="I8o-bg-IwL"/>
-                                    <constraint firstItem="tu8-Fq-906" firstAttribute="top" secondItem="fhQ-at-gfu" secondAttribute="top" constant="40" id="hCu-N5-tR9"/>
-                                    <constraint firstAttribute="height" constant="300" id="nPH-gv-iP6"/>
-                                    <constraint firstItem="tu8-Fq-906" firstAttribute="centerX" secondItem="fhQ-at-gfu" secondAttribute="centerX" id="vGq-ck-xHQ"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uiz-mP-mwj">
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uiz-mP-mwj">
                                 <rect key="frame" x="144" y="322" width="480" height="380"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter your re-activation code" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LBo-Wp-Xwg">
@@ -198,6 +159,45 @@
                                     <constraint firstItem="H1n-AZ-1kY" firstAttribute="top" secondItem="LBo-Wp-Xwg" secondAttribute="bottom" constant="20" id="svm-FS-WcA"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fhQ-at-gfu">
+                                <rect key="frame" x="144" y="362" width="480" height="300"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please activate your 2 week  access to the training videos" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tu8-Fq-906">
+                                        <rect key="frame" x="40" y="40" width="400" height="86"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="86" id="HIt-n1-Cs9"/>
+                                            <constraint firstAttribute="width" constant="400" id="iZP-i0-OXH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wkh-WA-ML7">
+                                        <rect key="frame" x="123" y="208" width="234" height="61"/>
+                                        <color key="backgroundColor" red="0.96078431369999995" green="0.023529411760000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="234" id="aO5-pv-dFE"/>
+                                            <constraint firstAttribute="height" constant="61" id="v5s-Nd-UWI"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                        <state key="normal" title="Activate">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onSuccess:" destination="Y7K-Rl-vgq" eventType="touchUpInside" id="O9A-p0-n9f"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Wkh-WA-ML7" secondAttribute="bottom" constant="31" id="9AL-cT-woK"/>
+                                    <constraint firstItem="Wkh-WA-ML7" firstAttribute="centerX" secondItem="fhQ-at-gfu" secondAttribute="centerX" id="9tr-k5-8gQ"/>
+                                    <constraint firstAttribute="width" constant="480" id="I8o-bg-IwL"/>
+                                    <constraint firstItem="tu8-Fq-906" firstAttribute="top" secondItem="fhQ-at-gfu" secondAttribute="top" constant="40" id="hCu-N5-tR9"/>
+                                    <constraint firstAttribute="height" constant="300" id="nPH-gv-iP6"/>
+                                    <constraint firstItem="tu8-Fq-906" firstAttribute="centerX" secondItem="fhQ-at-gfu" secondAttribute="centerX" id="vGq-ck-xHQ"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -213,6 +213,7 @@
                     </view>
                     <connections>
                         <outlet property="activateView" destination="uiz-mP-mwj" id="L5L-dk-5dZ"/>
+                        <outlet property="alertView" destination="fhQ-at-gfu" id="Sbj-fK-8Jt"/>
                         <outlet property="codeField" destination="H1n-AZ-1kY" id="ixG-FJ-Gn3"/>
                         <outlet property="failLbl" destination="qyG-Px-0xi" id="e19-4Z-Xfu"/>
                     </connections>
@@ -279,7 +280,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="jZ1-O6-x5z"/>
                     <connections>
-                        <segue destination="Y7K-Rl-vgq" kind="modal" identifier="activateSegue" modalTransitionStyle="crossDissolve" id="tFd-go-9i7"/>
+                        <segue destination="Y7K-Rl-vgq" kind="modal" identifier="activateSegue" modalTransitionStyle="flipHorizontal" id="tFd-go-9i7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sP9-LY-Hv7" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -11,8 +11,12 @@
 @interface ActivateViewController : UIViewController
 
 @property (nonatomic ,weak) IBOutlet UIView *activateView;
+@property (nonatomic ,weak) IBOutlet UIView *alertView;
+
 @property (nonatomic ,weak) IBOutlet UILabel *failLbl;
 @property (nonatomic ,weak) IBOutlet UITextField *codeField;
+
+@property (nonatomic ,strong) NSString *password;
 
 - (IBAction)onActivate:(id)sender;
 - (IBAction)onSuccess:(id)sender;

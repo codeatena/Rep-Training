@@ -29,6 +29,8 @@
     [SlideNavigationController sharedInstance].enableShadow = NO;
     [SlideNavigationController sharedInstance].avoidSwitchingToSameClassViewController = NO;
     
+    [self generatePassword];
+    
     return YES;
 }
 
@@ -104,6 +106,22 @@
         // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
         NSLog(@"Unresolved error %@, %@", error, error.userInfo);
         abort();
+    }
+}
+
+- (void)generatePassword
+{
+    if (![GVUserDefaults standardUserDefaults].isPasswordSet)
+    {
+        [GVUserDefaults standardUserDefaults].isPasswordSet = YES;
+        [GVUserDefaults standardUserDefaults].expiredDate = [[NSDate date] dateByAddingTimeInterval:TOKEN_EXPIRE_DURATION];
+        [GVUserDefaults standardUserDefaults].passCount = 0;
+        
+        [GVUserDefaults standardUserDefaults].password1 = PASSWORD1;
+        [GVUserDefaults standardUserDefaults].password2 = PASSWORD2;
+        [GVUserDefaults standardUserDefaults].password3 = PASSWORD3;
+        [GVUserDefaults standardUserDefaults].password4 = PASSWORD4;
+        [GVUserDefaults standardUserDefaults].password5 = PASSWORD5;
     }
 }
 

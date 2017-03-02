@@ -7,6 +7,7 @@
 //
 
 #import "VideoViewController.h"
+#import "ActivateViewController.h"
 
 @interface VideoViewController ()
 
@@ -26,7 +27,6 @@
     _playerVC.player = player;
     [player play];
     
-    [self performSelector:@selector(showActivate) withObject:nil afterDelay:3.0f];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,10 +34,33 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    [[NSNotificationCenter defaultCenter]addObserver:self
+                                            selector:@selector(didBecomeForground)
+                                                name:UIApplicationDidBecomeActiveNotification
+                                              object:nil];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIApplicationDidBecomeActiveNotification object:nil];
+    
+}
+
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
     
+    NSDate *expiredDate = [GVUserDefaults standardUserDefaults].expiredDate;
+    if ([expiredDate compare:[NSDate date]] ==  NSOrderedAscending)
+    {
+        [self showActivate];
+    }
 }
 
 #pragma mark - Navigation
@@ -51,6 +74,29 @@
     {
         _playerVC = [segue destinationViewController];
     }
+    else if ([segue.identifier isEqualToString:@"activateSegue"])
+    {
+        ActivateViewController *vc = (ActivateViewController *)[segue destinationViewController];
+        switch ([GVUserDefaults standardUserDefaults].passCount) {
+            case 0:
+                vc.password = [GVUserDefaults standardUserDefaults].password1;
+                break;
+            case 1:
+                vc.password = [GVUserDefaults standardUserDefaults].password2;
+                break;
+            case 2:
+                vc.password = [GVUserDefaults standardUserDefaults].password3;
+                break;
+            case 3:
+                vc.password = [GVUserDefaults standardUserDefaults].password4;
+                break;
+            case 4:
+                vc.password = [GVUserDefaults standardUserDefaults].password5;
+                break;
+            default:
+                break;
+        }
+    }
 }
 
 - (IBAction)toggleMenu:(id)sender
@@ -61,7 +107,37 @@
 - (void)showActivate
 {
     [_playerVC.player pause];
-    [self performSegueWithIdentifier:@"activateSegue" sender:nil];
+    
+    if ([GVUserDefaults standardUserDefaults].passCount == 5)
+    {
+        UIAlertController * alert=   [UIAlertController
+                                      alertControllerWithTitle:@"Alert"
+                                      message:TOKEN_EXPIRED
+                                      preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction* ok = [UIAlertAction
+                             actionWithTitle:@"OK"
+                             style:UIAlertActionStyleDefault
+                             handler:^(UIAlertAction * action)
+                             {
+                                 exit(0);
+                             }];
+
+        [alert addAction:ok];
+        [self presentViewController:alert animated:YES completion:nil];
+    }
+    else
+        [self performSegueWithIdentifier:@"activateSegue" sender:nil];
 }
+
+- (void)didBecomeForground
+{
+    NSDate *expiredDate = [GVUserDefaults standardUserDefaults].expiredDate;
+    if ([expiredDate compare:[NSDate date]] ==  NSOrderedAscending)
+    {
+        [self showActivate];
+    }
+}
+
 
 @end

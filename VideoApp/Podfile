@@ -44,5 +44,6 @@ pod 'IQKeyboardManager'
 pod 'PureLayout'
 pod 'MBProgressHUD'
 pod 'iOS-Slide-Menu'
+pod 'GVUserDefaults'
 
 end

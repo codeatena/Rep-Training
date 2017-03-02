@@ -41,6 +41,7 @@
 		046E3DAC1E662DB8006064D9 /* Wrapping it up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 046E3D971E662DB8006064D9 /* Wrapping it up.mp4 */; };
 		04A7E02B1E67DDC4006B6BA1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A7E02A1E67DDC4006B6BA1 /* Launch Screen.storyboard */; };
 		04A7E02E1E67E022006B6BA1 /* ActivateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E02D1E67E022006B6BA1 /* ActivateViewController.m */; };
+		04A7E0331E67F129006B6BA1 /* GVUserDefaults+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E0321E67F129006B6BA1 /* GVUserDefaults+Properties.m */; };
 		4DEC93FDB80D045CEFD1907E /* Pods_VideoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBBDF278195B6BB0C05D43 /* Pods_VideoApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +88,9 @@
 		04A7E02A1E67DDC4006B6BA1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		04A7E02C1E67E022006B6BA1 /* ActivateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActivateViewController.h; path = viewcontroller/ActivateViewController.h; sourceTree = "<group>"; };
 		04A7E02D1E67E022006B6BA1 /* ActivateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActivateViewController.m; path = viewcontroller/ActivateViewController.m; sourceTree = "<group>"; };
+		04A7E0311E67F129006B6BA1 /* GVUserDefaults+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GVUserDefaults+Properties.h"; path = "model/GVUserDefaults+Properties.h"; sourceTree = "<group>"; };
+		04A7E0321E67F129006B6BA1 /* GVUserDefaults+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GVUserDefaults+Properties.m"; path = "model/GVUserDefaults+Properties.m"; sourceTree = "<group>"; };
+		04A7E0351E67F838006B6BA1 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = model/Constants.h; sourceTree = "<group>"; };
 		2C698E00B4B5D818C090F392 /* Pods-VideoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoApp/Pods-VideoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		31EBADEBD726F2A800EA19B4 /* Pods-VideoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoApp/Pods-VideoApp.release.xcconfig"; sourceTree = "<group>"; };
 		FEDBBDF278195B6BB0C05D43 /* Pods_VideoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +131,8 @@
 		0431EA381E650D7B0041C09D /* VideoApp */ = {
 			isa = PBXGroup;
 			children = (
+				04A7E0301E67F107006B6BA1 /* model */,
+				04A7E02F1E67F0FF006B6BA1 /* control */,
 				046E3D821E662DB8006064D9 /* resource */,
 				0431EA5B1E651BC20041C09D /* view */,
 				0431EA531E6510DE0041C09D /* viewcontroller */,
@@ -200,6 +206,23 @@
 				046E3D971E662DB8006064D9 /* Wrapping it up.mp4 */,
 			);
 			path = resource;
+			sourceTree = "<group>";
+		};
+		04A7E02F1E67F0FF006B6BA1 /* control */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = control;
+			sourceTree = "<group>";
+		};
+		04A7E0301E67F107006B6BA1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				04A7E0311E67F129006B6BA1 /* GVUserDefaults+Properties.h */,
+				04A7E0321E67F129006B6BA1 /* GVUserDefaults+Properties.m */,
+				04A7E0351E67F838006B6BA1 /* Constants.h */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 		1F11231D95E14DA28870D2A2 /* Frameworks */ = {
@@ -367,6 +390,7 @@
 			files = (
 				04A7E02E1E67E022006B6BA1 /* ActivateViewController.m in Sources */,
 				0431EA591E65131F0041C09D /* SideViewController.m in Sources */,
+				04A7E0331E67F129006B6BA1 /* GVUserDefaults+Properties.m in Sources */,
 				0431EA471E650D7B0041C09D /* VideoApp.xcdatamodeld in Sources */,
 				0431EA3E1E650D7B0041C09D /* AppDelegate.m in Sources */,
 				0431EA561E6510FB0041C09D /* VideoViewController.m in Sources */,
