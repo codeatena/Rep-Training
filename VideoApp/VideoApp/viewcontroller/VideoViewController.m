@@ -10,7 +10,6 @@
 
 @interface VideoViewController ()
 
-@property (nonatomic ,strong) AVPlayerViewController *playerVC;
 
 @end
 
@@ -26,6 +25,8 @@
     AVPlayer *player = [AVPlayer playerWithURL:[NSURL fileURLWithPath:path]];
     _playerVC.player = player;
     [player play];
+    
+    [self performSelector:@selector(showActivate) withObject:nil afterDelay:3.0f];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -55,6 +56,12 @@
 - (IBAction)toggleMenu:(id)sender
 {
     [[SlideNavigationController sharedInstance] toggleLeftMenu];
+}
+
+- (void)showActivate
+{
+    [_playerVC.player pause];
+    [self performSegueWithIdentifier:@"activateSegue" sender:nil];
 }
 
 @end

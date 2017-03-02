@@ -11,6 +11,7 @@
 @interface VideoViewController : UIViewController
 
 @property (nonatomic ,strong) NSString *videoName;
+@property (nonatomic ,strong) AVPlayerViewController *playerVC;
 
 - (IBAction)toggleMenu:(id)sender;
 
