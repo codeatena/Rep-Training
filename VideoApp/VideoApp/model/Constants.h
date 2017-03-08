@@ -17,7 +17,7 @@
 
 #define   TOKEN_EXPIRED @"Sorry you have used all of your access tokens"
 
-#define  TOKEN_EXPIRE_DURATION  60 * 30
+#define  TOKEN_EXPIRE_DURATION  3600 * 24 * 14
 
 #define VIDEO_TITLES   @[@"Affected items" , @"Area of interest" , @"coming from help" , @"Dehumidifier" ,@"Electric" ,@"Exterior inspection" ,@"Finished basement" ,@"Flashlight mold test" ,@"Getting started" ,@"Home Owners Stuff" ,@"In Under _ Behind finished" ,@"Lift Test" ,@"Mechanicals" ,@"Mold Test" ,@"mold" ,@"Moving around finished basment" ,@"moving around inspection" ,@"Taking down paneling" ,@"Tools" ,@"Welcome" ,@"Wrapping it up"]
 
