@@ -59,11 +59,18 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    UIViewController *topVC = [SlideNavigationController sharedInstance].topViewController;
+    if ([topVC isKindOfClass:[VideoViewController class]])
+    {
+        [(VideoViewController *)topVC playerVC].player = nil;
+    }
+    
     VideoViewController *videoVC = [self.storyboard instantiateViewControllerWithIdentifier:@"VideoViewController"];
     videoVC.videoName = [VIDEO_TITLES objectAtIndex:indexPath.row];
     [[SlideNavigationController sharedInstance] popAllAndSwitchToViewController:videoVC withSlideOutAnimation:YES andCompletion:^(void){
         
     }];
+
 }
 
 @end

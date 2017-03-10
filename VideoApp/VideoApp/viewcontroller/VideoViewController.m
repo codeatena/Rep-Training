@@ -42,6 +42,16 @@
                                             selector:@selector(didBecomeForground)
                                                 name:UIApplicationDidBecomeActiveNotification
                                               object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserverForName:SlideNavigationControllerDidClose object:nil queue:nil usingBlock:^(NSNotification *note) {
+        [_playerVC.player play];
+
+    }];
+    
+    [[NSNotificationCenter defaultCenter] addObserverForName:SlideNavigationControllerDidOpen object:nil queue:nil usingBlock:^(NSNotification *note) {
+        [_playerVC.player pause];
+
+    }];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -49,6 +59,9 @@
     [super viewWillDisappear:animated];
     
     [[NSNotificationCenter defaultCenter] removeObserver:self name:UIApplicationDidBecomeActiveNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:SlideNavigationControllerDidClose object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:SlideNavigationControllerDidOpen object:nil];
+
     
 }
 
