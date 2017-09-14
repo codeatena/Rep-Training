@@ -42,6 +42,21 @@
 		04A7E02B1E67DDC4006B6BA1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A7E02A1E67DDC4006B6BA1 /* Launch Screen.storyboard */; };
 		04A7E02E1E67E022006B6BA1 /* ActivateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E02D1E67E022006B6BA1 /* ActivateViewController.m */; };
 		04A7E0331E67F129006B6BA1 /* GVUserDefaults+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E0321E67F129006B6BA1 /* GVUserDefaults+Properties.m */; };
+		04D358281F6A6BCE008B8957 /* 4 ways.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04D358191F6A6BCE008B8957 /* 4 ways.mp4 */; };
+		04D358291F6A6BCE008B8957 /* Accomplish.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04D3581A1F6A6BCE008B8957 /* Accomplish.mp4 */; };
+		04D3582A1F6A6BCE008B8957 /* Asking for the order.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04D3581B1F6A6BCE008B8957 /* Asking for the order.mp4 */; };
+		04D3582B1F6A6BCE008B8957 /* basement.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04D3581C1F6A6BCE008B8957 /* basement.mp4 */; };
+		04D3582C1F6A6BCE008B8957 /* Credentials.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04D3581D1F6A6BCE008B8957 /* Credentials.mp4 */; };
+		04D3582D1F6A6BCE008B8957 /* Damages.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04D3581E1F6A6BCE008B8957 /* Damages.mp4 */; };
+		04D3582E1F6A6BCE008B8957 /* Getting your cust_company ready.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04D3581F1F6A6BCE008B8957 /* Getting your cust_company ready.mp4 */; };
+		04D3582F1F6A6BCE008B8957 /* How Built.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04D358201F6A6BCE008B8957 /* How Built.mp4 */; };
+		04D358301F6A6BCE008B8957 /* Materials.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04D358211F6A6BCE008B8957 /* Materials.mp4 */; };
+		04D358311F6A6BCE008B8957 /* Report.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04D358221F6A6BCE008B8957 /* Report.mp4 */; };
+		04D358321F6A6BCE008B8957 /* Solution.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04D358231F6A6BCE008B8957 /* Solution.mp4 */; };
+		04D358331F6A6BCE008B8957 /* Stages.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04D358241F6A6BCE008B8957 /* Stages.mp4 */; };
+		04D358341F6A6BCE008B8957 /* Table Time.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04D358251F6A6BCE008B8957 /* Table Time.mp4 */; };
+		04D358351F6A6BCE008B8957 /* The button.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04D358261F6A6BCE008B8957 /* The button.mp4 */; };
+		04D358361F6A6BCE008B8957 /* Under _ Behind finished.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04D358271F6A6BCE008B8957 /* Under _ Behind finished.mp4 */; };
 		4DEC93FDB80D045CEFD1907E /* Pods_VideoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBBDF278195B6BB0C05D43 /* Pods_VideoApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +106,21 @@
 		04A7E0311E67F129006B6BA1 /* GVUserDefaults+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GVUserDefaults+Properties.h"; path = "model/GVUserDefaults+Properties.h"; sourceTree = "<group>"; };
 		04A7E0321E67F129006B6BA1 /* GVUserDefaults+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GVUserDefaults+Properties.m"; path = "model/GVUserDefaults+Properties.m"; sourceTree = "<group>"; };
 		04A7E0351E67F838006B6BA1 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = model/Constants.h; sourceTree = "<group>"; };
+		04D358191F6A6BCE008B8957 /* 4 ways.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "4 ways.mp4"; sourceTree = "<group>"; };
+		04D3581A1F6A6BCE008B8957 /* Accomplish.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Accomplish.mp4; sourceTree = "<group>"; };
+		04D3581B1F6A6BCE008B8957 /* Asking for the order.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asking for the order.mp4"; sourceTree = "<group>"; };
+		04D3581C1F6A6BCE008B8957 /* basement.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = basement.mp4; sourceTree = "<group>"; };
+		04D3581D1F6A6BCE008B8957 /* Credentials.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Credentials.mp4; sourceTree = "<group>"; };
+		04D3581E1F6A6BCE008B8957 /* Damages.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Damages.mp4; sourceTree = "<group>"; };
+		04D3581F1F6A6BCE008B8957 /* Getting your cust_company ready.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Getting your cust_company ready.mp4"; sourceTree = "<group>"; };
+		04D358201F6A6BCE008B8957 /* How Built.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How Built.mp4"; sourceTree = "<group>"; };
+		04D358211F6A6BCE008B8957 /* Materials.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Materials.mp4; sourceTree = "<group>"; };
+		04D358221F6A6BCE008B8957 /* Report.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Report.mp4; sourceTree = "<group>"; };
+		04D358231F6A6BCE008B8957 /* Solution.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Solution.mp4; sourceTree = "<group>"; };
+		04D358241F6A6BCE008B8957 /* Stages.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stages.mp4; sourceTree = "<group>"; };
+		04D358251F6A6BCE008B8957 /* Table Time.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Table Time.mp4"; sourceTree = "<group>"; };
+		04D358261F6A6BCE008B8957 /* The button.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The button.mp4"; sourceTree = "<group>"; };
+		04D358271F6A6BCE008B8957 /* Under _ Behind finished.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Under _ Behind finished.mp4"; sourceTree = "<group>"; };
 		2C698E00B4B5D818C090F392 /* Pods-VideoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoApp/Pods-VideoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		31EBADEBD726F2A800EA19B4 /* Pods-VideoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoApp/Pods-VideoApp.release.xcconfig"; sourceTree = "<group>"; };
 		FEDBBDF278195B6BB0C05D43 /* Pods_VideoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -183,6 +213,21 @@
 		046E3D821E662DB8006064D9 /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				04D358191F6A6BCE008B8957 /* 4 ways.mp4 */,
+				04D3581A1F6A6BCE008B8957 /* Accomplish.mp4 */,
+				04D3581B1F6A6BCE008B8957 /* Asking for the order.mp4 */,
+				04D3581C1F6A6BCE008B8957 /* basement.mp4 */,
+				04D3581D1F6A6BCE008B8957 /* Credentials.mp4 */,
+				04D3581E1F6A6BCE008B8957 /* Damages.mp4 */,
+				04D3581F1F6A6BCE008B8957 /* Getting your cust_company ready.mp4 */,
+				04D358201F6A6BCE008B8957 /* How Built.mp4 */,
+				04D358211F6A6BCE008B8957 /* Materials.mp4 */,
+				04D358221F6A6BCE008B8957 /* Report.mp4 */,
+				04D358231F6A6BCE008B8957 /* Solution.mp4 */,
+				04D358241F6A6BCE008B8957 /* Stages.mp4 */,
+				04D358251F6A6BCE008B8957 /* Table Time.mp4 */,
+				04D358261F6A6BCE008B8957 /* The button.mp4 */,
+				04D358271F6A6BCE008B8957 /* Under _ Behind finished.mp4 */,
 				046E3D831E662DB8006064D9 /* Affected items.mp4 */,
 				046E3D841E662DB8006064D9 /* Area of interest.mp4 */,
 				046E3D851E662DB8006064D9 /* coming from help.mp4 */,
@@ -306,30 +351,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				046E3DA81E662DB8006064D9 /* moving around inspection.mp4 in Resources */,
+				04D3582F1F6A6BCE008B8957 /* How Built.mp4 in Resources */,
+				04D358291F6A6BCE008B8957 /* Accomplish.mp4 in Resources */,
 				0431EA4C1E650D7C0041C09D /* LaunchScreen.storyboard in Resources */,
 				046E3DA71E662DB8006064D9 /* Moving around finished basment.mp4 in Resources */,
 				046E3D9A1E662DB8006064D9 /* coming from help.mp4 in Resources */,
+				04D358301F6A6BCE008B8957 /* Materials.mp4 in Resources */,
 				046E3DA11E662DB8006064D9 /* Home Owners Stuff.mp4 in Resources */,
+				04D358331F6A6BCE008B8957 /* Stages.mp4 in Resources */,
 				046E3DAA1E662DB8006064D9 /* Tools.mp4 in Resources */,
 				046E3D981E662DB8006064D9 /* Affected items.mp4 in Resources */,
+				04D3582A1F6A6BCE008B8957 /* Asking for the order.mp4 in Resources */,
 				0431EA491E650D7C0041C09D /* Assets.xcassets in Resources */,
 				046E3DA91E662DB8006064D9 /* Taking down paneling.mp4 in Resources */,
 				046E3DA21E662DB8006064D9 /* In Under _ Behind finished.mp4 in Resources */,
+				04D3582C1F6A6BCE008B8957 /* Credentials.mp4 in Resources */,
+				04D3582B1F6A6BCE008B8957 /* basement.mp4 in Resources */,
 				046E3DA41E662DB8006064D9 /* Mechanicals.mp4 in Resources */,
+				04D358311F6A6BCE008B8957 /* Report.mp4 in Resources */,
+				04D358361F6A6BCE008B8957 /* Under _ Behind finished.mp4 in Resources */,
 				046E3DAC1E662DB8006064D9 /* Wrapping it up.mp4 in Resources */,
 				046E3DA61E662DB8006064D9 /* mold.mp4 in Resources */,
+				04D358321F6A6BCE008B8957 /* Solution.mp4 in Resources */,
 				04A7E02B1E67DDC4006B6BA1 /* Launch Screen.storyboard in Resources */,
 				046E3D991E662DB8006064D9 /* Area of interest.mp4 in Resources */,
 				046E3D9E1E662DB8006064D9 /* Finished basement.mp4 in Resources */,
 				046E3D9D1E662DB8006064D9 /* Exterior inspection.mp4 in Resources */,
+				04D358351F6A6BCE008B8957 /* The button.mp4 in Resources */,
+				04D3582E1F6A6BCE008B8957 /* Getting your cust_company ready.mp4 in Resources */,
 				046E3DA01E662DB8006064D9 /* Getting started.mp4 in Resources */,
 				046E3DAB1E662DB8006064D9 /* Welcome.mp4 in Resources */,
 				0431EA441E650D7B0041C09D /* Main.storyboard in Resources */,
 				046E3D9F1E662DB8006064D9 /* Flashlight mold test.mp4 in Resources */,
+				04D3582D1F6A6BCE008B8957 /* Damages.mp4 in Resources */,
 				046E3DA51E662DB8006064D9 /* Mold Test.mp4 in Resources */,
 				046E3DA31E662DB8006064D9 /* Lift Test.mp4 in Resources */,
+				04D358341F6A6BCE008B8957 /* Table Time.mp4 in Resources */,
 				046E3D9C1E662DB8006064D9 /* Electric.mp4 in Resources */,
 				046E3D9B1E662DB8006064D9 /* Dehumidifier.mp4 in Resources */,
+				04D358281F6A6BCE008B8957 /* 4 ways.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
