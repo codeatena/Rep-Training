@@ -114,7 +114,7 @@
     if (![GVUserDefaults standardUserDefaults].isPasswordSet)
     {
         [GVUserDefaults standardUserDefaults].isPasswordSet = YES;
-        [GVUserDefaults standardUserDefaults].expiredDate = [[NSDate date] dateByAddingTimeInterval:TOKEN_EXPIRE_DURATION];
+        [GVUserDefaults standardUserDefaults].expiredDate = [[NSDate date] dateByAddingTimeInterval:TOKEN_EXPIRE_DURATION * 2];
         [GVUserDefaults standardUserDefaults].passCount = 0;
         
         [GVUserDefaults standardUserDefaults].password1 = PASSWORD1;
