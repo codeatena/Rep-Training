@@ -1,24 +1,21 @@
 PODS:
   - GVUserDefaults (1.0.2)
   - iOS-Slide-Menu (1.5)
-  - IQKeyboardManager (4.0.7)
   - MBProgressHUD (1.0.0)
   - PureLayout (3.0.2)
 
 DEPENDENCIES:
   - GVUserDefaults
   - iOS-Slide-Menu
-  - IQKeyboardManager
   - MBProgressHUD
   - PureLayout
 
 SPEC CHECKSUMS:
   GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
   iOS-Slide-Menu: 40b0cbd8916c42afc755f0869793cd09e7a32102
-  IQKeyboardManager: 69002bb4fea60596b710e57d426abc00e5063630
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
 
-PODFILE CHECKSUM: 0dc63eec2b7be771ea3464f1c35100f691c0a06b
+PODFILE CHECKSUM: 4279b02060ca830aeb9f66e94e0e4ec8c4aca01c
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.1

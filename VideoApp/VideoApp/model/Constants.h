@@ -19,6 +19,16 @@
 
 #define  TOKEN_EXPIRE_DURATION  3600 * 24 * 14
 
-#define VIDEO_TITLES   @[@"Wrapping it up" , @"Welcome" , @"Under _ Behind finished" , @"Tools" ,@"The button" ,@"Taking down paneling" ,@"Table Time" ,@"Stages" ,@"Solution" ,@"Report" ,@"moving around inspection" ,@"Moving around finished basment" ,@"mold" ,@"Mold Test" ,@"Mechanicals" ,@"Materials" ,@"Lift Test" ,@"How Built" ,@"Home Owners Stuff" ,@"Getting your cust:company ready" ,@"Getting started",@"Flashlight mold test" ,@"Exterior inspection" ,@"Electric" ,@"Dehumidifier" ,@"Damages" ,@"Credentials" ,@"coming from help" ,@"basement" ,@"Asking for the order" ,@"Area of interest" ,@"Affected items",@"Accomplish" ,@"4 ways"]
+#ifdef rep1
+
+#define VIDEO_TITLES   @[@"Welcome" , @"Tools" ,@"Area of interest" , @"moving around inspection" ,@"Affected items",@"Home Owners Stuff" ,@"mold" ,@"Lift Test" ,@"Mechanicals" ,@"Electric" ,@"Dehumidifier" ,@"Wrapping it up" ]
+
+#endif
+
+#ifdef rep2
+
+#define VIDEO_TITLES   @[@"Finished basement" ,@"Getting started" , @"Under _ Behind finished" ,@"Taking down paneling" ,@"coming from help" ,@"Flashlight mold test" ,@"Moving around finished basment" ,@"Exterior inspection"]
+
+#endif
 
 #endif /* Constants_h */

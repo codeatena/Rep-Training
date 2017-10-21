@@ -38,12 +38,19 @@ post_install do |installer|
     end
 end
 
-target "VideoApp" do
+def shared_pods
+    
+    pod 'PureLayout'
+    pod 'MBProgressHUD'
+    pod 'iOS-Slide-Menu'
+    pod 'GVUserDefaults'
+    
+end
 
-pod 'IQKeyboardManager'
-pod 'PureLayout'
-pod 'MBProgressHUD'
-pod 'iOS-Slide-Menu'
-pod 'GVUserDefaults'
+target "Rep1" do
+    shared_pods
+end
 
+target "Rep2" do
+    shared_pods
 end

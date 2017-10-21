@@ -21,7 +21,13 @@
     // Do any additional setup after loading the view.
     
     _playerVC.view.backgroundColor = [UIColor whiteColor];
-    if (_videoName == nil) _videoName = @"Affected items";
+    if (_videoName == nil){
+        
+        _videoName = @"Welcome";
+#ifdef rep2
+        _videoName = @"Finished basement";
+#endif
+    }
     NSString *path = [[NSBundle mainBundle] pathForResource:_videoName ofType:@"mp4"];
     AVPlayer *player = [AVPlayer playerWithURL:[NSURL fileURLWithPath:path]];
     _playerVC.player = player;
