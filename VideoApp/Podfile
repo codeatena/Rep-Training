@@ -54,3 +54,15 @@ end
 target "Rep2" do
     shared_pods
 end
+
+target "RepDelivery1" do
+    shared_pods
+end
+
+target "RepDelivery2" do
+    shared_pods
+end
+
+target "RepDelivery3" do
+    shared_pods
+end

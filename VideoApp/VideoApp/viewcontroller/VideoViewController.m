@@ -27,6 +27,19 @@
 #ifdef rep2
         _videoName = @"Finished basement";
 #endif
+        
+#ifdef repdelivery1
+        _videoName = @"Table Time";
+#endif
+
+#ifdef repdelivery2
+        _videoName = @"Damages";
+#endif
+
+#ifdef repdelivery3
+        _videoName = @"Solution";
+#endif
+
     }
     NSString *path = [[NSBundle mainBundle] pathForResource:_videoName ofType:@"mp4"];
     AVPlayer *player = [AVPlayer playerWithURL:[NSURL fileURLWithPath:path]];

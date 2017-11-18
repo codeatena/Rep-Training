@@ -52,11 +52,69 @@
 		046E3DAA1E662DB8006064D9 /* Tools.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 046E3D951E662DB8006064D9 /* Tools.mp4 */; };
 		046E3DAB1E662DB8006064D9 /* Welcome.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 046E3D961E662DB8006064D9 /* Welcome.mp4 */; };
 		046E3DAC1E662DB8006064D9 /* Wrapping it up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 046E3D971E662DB8006064D9 /* Wrapping it up.mp4 */; };
+		0498BF631FBFFC0D0085D6A8 /* ActivateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E02D1E67E022006B6BA1 /* ActivateViewController.m */; };
+		0498BF641FBFFC0D0085D6A8 /* SideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA581E65131F0041C09D /* SideViewController.m */; };
+		0498BF651FBFFC0D0085D6A8 /* GVUserDefaults+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E0321E67F129006B6BA1 /* GVUserDefaults+Properties.m */; };
+		0498BF661FBFFC0D0085D6A8 /* VideoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA451E650D7B0041C09D /* VideoApp.xcdatamodeld */; };
+		0498BF671FBFFC0D0085D6A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA3D1E650D7B0041C09D /* AppDelegate.m */; };
+		0498BF681FBFFC0D0085D6A8 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA551E6510FB0041C09D /* VideoViewController.m */; };
+		0498BF691FBFFC0D0085D6A8 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA5D1E651BDE0041C09D /* MenuTableViewCell.m */; };
+		0498BF6A1FBFFC0D0085D6A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA3A1E650D7B0041C09D /* main.m */; };
+		0498BF6C1FBFFC0D0085D6A8 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0431EA611E65202E0041C09D /* AVKit.framework */; };
+		0498BF6D1FBFFC0D0085D6A8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0431EA5F1E651FDB0041C09D /* AVFoundation.framework */; };
+		0498BF701FBFFC0D0085D6A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0431EA4A1E650D7C0041C09D /* LaunchScreen.storyboard */; };
+		0498BF731FBFFC0D0085D6A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0431EA481E650D7C0041C09D /* Assets.xcassets */; };
+		0498BF761FBFFC0D0085D6A8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A7E02A1E67DDC4006B6BA1 /* Launch Screen.storyboard */; };
+		0498BF7A1FBFFC0D0085D6A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0431EA421E650D7B0041C09D /* Main.storyboard */; };
+		0498BF861FBFFCAB0085D6A8 /* ActivateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E02D1E67E022006B6BA1 /* ActivateViewController.m */; };
+		0498BF871FBFFCAB0085D6A8 /* SideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA581E65131F0041C09D /* SideViewController.m */; };
+		0498BF881FBFFCAB0085D6A8 /* GVUserDefaults+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E0321E67F129006B6BA1 /* GVUserDefaults+Properties.m */; };
+		0498BF891FBFFCAB0085D6A8 /* VideoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA451E650D7B0041C09D /* VideoApp.xcdatamodeld */; };
+		0498BF8A1FBFFCAB0085D6A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA3D1E650D7B0041C09D /* AppDelegate.m */; };
+		0498BF8B1FBFFCAB0085D6A8 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA551E6510FB0041C09D /* VideoViewController.m */; };
+		0498BF8C1FBFFCAB0085D6A8 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA5D1E651BDE0041C09D /* MenuTableViewCell.m */; };
+		0498BF8D1FBFFCAB0085D6A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA3A1E650D7B0041C09D /* main.m */; };
+		0498BF8F1FBFFCAB0085D6A8 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0431EA611E65202E0041C09D /* AVKit.framework */; };
+		0498BF901FBFFCAB0085D6A8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0431EA5F1E651FDB0041C09D /* AVFoundation.framework */; };
+		0498BF931FBFFCAB0085D6A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0431EA4A1E650D7C0041C09D /* LaunchScreen.storyboard */; };
+		0498BF941FBFFCAB0085D6A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0431EA481E650D7C0041C09D /* Assets.xcassets */; };
+		0498BF951FBFFCAB0085D6A8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A7E02A1E67DDC4006B6BA1 /* Launch Screen.storyboard */; };
+		0498BF961FBFFCAB0085D6A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0431EA421E650D7B0041C09D /* Main.storyboard */; };
+		0498BFA11FBFFCE70085D6A8 /* ActivateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E02D1E67E022006B6BA1 /* ActivateViewController.m */; };
+		0498BFA21FBFFCE70085D6A8 /* SideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA581E65131F0041C09D /* SideViewController.m */; };
+		0498BFA31FBFFCE70085D6A8 /* GVUserDefaults+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E0321E67F129006B6BA1 /* GVUserDefaults+Properties.m */; };
+		0498BFA41FBFFCE70085D6A8 /* VideoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA451E650D7B0041C09D /* VideoApp.xcdatamodeld */; };
+		0498BFA51FBFFCE70085D6A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA3D1E650D7B0041C09D /* AppDelegate.m */; };
+		0498BFA61FBFFCE70085D6A8 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA551E6510FB0041C09D /* VideoViewController.m */; };
+		0498BFA71FBFFCE70085D6A8 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA5D1E651BDE0041C09D /* MenuTableViewCell.m */; };
+		0498BFA81FBFFCE70085D6A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA3A1E650D7B0041C09D /* main.m */; };
+		0498BFAA1FBFFCE70085D6A8 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0431EA611E65202E0041C09D /* AVKit.framework */; };
+		0498BFAB1FBFFCE70085D6A8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0431EA5F1E651FDB0041C09D /* AVFoundation.framework */; };
+		0498BFAE1FBFFCE70085D6A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0431EA4A1E650D7C0041C09D /* LaunchScreen.storyboard */; };
+		0498BFAF1FBFFCE70085D6A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0431EA481E650D7C0041C09D /* Assets.xcassets */; };
+		0498BFB01FBFFCE70085D6A8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A7E02A1E67DDC4006B6BA1 /* Launch Screen.storyboard */; };
+		0498BFB11FBFFCE70085D6A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0431EA421E650D7B0041C09D /* Main.storyboard */; };
+		0498BFB91FBFFF580085D6A8 /* Exterior inspection.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 046E3D881E662DB8006064D9 /* Exterior inspection.mp4 */; };
+		0498BFDD1FC0008F0085D6A8 /* Credentials.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFD71FC0008F0085D6A8 /* Credentials.mp4 */; };
+		0498BFDE1FC0008F0085D6A8 /* Four ways.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFD81FC0008F0085D6A8 /* Four ways.mp4 */; };
+		0498BFDF1FC0008F0085D6A8 /* How Built.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFD91FC0008F0085D6A8 /* How Built.mp4 */; };
+		0498BFE01FC0008F0085D6A8 /* Materials.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFDA1FC0008F0085D6A8 /* Materials.mp4 */; };
+		0498BFE11FC0008F0085D6A8 /* Stages.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFDB1FC0008F0085D6A8 /* Stages.mp4 */; };
+		0498BFE21FC0008F0085D6A8 /* Table Time.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFDC1FC0008F0085D6A8 /* Table Time.mp4 */; };
+		0498BFE71FC000950085D6A8 /* Accomplish.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFE41FC000950085D6A8 /* Accomplish.mp4 */; };
+		0498BFE81FC000950085D6A8 /* Damages.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFE51FC000950085D6A8 /* Damages.mp4 */; };
+		0498BFE91FC000950085D6A8 /* Report.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFE61FC000950085D6A8 /* Report.mp4 */; };
+		0498BFEE1FC0009C0085D6A8 /* Asking for the order.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFEB1FC0009C0085D6A8 /* Asking for the order.mp4 */; };
+		0498BFEF1FC0009C0085D6A8 /* Solution.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFEC1FC0009C0085D6A8 /* Solution.mp4 */; };
+		0498BFF01FC0009C0085D6A8 /* The button.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFED1FC0009C0085D6A8 /* The button.mp4 */; };
 		04A7E02B1E67DDC4006B6BA1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A7E02A1E67DDC4006B6BA1 /* Launch Screen.storyboard */; };
 		04A7E02E1E67E022006B6BA1 /* ActivateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E02D1E67E022006B6BA1 /* ActivateViewController.m */; };
 		04A7E0331E67F129006B6BA1 /* GVUserDefaults+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E0321E67F129006B6BA1 /* GVUserDefaults+Properties.m */; };
 		17C055CC34851A844A22F16F /* Pods_Rep1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEEB990EA999C1BFFA8481C6 /* Pods_Rep1.framework */; };
+		31595581BCEAD09B737754A2 /* Pods_RepDelivery1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B695D9C567AD6559057553 /* Pods_RepDelivery1.framework */; };
 		4E5BB116DC1A05FD8AA9CAB8 /* Pods_Rep2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35A98CBD7C03FE468B03560 /* Pods_Rep2.framework */; };
+		85DC5E14E61D58386F5B1DD8 /* Pods_RepDelivery2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225D35189EAFC2703F643FC2 /* Pods_RepDelivery2.framework */; };
+		C34E274CA710A12F4D0F6998 /* Pods_RepDelivery3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C293C758B4FFB26409547D /* Pods_RepDelivery3.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +157,24 @@
 		046E3D951E662DB8006064D9 /* Tools.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tools.mp4; sourceTree = "<group>"; };
 		046E3D961E662DB8006064D9 /* Welcome.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Welcome.mp4; sourceTree = "<group>"; };
 		046E3D971E662DB8006064D9 /* Wrapping it up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wrapping it up.mp4"; sourceTree = "<group>"; };
+		0498BF811FBFFC0D0085D6A8 /* RepDelivery1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepDelivery1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0498BF821FBFFC0D0085D6A8 /* RepDelivery1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RepDelivery1.plist; path = "/Work/Task/VirtusVentures/VideoApp/Rep-Training/VideoApp/VideoApp/RepDelivery1.plist"; sourceTree = "<absolute>"; };
+		0498BF9C1FBFFCAB0085D6A8 /* RepDelivery2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepDelivery2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0498BF9D1FBFFCAC0085D6A8 /* RepDelivery2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RepDelivery2.plist; path = "/Work/Task/VirtusVentures/VideoApp/Rep-Training/VideoApp/VideoApp/RepDelivery2.plist"; sourceTree = "<absolute>"; };
+		0498BFB71FBFFCE70085D6A8 /* RepDelivery3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepDelivery3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0498BFB81FBFFCE80085D6A8 /* RepDelivery3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RepDelivery3.plist; path = "/Work/Task/VirtusVentures/VideoApp/Rep-Training/VideoApp/VideoApp/RepDelivery3.plist"; sourceTree = "<absolute>"; };
+		0498BFD71FC0008F0085D6A8 /* Credentials.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Credentials.mp4; sourceTree = "<group>"; };
+		0498BFD81FC0008F0085D6A8 /* Four ways.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Four ways.mp4"; sourceTree = "<group>"; };
+		0498BFD91FC0008F0085D6A8 /* How Built.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How Built.mp4"; sourceTree = "<group>"; };
+		0498BFDA1FC0008F0085D6A8 /* Materials.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Materials.mp4; sourceTree = "<group>"; };
+		0498BFDB1FC0008F0085D6A8 /* Stages.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stages.mp4; sourceTree = "<group>"; };
+		0498BFDC1FC0008F0085D6A8 /* Table Time.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Table Time.mp4"; sourceTree = "<group>"; };
+		0498BFE41FC000950085D6A8 /* Accomplish.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Accomplish.mp4; sourceTree = "<group>"; };
+		0498BFE51FC000950085D6A8 /* Damages.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Damages.mp4; sourceTree = "<group>"; };
+		0498BFE61FC000950085D6A8 /* Report.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Report.mp4; sourceTree = "<group>"; };
+		0498BFEB1FC0009C0085D6A8 /* Asking for the order.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asking for the order.mp4"; sourceTree = "<group>"; };
+		0498BFEC1FC0009C0085D6A8 /* Solution.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Solution.mp4; sourceTree = "<group>"; };
+		0498BFED1FC0009C0085D6A8 /* The button.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The button.mp4"; sourceTree = "<group>"; };
 		04A7E02A1E67DDC4006B6BA1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		04A7E02C1E67E022006B6BA1 /* ActivateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActivateViewController.h; path = viewcontroller/ActivateViewController.h; sourceTree = "<group>"; };
 		04A7E02D1E67E022006B6BA1 /* ActivateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActivateViewController.m; path = viewcontroller/ActivateViewController.m; sourceTree = "<group>"; };
@@ -106,15 +182,24 @@
 		04A7E0321E67F129006B6BA1 /* GVUserDefaults+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GVUserDefaults+Properties.m"; path = "model/GVUserDefaults+Properties.m"; sourceTree = "<group>"; };
 		04A7E0351E67F838006B6BA1 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = model/Constants.h; sourceTree = "<group>"; };
 		04D358271F6A6BCE008B8957 /* Under _ Behind finished.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Under _ Behind finished.mp4"; sourceTree = "<group>"; };
+		225D35189EAFC2703F643FC2 /* Pods_RepDelivery2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepDelivery2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C698E00B4B5D818C090F392 /* Pods-VideoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoApp/Pods-VideoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		31EBADEBD726F2A800EA19B4 /* Pods-VideoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoApp/Pods-VideoApp.release.xcconfig"; sourceTree = "<group>"; };
 		7B0F192043F1228A983B84D4 /* Pods-Rep2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep2/Pods-Rep2.release.xcconfig"; sourceTree = "<group>"; };
+		82BD08BB20EFE13EF290203A /* Pods-RepDelivery1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery1/Pods-RepDelivery1.debug.xcconfig"; sourceTree = "<group>"; };
+		86C293C758B4FFB26409547D /* Pods_RepDelivery3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepDelivery3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31EC8E1FD9EE66E5097130A /* Pods-RepDelivery2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery2.release.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery2/Pods-RepDelivery2.release.xcconfig"; sourceTree = "<group>"; };
 		BA6265DB7FC254074A3B286E /* Pods-Rep1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep1/Pods-Rep1.debug.xcconfig"; sourceTree = "<group>"; };
+		C9B695D9C567AD6559057553 /* Pods_RepDelivery1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepDelivery1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA85E1298A66FD647CFEC6F7 /* Pods-RepDelivery1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery1.release.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery1/Pods-RepDelivery1.release.xcconfig"; sourceTree = "<group>"; };
+		D2797E6ABDFA8E8F45EC78A6 /* Pods-RepDelivery3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery3/Pods-RepDelivery3.debug.xcconfig"; sourceTree = "<group>"; };
 		D35A98CBD7C03FE468B03560 /* Pods_Rep2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53C601478AF4407C6C2F811 /* Pods-Rep2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep2/Pods-Rep2.debug.xcconfig"; sourceTree = "<group>"; };
+		E6FC8E2C1AB2F7AAC440AD92 /* Pods-RepDelivery2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery2/Pods-RepDelivery2.debug.xcconfig"; sourceTree = "<group>"; };
 		EEEB990EA999C1BFFA8481C6 /* Pods_Rep1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0C8091841AB0B332E07629 /* Pods-Rep1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep1/Pods-Rep1.release.xcconfig"; sourceTree = "<group>"; };
 		FEDBBDF278195B6BB0C05D43 /* Pods_VideoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF53C8EF0F4A2BC2A4F72A39 /* Pods-RepDelivery3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery3.release.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery3/Pods-RepDelivery3.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +223,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0498BF6B1FBFFC0D0085D6A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0498BF6C1FBFFC0D0085D6A8 /* AVKit.framework in Frameworks */,
+				0498BF6D1FBFFC0D0085D6A8 /* AVFoundation.framework in Frameworks */,
+				31595581BCEAD09B737754A2 /* Pods_RepDelivery1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0498BF8E1FBFFCAB0085D6A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0498BF8F1FBFFCAB0085D6A8 /* AVKit.framework in Frameworks */,
+				0498BF901FBFFCAB0085D6A8 /* AVFoundation.framework in Frameworks */,
+				85DC5E14E61D58386F5B1DD8 /* Pods_RepDelivery2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0498BFA91FBFFCE70085D6A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0498BFAA1FBFFCE70085D6A8 /* AVKit.framework in Frameworks */,
+				0498BFAB1FBFFCE70085D6A8 /* AVFoundation.framework in Frameworks */,
+				C34E274CA710A12F4D0F6998 /* Pods_RepDelivery3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -156,6 +271,9 @@
 			children = (
 				0431EA361E650D7B0041C09D /* Rep1.app */,
 				043FB1421F9B3EA9006D79FD /* Rep2.app */,
+				0498BF811FBFFC0D0085D6A8 /* RepDelivery1.app */,
+				0498BF9C1FBFFCAB0085D6A8 /* RepDelivery2.app */,
+				0498BFB71FBFFCE70085D6A8 /* RepDelivery3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,6 +293,9 @@
 				0431EA4A1E650D7C0041C09D /* LaunchScreen.storyboard */,
 				0431EA4D1E650D7C0041C09D /* Info.plist */,
 				043FB1431F9B3EAA006D79FD /* Rep2.plist */,
+				0498BF821FBFFC0D0085D6A8 /* RepDelivery1.plist */,
+				0498BF9D1FBFFCAC0085D6A8 /* RepDelivery2.plist */,
+				0498BFB81FBFFCE80085D6A8 /* RepDelivery3.plist */,
 				0431EA451E650D7B0041C09D /* VideoApp.xcdatamodeld */,
 				0431EA391E650D7B0041C09D /* Supporting Files */,
 				04A7E02A1E67DDC4006B6BA1 /* Launch Screen.storyboard */,
@@ -216,6 +337,9 @@
 		046E3D821E662DB8006064D9 /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				0498BFEA1FC0009C0085D6A8 /* Video Pressentation 3 */,
+				0498BFE31FC000950085D6A8 /* Video Pressentation 2 */,
+				0498BFD61FC0008F0085D6A8 /* Video Pressentation 1 */,
 				04D358271F6A6BCE008B8957 /* Under _ Behind finished.mp4 */,
 				046E3D831E662DB8006064D9 /* Affected items.mp4 */,
 				046E3D841E662DB8006064D9 /* Area of interest.mp4 */,
@@ -238,6 +362,39 @@
 				046E3D971E662DB8006064D9 /* Wrapping it up.mp4 */,
 			);
 			path = resource;
+			sourceTree = "<group>";
+		};
+		0498BFD61FC0008F0085D6A8 /* Video Pressentation 1 */ = {
+			isa = PBXGroup;
+			children = (
+				0498BFD71FC0008F0085D6A8 /* Credentials.mp4 */,
+				0498BFD81FC0008F0085D6A8 /* Four ways.mp4 */,
+				0498BFD91FC0008F0085D6A8 /* How Built.mp4 */,
+				0498BFDA1FC0008F0085D6A8 /* Materials.mp4 */,
+				0498BFDB1FC0008F0085D6A8 /* Stages.mp4 */,
+				0498BFDC1FC0008F0085D6A8 /* Table Time.mp4 */,
+			);
+			path = "Video Pressentation 1";
+			sourceTree = "<group>";
+		};
+		0498BFE31FC000950085D6A8 /* Video Pressentation 2 */ = {
+			isa = PBXGroup;
+			children = (
+				0498BFE41FC000950085D6A8 /* Accomplish.mp4 */,
+				0498BFE51FC000950085D6A8 /* Damages.mp4 */,
+				0498BFE61FC000950085D6A8 /* Report.mp4 */,
+			);
+			path = "Video Pressentation 2";
+			sourceTree = "<group>";
+		};
+		0498BFEA1FC0009C0085D6A8 /* Video Pressentation 3 */ = {
+			isa = PBXGroup;
+			children = (
+				0498BFEB1FC0009C0085D6A8 /* Asking for the order.mp4 */,
+				0498BFEC1FC0009C0085D6A8 /* Solution.mp4 */,
+				0498BFED1FC0009C0085D6A8 /* The button.mp4 */,
+			);
+			path = "Video Pressentation 3";
 			sourceTree = "<group>";
 		};
 		04A7E02F1E67F0FF006B6BA1 /* control */ = {
@@ -265,6 +422,9 @@
 				FEDBBDF278195B6BB0C05D43 /* Pods_VideoApp.framework */,
 				EEEB990EA999C1BFFA8481C6 /* Pods_Rep1.framework */,
 				D35A98CBD7C03FE468B03560 /* Pods_Rep2.framework */,
+				C9B695D9C567AD6559057553 /* Pods_RepDelivery1.framework */,
+				225D35189EAFC2703F643FC2 /* Pods_RepDelivery2.framework */,
+				86C293C758B4FFB26409547D /* Pods_RepDelivery3.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -278,6 +438,12 @@
 				FE0C8091841AB0B332E07629 /* Pods-Rep1.release.xcconfig */,
 				E53C601478AF4407C6C2F811 /* Pods-Rep2.debug.xcconfig */,
 				7B0F192043F1228A983B84D4 /* Pods-Rep2.release.xcconfig */,
+				82BD08BB20EFE13EF290203A /* Pods-RepDelivery1.debug.xcconfig */,
+				CA85E1298A66FD647CFEC6F7 /* Pods-RepDelivery1.release.xcconfig */,
+				E6FC8E2C1AB2F7AAC440AD92 /* Pods-RepDelivery2.debug.xcconfig */,
+				A31EC8E1FD9EE66E5097130A /* Pods-RepDelivery2.release.xcconfig */,
+				D2797E6ABDFA8E8F45EC78A6 /* Pods-RepDelivery3.debug.xcconfig */,
+				FF53C8EF0F4A2BC2A4F72A39 /* Pods-RepDelivery3.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -325,6 +491,66 @@
 			productReference = 043FB1421F9B3EA9006D79FD /* Rep2.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0498BF601FBFFC0D0085D6A8 /* RepDelivery1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0498BF7E1FBFFC0D0085D6A8 /* Build configuration list for PBXNativeTarget "RepDelivery1" */;
+			buildPhases = (
+				0498BF611FBFFC0D0085D6A8 /* [CP] Check Pods Manifest.lock */,
+				0498BF621FBFFC0D0085D6A8 /* Sources */,
+				0498BF6B1FBFFC0D0085D6A8 /* Frameworks */,
+				0498BF6F1FBFFC0D0085D6A8 /* Resources */,
+				0498BF7C1FBFFC0D0085D6A8 /* [CP] Embed Pods Frameworks */,
+				0498BF7D1FBFFC0D0085D6A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RepDelivery1;
+			productName = VideoApp;
+			productReference = 0498BF811FBFFC0D0085D6A8 /* RepDelivery1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0498BF831FBFFCAB0085D6A8 /* RepDelivery2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0498BF991FBFFCAB0085D6A8 /* Build configuration list for PBXNativeTarget "RepDelivery2" */;
+			buildPhases = (
+				0498BF841FBFFCAB0085D6A8 /* [CP] Check Pods Manifest.lock */,
+				0498BF851FBFFCAB0085D6A8 /* Sources */,
+				0498BF8E1FBFFCAB0085D6A8 /* Frameworks */,
+				0498BF921FBFFCAB0085D6A8 /* Resources */,
+				0498BF971FBFFCAB0085D6A8 /* [CP] Embed Pods Frameworks */,
+				0498BF981FBFFCAB0085D6A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RepDelivery2;
+			productName = VideoApp;
+			productReference = 0498BF9C1FBFFCAB0085D6A8 /* RepDelivery2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0498BF9E1FBFFCE70085D6A8 /* RepDelivery3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0498BFB41FBFFCE70085D6A8 /* Build configuration list for PBXNativeTarget "RepDelivery3" */;
+			buildPhases = (
+				0498BF9F1FBFFCE70085D6A8 /* [CP] Check Pods Manifest.lock */,
+				0498BFA01FBFFCE70085D6A8 /* Sources */,
+				0498BFA91FBFFCE70085D6A8 /* Frameworks */,
+				0498BFAD1FBFFCE70085D6A8 /* Resources */,
+				0498BFB21FBFFCE70085D6A8 /* [CP] Embed Pods Frameworks */,
+				0498BFB31FBFFCE70085D6A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RepDelivery3;
+			productName = VideoApp;
+			productReference = 0498BFB71FBFFCE70085D6A8 /* RepDelivery3.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -340,6 +566,15 @@
 						ProvisioningStyle = Automatic;
 					};
 					043FB1151F9B3EA9006D79FD = {
+						DevelopmentTeam = ADYVQ46KY2;
+					};
+					0498BF601FBFFC0D0085D6A8 = {
+						DevelopmentTeam = ADYVQ46KY2;
+					};
+					0498BF831FBFFCAB0085D6A8 = {
+						DevelopmentTeam = ADYVQ46KY2;
+					};
+					0498BF9E1FBFFCE70085D6A8 = {
 						DevelopmentTeam = ADYVQ46KY2;
 					};
 				};
@@ -359,6 +594,9 @@
 			targets = (
 				0431EA351E650D7B0041C09D /* Rep1 */,
 				043FB1151F9B3EA9006D79FD /* Rep2 */,
+				0498BF601FBFFC0D0085D6A8 /* RepDelivery1 */,
+				0498BF831FBFFCAB0085D6A8 /* RepDelivery2 */,
+				0498BF9E1FBFFCE70085D6A8 /* RepDelivery3 */,
 			);
 		};
 /* End PBXProject section */
@@ -374,6 +612,7 @@
 				046E3DAA1E662DB8006064D9 /* Tools.mp4 in Resources */,
 				046E3D981E662DB8006064D9 /* Affected items.mp4 in Resources */,
 				0431EA491E650D7C0041C09D /* Assets.xcassets in Resources */,
+				0498BFB91FBFFF580085D6A8 /* Exterior inspection.mp4 in Resources */,
 				046E3DA41E662DB8006064D9 /* Mechanicals.mp4 in Resources */,
 				046E3DAC1E662DB8006064D9 /* Wrapping it up.mp4 in Resources */,
 				046E3DA61E662DB8006064D9 /* mold.mp4 in Resources */,
@@ -406,6 +645,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0498BF6F1FBFFC0D0085D6A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0498BF701FBFFC0D0085D6A8 /* LaunchScreen.storyboard in Resources */,
+				0498BFE11FC0008F0085D6A8 /* Stages.mp4 in Resources */,
+				0498BF731FBFFC0D0085D6A8 /* Assets.xcassets in Resources */,
+				0498BFDE1FC0008F0085D6A8 /* Four ways.mp4 in Resources */,
+				0498BFDD1FC0008F0085D6A8 /* Credentials.mp4 in Resources */,
+				0498BF761FBFFC0D0085D6A8 /* Launch Screen.storyboard in Resources */,
+				0498BFDF1FC0008F0085D6A8 /* How Built.mp4 in Resources */,
+				0498BFE01FC0008F0085D6A8 /* Materials.mp4 in Resources */,
+				0498BFE21FC0008F0085D6A8 /* Table Time.mp4 in Resources */,
+				0498BF7A1FBFFC0D0085D6A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0498BF921FBFFCAB0085D6A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0498BF931FBFFCAB0085D6A8 /* LaunchScreen.storyboard in Resources */,
+				0498BF941FBFFCAB0085D6A8 /* Assets.xcassets in Resources */,
+				0498BFE81FC000950085D6A8 /* Damages.mp4 in Resources */,
+				0498BFE91FC000950085D6A8 /* Report.mp4 in Resources */,
+				0498BF951FBFFCAB0085D6A8 /* Launch Screen.storyboard in Resources */,
+				0498BF961FBFFCAB0085D6A8 /* Main.storyboard in Resources */,
+				0498BFE71FC000950085D6A8 /* Accomplish.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0498BFAD1FBFFCE70085D6A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0498BFAE1FBFFCE70085D6A8 /* LaunchScreen.storyboard in Resources */,
+				0498BFF01FC0009C0085D6A8 /* The button.mp4 in Resources */,
+				0498BFAF1FBFFCE70085D6A8 /* Assets.xcassets in Resources */,
+				0498BFEF1FC0009C0085D6A8 /* Solution.mp4 in Resources */,
+				0498BFB01FBFFCE70085D6A8 /* Launch Screen.storyboard in Resources */,
+				0498BFB11FBFFCE70085D6A8 /* Main.storyboard in Resources */,
+				0498BFEE1FC0009C0085D6A8 /* Asking for the order.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -415,13 +699,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rep2-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		043FB13D1F9B3EA9006D79FD /* [CP] Embed Pods Frameworks */ = {
@@ -430,9 +717,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rep2/Pods-Rep2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GVUserDefaults/GVUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/iOS-Slide-Menu/iOS_Slide_Menu.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GVUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOS_Slide_Menu.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -454,19 +750,193 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rep2/Pods-Rep2-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		590CB485612E2F3518F6A286 /* [CP] Check Pods Manifest.lock */ = {
+		0498BF611FBFFC0D0085D6A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RepDelivery1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0498BF7C1FBFFC0D0085D6A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery1/Pods-RepDelivery1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GVUserDefaults/GVUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/iOS-Slide-Menu/iOS_Slide_Menu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GVUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOS_Slide_Menu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery1/Pods-RepDelivery1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0498BF7D1FBFFC0D0085D6A8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery1/Pods-RepDelivery1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0498BF841FBFFCAB0085D6A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RepDelivery2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0498BF971FBFFCAB0085D6A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery2/Pods-RepDelivery2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GVUserDefaults/GVUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/iOS-Slide-Menu/iOS_Slide_Menu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GVUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOS_Slide_Menu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery2/Pods-RepDelivery2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0498BF981FBFFCAB0085D6A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery2/Pods-RepDelivery2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0498BF9F1FBFFCE70085D6A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RepDelivery3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0498BFB21FBFFCE70085D6A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery3/Pods-RepDelivery3-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GVUserDefaults/GVUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/iOS-Slide-Menu/iOS_Slide_Menu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GVUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOS_Slide_Menu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery3/Pods-RepDelivery3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0498BFB31FBFFCE70085D6A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery3/Pods-RepDelivery3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		590CB485612E2F3518F6A286 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rep1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D649F8F377F17BE84B6475CD /* [CP] Copy Pods Resources */ = {
@@ -490,9 +960,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rep1/Pods-Rep1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GVUserDefaults/GVUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/iOS-Slide-Menu/iOS_Slide_Menu.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GVUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOS_Slide_Menu.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -529,6 +1008,51 @@
 				043FB11D1F9B3EA9006D79FD /* VideoViewController.m in Sources */,
 				043FB11E1F9B3EA9006D79FD /* MenuTableViewCell.m in Sources */,
 				043FB11F1F9B3EA9006D79FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0498BF621FBFFC0D0085D6A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0498BF631FBFFC0D0085D6A8 /* ActivateViewController.m in Sources */,
+				0498BF641FBFFC0D0085D6A8 /* SideViewController.m in Sources */,
+				0498BF651FBFFC0D0085D6A8 /* GVUserDefaults+Properties.m in Sources */,
+				0498BF661FBFFC0D0085D6A8 /* VideoApp.xcdatamodeld in Sources */,
+				0498BF671FBFFC0D0085D6A8 /* AppDelegate.m in Sources */,
+				0498BF681FBFFC0D0085D6A8 /* VideoViewController.m in Sources */,
+				0498BF691FBFFC0D0085D6A8 /* MenuTableViewCell.m in Sources */,
+				0498BF6A1FBFFC0D0085D6A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0498BF851FBFFCAB0085D6A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0498BF861FBFFCAB0085D6A8 /* ActivateViewController.m in Sources */,
+				0498BF871FBFFCAB0085D6A8 /* SideViewController.m in Sources */,
+				0498BF881FBFFCAB0085D6A8 /* GVUserDefaults+Properties.m in Sources */,
+				0498BF891FBFFCAB0085D6A8 /* VideoApp.xcdatamodeld in Sources */,
+				0498BF8A1FBFFCAB0085D6A8 /* AppDelegate.m in Sources */,
+				0498BF8B1FBFFCAB0085D6A8 /* VideoViewController.m in Sources */,
+				0498BF8C1FBFFCAB0085D6A8 /* MenuTableViewCell.m in Sources */,
+				0498BF8D1FBFFCAB0085D6A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0498BFA01FBFFCE70085D6A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0498BFA11FBFFCE70085D6A8 /* ActivateViewController.m in Sources */,
+				0498BFA21FBFFCE70085D6A8 /* SideViewController.m in Sources */,
+				0498BFA31FBFFCE70085D6A8 /* GVUserDefaults+Properties.m in Sources */,
+				0498BFA41FBFFCE70085D6A8 /* VideoApp.xcdatamodeld in Sources */,
+				0498BFA51FBFFCE70085D6A8 /* AppDelegate.m in Sources */,
+				0498BFA61FBFFCE70085D6A8 /* VideoViewController.m in Sources */,
+				0498BFA71FBFFCE70085D6A8 /* MenuTableViewCell.m in Sources */,
+				0498BFA81FBFFCE70085D6A8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -742,6 +1266,126 @@
 			};
 			name = Release;
 		};
+		0498BF7F1FBFFC0D0085D6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82BD08BB20EFE13EF290203A /* Pods-RepDelivery1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ADYVQ46KY2;
+				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"repdelivery1=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/RepDelivery1.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0498BF801FBFFC0D0085D6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA85E1298A66FD647CFEC6F7 /* Pods-RepDelivery1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ADYVQ46KY2;
+				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"repdelivery1=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/RepDelivery1.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0498BF9A1FBFFCAB0085D6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6FC8E2C1AB2F7AAC440AD92 /* Pods-RepDelivery2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ADYVQ46KY2;
+				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"repdelivery2=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/RepDelivery2.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0498BF9B1FBFFCAB0085D6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A31EC8E1FD9EE66E5097130A /* Pods-RepDelivery2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ADYVQ46KY2;
+				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"repdelivery2=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/RepDelivery2.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0498BFB51FBFFCE70085D6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2797E6ABDFA8E8F45EC78A6 /* Pods-RepDelivery3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ADYVQ46KY2;
+				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"repdelivery3=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/RepDelivery3.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0498BFB61FBFFCE70085D6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF53C8EF0F4A2BC2A4F72A39 /* Pods-RepDelivery3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ADYVQ46KY2;
+				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"repdelivery3=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/RepDelivery3.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -768,6 +1412,33 @@
 			buildConfigurations = (
 				043FB1401F9B3EA9006D79FD /* Debug */,
 				043FB1411F9B3EA9006D79FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0498BF7E1FBFFC0D0085D6A8 /* Build configuration list for PBXNativeTarget "RepDelivery1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0498BF7F1FBFFC0D0085D6A8 /* Debug */,
+				0498BF801FBFFC0D0085D6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0498BF991FBFFCAB0085D6A8 /* Build configuration list for PBXNativeTarget "RepDelivery2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0498BF9A1FBFFCAB0085D6A8 /* Debug */,
+				0498BF9B1FBFFCAB0085D6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0498BFB41FBFFCE70085D6A8 /* Build configuration list for PBXNativeTarget "RepDelivery3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0498BFB51FBFFCE70085D6A8 /* Debug */,
+				0498BFB61FBFFCE70085D6A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

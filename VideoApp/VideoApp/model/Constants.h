@@ -21,13 +21,31 @@
 
 #ifdef rep1
 
-#define VIDEO_TITLES   @[@"Welcome" , @"Tools" ,@"Area of interest" , @"moving around inspection" ,@"Affected items",@"Home Owners Stuff" ,@"mold" ,@"Lift Test" ,@"Mechanicals" ,@"Electric" ,@"Dehumidifier" ,@"Wrapping it up" ]
+#define VIDEO_TITLES   @[@"Welcome" , @"Tools" ,@"Area of interest" , @"moving around inspection" ,@"Affected items",@"Home Owners Stuff" ,@"mold" ,@"Lift Test" ,@"Mechanicals" ,@"Electric" ,@"Dehumidifier" ,@"Wrapping it up" ,@"Exterior inspection"]
 
 #endif
 
 #ifdef rep2
 
 #define VIDEO_TITLES   @[@"Finished basement" ,@"Getting started" , @"Under _ Behind finished" ,@"Taking down paneling" ,@"coming from help" ,@"Flashlight mold test" ,@"Moving around finished basment" ,@"Exterior inspection"]
+
+#endif
+
+#ifdef repdelivery1
+
+#define VIDEO_TITLES   @[@"Table Time" ,@"Credentials" ,@"How Built" ,@"Materials" ,@"Stages" ,@"Four ways"]
+
+#endif
+
+#ifdef repdelivery2
+
+#define VIDEO_TITLES   @[@"Damages"  ,@"Report" ,@"Accomplish"]
+
+#endif
+
+#ifdef repdelivery3
+
+#define VIDEO_TITLES   @[@"Solution"  ,@"Asking for the order" ,@"The button"]
 
 #endif
 
