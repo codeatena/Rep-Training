@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "SideViewController.h"
+#import <GoogleAnalytics/GAI.h>
 
 @interface AppDelegate ()
 
@@ -18,6 +19,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    GAI *gai = [GAI sharedInstance];
+    [gai trackerWithTrackingId:@"UA-110389296-1"];
+    
+#ifdef DEBUG
+    gai.logger.logLevel = kGAILogLevelVerbose;
+#endif
     
     UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
     SideViewController *vc = [mainStoryboard instantiateViewControllerWithIdentifier:@"SideViewController"];

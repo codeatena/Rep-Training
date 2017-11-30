@@ -44,7 +44,8 @@ def shared_pods
     pod 'MBProgressHUD'
     pod 'iOS-Slide-Menu'
     pod 'GVUserDefaults'
-    
+    pod 'GoogleAnalytics'
+
 end
 
 target "Rep1" do
