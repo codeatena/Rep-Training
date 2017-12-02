@@ -22,7 +22,8 @@
     
     GAI *gai = [GAI sharedInstance];
     [gai trackerWithTrackingId:@"UA-110389296-1"];
-    
+    gai.dispatchInterval = 30;
+
 #ifdef DEBUG
     gai.logger.logLevel = kGAILogLevelVerbose;
 #endif

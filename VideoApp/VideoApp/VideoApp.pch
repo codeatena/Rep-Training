@@ -19,4 +19,8 @@
 #import "GVUserDefaults+Properties.h"
 #import "Constants.h"
 
+#import <GoogleAnalytics/GAI.h>
+#import <GoogleAnalytics/GAIDictionaryBuilder.h>
+#import <GoogleAnalytics/GAIFields.h>
+
 #endif /* VideoApp_pch */

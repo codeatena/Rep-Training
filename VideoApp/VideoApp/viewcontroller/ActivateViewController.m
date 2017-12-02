@@ -18,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    id tracker = [[GAI sharedInstance] defaultTracker];
+    [tracker set:kGAIScreenName value:@"ActivateViewController"];
+    [tracker send:[[GAIDictionaryBuilder createScreenView] build]];
+    
 }
 
 - (void)didReceiveMemoryWarning {

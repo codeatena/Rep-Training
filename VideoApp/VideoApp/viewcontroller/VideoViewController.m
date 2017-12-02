@@ -20,6 +20,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    id tracker = [[GAI sharedInstance] defaultTracker];
+    [tracker set:kGAIScreenName value:@"VideoViewController"];
+    [tracker send:[[GAIDictionaryBuilder createScreenView] build]];
+    
     _playerVC.view.backgroundColor = [UIColor whiteColor];
     if (_videoName == nil){
         

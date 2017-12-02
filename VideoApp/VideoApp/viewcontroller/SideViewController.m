@@ -22,6 +22,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    id tracker = [[GAI sharedInstance] defaultTracker];
+    [tracker set:kGAIScreenName value:@"SideViewController"];
+    [tracker send:[[GAIDictionaryBuilder createScreenView] build]];
+    
 }
 
 - (void)didReceiveMemoryWarning {
