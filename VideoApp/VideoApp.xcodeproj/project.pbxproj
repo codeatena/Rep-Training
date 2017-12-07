@@ -110,15 +110,15 @@
 		04A7E02B1E67DDC4006B6BA1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A7E02A1E67DDC4006B6BA1 /* Launch Screen.storyboard */; };
 		04A7E02E1E67E022006B6BA1 /* ActivateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E02D1E67E022006B6BA1 /* ActivateViewController.m */; };
 		04A7E0331E67F129006B6BA1 /* GVUserDefaults+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E0321E67F129006B6BA1 /* GVUserDefaults+Properties.m */; };
-		17C055CC34851A844A22F16F /* Pods_Rep1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEEB990EA999C1BFFA8481C6 /* Pods_Rep1.framework */; };
-		31595581BCEAD09B737754A2 /* Pods_RepDelivery1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B695D9C567AD6559057553 /* Pods_RepDelivery1.framework */; };
-		4E5BB116DC1A05FD8AA9CAB8 /* Pods_Rep2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35A98CBD7C03FE468B03560 /* Pods_Rep2.framework */; };
-		85DC5E14E61D58386F5B1DD8 /* Pods_RepDelivery2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225D35189EAFC2703F643FC2 /* Pods_RepDelivery2.framework */; };
-		C34E274CA710A12F4D0F6998 /* Pods_RepDelivery3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C293C758B4FFB26409547D /* Pods_RepDelivery3.framework */; };
+		6E96BD953DBFBE4D81A74F49 /* Pods_Rep12018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948D4BEE2DDEF70B88FB0046 /* Pods_Rep12018.framework */; };
+		708EEEF95AF1BB2946D88225 /* Pods_Rep22018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A57F37D4B91A475304C9106 /* Pods_Rep22018.framework */; };
+		9516987532BBD0EFF28CA2D9 /* Pods_RepDelivery32018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2CC7D74F20EE9602B929483 /* Pods_RepDelivery32018.framework */; };
+		970C94B4155ECF6F0A4228EE /* Pods_RepDelivery12018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA4CE40079E4A663186CA28 /* Pods_RepDelivery12018.framework */; };
+		C1CBB042D770119A4DF85BA2 /* Pods_RepDelivery22018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0C5AC14D6EE4FE12403038 /* Pods_RepDelivery22018.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0431EA361E650D7B0041C09D /* Rep1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0431EA361E650D7B0041C09D /* Rep12018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep12018.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0431EA3A1E650D7B0041C09D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0431EA3C1E650D7B0041C09D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0431EA3D1E650D7B0041C09D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -136,7 +136,7 @@
 		0431EA5D1E651BDE0041C09D /* MenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuTableViewCell.m; path = view/MenuTableViewCell.m; sourceTree = "<group>"; };
 		0431EA5F1E651FDB0041C09D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0431EA611E65202E0041C09D /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
-		043FB1421F9B3EA9006D79FD /* Rep2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043FB1421F9B3EA9006D79FD /* Rep22018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep22018.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043FB1431F9B3EAA006D79FD /* Rep2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Rep2.plist; path = "/Work/Task/VirtusVentures/VideoApp/Rep-Training/VideoApp/VideoApp/Rep2.plist"; sourceTree = "<absolute>"; };
 		046E3D831E662DB8006064D9 /* Affected items.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Affected items.mp4"; sourceTree = "<group>"; };
 		046E3D841E662DB8006064D9 /* Area of interest.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Area of interest.mp4"; sourceTree = "<group>"; };
@@ -157,11 +157,11 @@
 		046E3D951E662DB8006064D9 /* Tools.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tools.mp4; sourceTree = "<group>"; };
 		046E3D961E662DB8006064D9 /* Welcome.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Welcome.mp4; sourceTree = "<group>"; };
 		046E3D971E662DB8006064D9 /* Wrapping it up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wrapping it up.mp4"; sourceTree = "<group>"; };
-		0498BF811FBFFC0D0085D6A8 /* RepDelivery1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepDelivery1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0498BF811FBFFC0D0085D6A8 /* RepDelivery12018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepDelivery12018.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0498BF821FBFFC0D0085D6A8 /* RepDelivery1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RepDelivery1.plist; path = "/Work/Task/VirtusVentures/VideoApp/Rep-Training/VideoApp/VideoApp/RepDelivery1.plist"; sourceTree = "<absolute>"; };
-		0498BF9C1FBFFCAB0085D6A8 /* RepDelivery2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepDelivery2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0498BF9C1FBFFCAB0085D6A8 /* RepDelivery22018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepDelivery22018.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0498BF9D1FBFFCAC0085D6A8 /* RepDelivery2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RepDelivery2.plist; path = "/Work/Task/VirtusVentures/VideoApp/Rep-Training/VideoApp/VideoApp/RepDelivery2.plist"; sourceTree = "<absolute>"; };
-		0498BFB71FBFFCE70085D6A8 /* RepDelivery3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepDelivery3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0498BFB71FBFFCE70085D6A8 /* RepDelivery32018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepDelivery32018.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0498BFB81FBFFCE80085D6A8 /* RepDelivery3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RepDelivery3.plist; path = "/Work/Task/VirtusVentures/VideoApp/Rep-Training/VideoApp/VideoApp/RepDelivery3.plist"; sourceTree = "<absolute>"; };
 		0498BFD71FC0008F0085D6A8 /* Credentials.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Credentials.mp4; sourceTree = "<group>"; };
 		0498BFD81FC0008F0085D6A8 /* Four ways.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Four ways.mp4"; sourceTree = "<group>"; };
@@ -182,21 +182,36 @@
 		04A7E0321E67F129006B6BA1 /* GVUserDefaults+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GVUserDefaults+Properties.m"; path = "model/GVUserDefaults+Properties.m"; sourceTree = "<group>"; };
 		04A7E0351E67F838006B6BA1 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = model/Constants.h; sourceTree = "<group>"; };
 		04D358271F6A6BCE008B8957 /* Under _ Behind finished.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Under _ Behind finished.mp4"; sourceTree = "<group>"; };
+		0A57F37D4B91A475304C9106 /* Pods_Rep22018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep22018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		225D35189EAFC2703F643FC2 /* Pods_RepDelivery2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepDelivery2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C698E00B4B5D818C090F392 /* Pods-VideoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoApp/Pods-VideoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		31EBADEBD726F2A800EA19B4 /* Pods-VideoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoApp/Pods-VideoApp.release.xcconfig"; sourceTree = "<group>"; };
+		46D03A9232486C50C5212833 /* Pods-RepDelivery22018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery22018.release.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery22018/Pods-RepDelivery22018.release.xcconfig"; sourceTree = "<group>"; };
+		49D4271FA5EA7101E6604677 /* Pods-Rep12018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep12018.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep12018/Pods-Rep12018.release.xcconfig"; sourceTree = "<group>"; };
+		4E022B57C76DBC6067DFB4E2 /* Pods-Rep12018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep12018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep12018/Pods-Rep12018.debug.xcconfig"; sourceTree = "<group>"; };
+		6EA4CE40079E4A663186CA28 /* Pods_RepDelivery12018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepDelivery12018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76BFD988839EE833F9141B50 /* Pods-RepDelivery12018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery12018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery12018/Pods-RepDelivery12018.debug.xcconfig"; sourceTree = "<group>"; };
+		76EC75930481B7177814F79F /* Pods-RepDelivery32018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery32018.release.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery32018/Pods-RepDelivery32018.release.xcconfig"; sourceTree = "<group>"; };
 		7B0F192043F1228A983B84D4 /* Pods-Rep2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep2/Pods-Rep2.release.xcconfig"; sourceTree = "<group>"; };
+		7D0C5AC14D6EE4FE12403038 /* Pods_RepDelivery22018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepDelivery22018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BD08BB20EFE13EF290203A /* Pods-RepDelivery1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery1/Pods-RepDelivery1.debug.xcconfig"; sourceTree = "<group>"; };
 		86C293C758B4FFB26409547D /* Pods_RepDelivery3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepDelivery3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		948D4BEE2DDEF70B88FB0046 /* Pods_Rep12018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep12018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B73B8B714A911B329B41AFD /* Pods-RepDelivery32018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery32018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery32018/Pods-RepDelivery32018.debug.xcconfig"; sourceTree = "<group>"; };
 		A31EC8E1FD9EE66E5097130A /* Pods-RepDelivery2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery2.release.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery2/Pods-RepDelivery2.release.xcconfig"; sourceTree = "<group>"; };
 		BA6265DB7FC254074A3B286E /* Pods-Rep1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep1/Pods-Rep1.debug.xcconfig"; sourceTree = "<group>"; };
+		C052EE8C306CBBAC531263C5 /* Pods-Rep22018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep22018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep22018/Pods-Rep22018.debug.xcconfig"; sourceTree = "<group>"; };
+		C22794F41F9BC85B666A1F72 /* Pods-Rep22018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep22018.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep22018/Pods-Rep22018.release.xcconfig"; sourceTree = "<group>"; };
 		C9B695D9C567AD6559057553 /* Pods_RepDelivery1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepDelivery1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA85E1298A66FD647CFEC6F7 /* Pods-RepDelivery1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery1.release.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery1/Pods-RepDelivery1.release.xcconfig"; sourceTree = "<group>"; };
 		D2797E6ABDFA8E8F45EC78A6 /* Pods-RepDelivery3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery3/Pods-RepDelivery3.debug.xcconfig"; sourceTree = "<group>"; };
+		D2CC7D74F20EE9602B929483 /* Pods_RepDelivery32018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepDelivery32018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35A98CBD7C03FE468B03560 /* Pods_Rep2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53C601478AF4407C6C2F811 /* Pods-Rep2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep2/Pods-Rep2.debug.xcconfig"; sourceTree = "<group>"; };
 		E6FC8E2C1AB2F7AAC440AD92 /* Pods-RepDelivery2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery2/Pods-RepDelivery2.debug.xcconfig"; sourceTree = "<group>"; };
+		E7589756AB96BA769931C21A /* Pods-RepDelivery12018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery12018.release.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery12018/Pods-RepDelivery12018.release.xcconfig"; sourceTree = "<group>"; };
 		EEEB990EA999C1BFFA8481C6 /* Pods_Rep1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CBB5DDD88CCC842820F40A /* Pods-RepDelivery22018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery22018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery22018/Pods-RepDelivery22018.debug.xcconfig"; sourceTree = "<group>"; };
 		FE0C8091841AB0B332E07629 /* Pods-Rep1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep1/Pods-Rep1.release.xcconfig"; sourceTree = "<group>"; };
 		FEDBBDF278195B6BB0C05D43 /* Pods_VideoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF53C8EF0F4A2BC2A4F72A39 /* Pods-RepDelivery3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery3.release.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery3/Pods-RepDelivery3.release.xcconfig"; sourceTree = "<group>"; };
@@ -209,7 +224,7 @@
 			files = (
 				0431EA621E65202E0041C09D /* AVKit.framework in Frameworks */,
 				0431EA601E651FDB0041C09D /* AVFoundation.framework in Frameworks */,
-				17C055CC34851A844A22F16F /* Pods_Rep1.framework in Frameworks */,
+				6E96BD953DBFBE4D81A74F49 /* Pods_Rep12018.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +234,7 @@
 			files = (
 				043FB1211F9B3EA9006D79FD /* AVKit.framework in Frameworks */,
 				043FB1221F9B3EA9006D79FD /* AVFoundation.framework in Frameworks */,
-				4E5BB116DC1A05FD8AA9CAB8 /* Pods_Rep2.framework in Frameworks */,
+				708EEEF95AF1BB2946D88225 /* Pods_Rep22018.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +244,7 @@
 			files = (
 				0498BF6C1FBFFC0D0085D6A8 /* AVKit.framework in Frameworks */,
 				0498BF6D1FBFFC0D0085D6A8 /* AVFoundation.framework in Frameworks */,
-				31595581BCEAD09B737754A2 /* Pods_RepDelivery1.framework in Frameworks */,
+				970C94B4155ECF6F0A4228EE /* Pods_RepDelivery12018.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +254,7 @@
 			files = (
 				0498BF8F1FBFFCAB0085D6A8 /* AVKit.framework in Frameworks */,
 				0498BF901FBFFCAB0085D6A8 /* AVFoundation.framework in Frameworks */,
-				85DC5E14E61D58386F5B1DD8 /* Pods_RepDelivery2.framework in Frameworks */,
+				C1CBB042D770119A4DF85BA2 /* Pods_RepDelivery22018.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +264,7 @@
 			files = (
 				0498BFAA1FBFFCE70085D6A8 /* AVKit.framework in Frameworks */,
 				0498BFAB1FBFFCE70085D6A8 /* AVFoundation.framework in Frameworks */,
-				C34E274CA710A12F4D0F6998 /* Pods_RepDelivery3.framework in Frameworks */,
+				9516987532BBD0EFF28CA2D9 /* Pods_RepDelivery32018.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,11 +284,11 @@
 		0431EA371E650D7B0041C09D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0431EA361E650D7B0041C09D /* Rep1.app */,
-				043FB1421F9B3EA9006D79FD /* Rep2.app */,
-				0498BF811FBFFC0D0085D6A8 /* RepDelivery1.app */,
-				0498BF9C1FBFFCAB0085D6A8 /* RepDelivery2.app */,
-				0498BFB71FBFFCE70085D6A8 /* RepDelivery3.app */,
+				0431EA361E650D7B0041C09D /* Rep12018.app */,
+				043FB1421F9B3EA9006D79FD /* Rep22018.app */,
+				0498BF811FBFFC0D0085D6A8 /* RepDelivery12018.app */,
+				0498BF9C1FBFFCAB0085D6A8 /* RepDelivery22018.app */,
+				0498BFB71FBFFCE70085D6A8 /* RepDelivery32018.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -425,6 +440,11 @@
 				C9B695D9C567AD6559057553 /* Pods_RepDelivery1.framework */,
 				225D35189EAFC2703F643FC2 /* Pods_RepDelivery2.framework */,
 				86C293C758B4FFB26409547D /* Pods_RepDelivery3.framework */,
+				948D4BEE2DDEF70B88FB0046 /* Pods_Rep12018.framework */,
+				0A57F37D4B91A475304C9106 /* Pods_Rep22018.framework */,
+				6EA4CE40079E4A663186CA28 /* Pods_RepDelivery12018.framework */,
+				7D0C5AC14D6EE4FE12403038 /* Pods_RepDelivery22018.framework */,
+				D2CC7D74F20EE9602B929483 /* Pods_RepDelivery32018.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -444,6 +464,16 @@
 				A31EC8E1FD9EE66E5097130A /* Pods-RepDelivery2.release.xcconfig */,
 				D2797E6ABDFA8E8F45EC78A6 /* Pods-RepDelivery3.debug.xcconfig */,
 				FF53C8EF0F4A2BC2A4F72A39 /* Pods-RepDelivery3.release.xcconfig */,
+				4E022B57C76DBC6067DFB4E2 /* Pods-Rep12018.debug.xcconfig */,
+				49D4271FA5EA7101E6604677 /* Pods-Rep12018.release.xcconfig */,
+				C052EE8C306CBBAC531263C5 /* Pods-Rep22018.debug.xcconfig */,
+				C22794F41F9BC85B666A1F72 /* Pods-Rep22018.release.xcconfig */,
+				76BFD988839EE833F9141B50 /* Pods-RepDelivery12018.debug.xcconfig */,
+				E7589756AB96BA769931C21A /* Pods-RepDelivery12018.release.xcconfig */,
+				F7CBB5DDD88CCC842820F40A /* Pods-RepDelivery22018.debug.xcconfig */,
+				46D03A9232486C50C5212833 /* Pods-RepDelivery22018.release.xcconfig */,
+				9B73B8B714A911B329B41AFD /* Pods-RepDelivery32018.debug.xcconfig */,
+				76EC75930481B7177814F79F /* Pods-RepDelivery32018.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -451,9 +481,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0431EA351E650D7B0041C09D /* Rep1 */ = {
+		0431EA351E650D7B0041C09D /* Rep12018 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0431EA501E650D7C0041C09D /* Build configuration list for PBXNativeTarget "Rep1" */;
+			buildConfigurationList = 0431EA501E650D7C0041C09D /* Build configuration list for PBXNativeTarget "Rep12018" */;
 			buildPhases = (
 				590CB485612E2F3518F6A286 /* [CP] Check Pods Manifest.lock */,
 				0431EA321E650D7B0041C09D /* Sources */,
@@ -466,14 +496,14 @@
 			);
 			dependencies = (
 			);
-			name = Rep1;
+			name = Rep12018;
 			productName = VideoApp;
-			productReference = 0431EA361E650D7B0041C09D /* Rep1.app */;
+			productReference = 0431EA361E650D7B0041C09D /* Rep12018.app */;
 			productType = "com.apple.product-type.application";
 		};
-		043FB1151F9B3EA9006D79FD /* Rep2 */ = {
+		043FB1151F9B3EA9006D79FD /* Rep22018 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 043FB13F1F9B3EA9006D79FD /* Build configuration list for PBXNativeTarget "Rep2" */;
+			buildConfigurationList = 043FB13F1F9B3EA9006D79FD /* Build configuration list for PBXNativeTarget "Rep22018" */;
 			buildPhases = (
 				043FB1161F9B3EA9006D79FD /* [CP] Check Pods Manifest.lock */,
 				043FB1171F9B3EA9006D79FD /* Sources */,
@@ -486,14 +516,14 @@
 			);
 			dependencies = (
 			);
-			name = Rep2;
+			name = Rep22018;
 			productName = VideoApp;
-			productReference = 043FB1421F9B3EA9006D79FD /* Rep2.app */;
+			productReference = 043FB1421F9B3EA9006D79FD /* Rep22018.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0498BF601FBFFC0D0085D6A8 /* RepDelivery1 */ = {
+		0498BF601FBFFC0D0085D6A8 /* RepDelivery12018 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0498BF7E1FBFFC0D0085D6A8 /* Build configuration list for PBXNativeTarget "RepDelivery1" */;
+			buildConfigurationList = 0498BF7E1FBFFC0D0085D6A8 /* Build configuration list for PBXNativeTarget "RepDelivery12018" */;
 			buildPhases = (
 				0498BF611FBFFC0D0085D6A8 /* [CP] Check Pods Manifest.lock */,
 				0498BF621FBFFC0D0085D6A8 /* Sources */,
@@ -506,14 +536,14 @@
 			);
 			dependencies = (
 			);
-			name = RepDelivery1;
+			name = RepDelivery12018;
 			productName = VideoApp;
-			productReference = 0498BF811FBFFC0D0085D6A8 /* RepDelivery1.app */;
+			productReference = 0498BF811FBFFC0D0085D6A8 /* RepDelivery12018.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0498BF831FBFFCAB0085D6A8 /* RepDelivery2 */ = {
+		0498BF831FBFFCAB0085D6A8 /* RepDelivery22018 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0498BF991FBFFCAB0085D6A8 /* Build configuration list for PBXNativeTarget "RepDelivery2" */;
+			buildConfigurationList = 0498BF991FBFFCAB0085D6A8 /* Build configuration list for PBXNativeTarget "RepDelivery22018" */;
 			buildPhases = (
 				0498BF841FBFFCAB0085D6A8 /* [CP] Check Pods Manifest.lock */,
 				0498BF851FBFFCAB0085D6A8 /* Sources */,
@@ -526,14 +556,14 @@
 			);
 			dependencies = (
 			);
-			name = RepDelivery2;
+			name = RepDelivery22018;
 			productName = VideoApp;
-			productReference = 0498BF9C1FBFFCAB0085D6A8 /* RepDelivery2.app */;
+			productReference = 0498BF9C1FBFFCAB0085D6A8 /* RepDelivery22018.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0498BF9E1FBFFCE70085D6A8 /* RepDelivery3 */ = {
+		0498BF9E1FBFFCE70085D6A8 /* RepDelivery32018 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0498BFB41FBFFCE70085D6A8 /* Build configuration list for PBXNativeTarget "RepDelivery3" */;
+			buildConfigurationList = 0498BFB41FBFFCE70085D6A8 /* Build configuration list for PBXNativeTarget "RepDelivery32018" */;
 			buildPhases = (
 				0498BF9F1FBFFCE70085D6A8 /* [CP] Check Pods Manifest.lock */,
 				0498BFA01FBFFCE70085D6A8 /* Sources */,
@@ -546,9 +576,9 @@
 			);
 			dependencies = (
 			);
-			name = RepDelivery3;
+			name = RepDelivery32018;
 			productName = VideoApp;
-			productReference = 0498BFB71FBFFCE70085D6A8 /* RepDelivery3.app */;
+			productReference = 0498BFB71FBFFCE70085D6A8 /* RepDelivery32018.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -592,11 +622,11 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0431EA351E650D7B0041C09D /* Rep1 */,
-				043FB1151F9B3EA9006D79FD /* Rep2 */,
-				0498BF601FBFFC0D0085D6A8 /* RepDelivery1 */,
-				0498BF831FBFFCAB0085D6A8 /* RepDelivery2 */,
-				0498BF9E1FBFFCE70085D6A8 /* RepDelivery3 */,
+				0431EA351E650D7B0041C09D /* Rep12018 */,
+				043FB1151F9B3EA9006D79FD /* Rep22018 */,
+				0498BF601FBFFC0D0085D6A8 /* RepDelivery12018 */,
+				0498BF831FBFFCAB0085D6A8 /* RepDelivery22018 */,
+				0498BF9E1FBFFCE70085D6A8 /* RepDelivery32018 */,
 			);
 		};
 /* End PBXProject section */
@@ -704,7 +734,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Rep2-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Rep22018-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -717,7 +747,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Rep2/Pods-Rep2-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rep22018/Pods-Rep22018-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GVUserDefaults/GVUserDefaults.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
@@ -732,7 +762,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rep2/Pods-Rep2-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rep22018/Pods-Rep22018-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		043FB13E1F9B3EA9006D79FD /* [CP] Copy Pods Resources */ = {
@@ -747,7 +777,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rep2/Pods-Rep2-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rep22018/Pods-Rep22018-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0498BF611FBFFC0D0085D6A8 /* [CP] Check Pods Manifest.lock */ = {
@@ -761,7 +791,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RepDelivery1-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RepDelivery12018-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -774,7 +804,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery1/Pods-RepDelivery1-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery12018/Pods-RepDelivery12018-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GVUserDefaults/GVUserDefaults.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
@@ -789,7 +819,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery1/Pods-RepDelivery1-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery12018/Pods-RepDelivery12018-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0498BF7D1FBFFC0D0085D6A8 /* [CP] Copy Pods Resources */ = {
@@ -804,7 +834,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery1/Pods-RepDelivery1-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery12018/Pods-RepDelivery12018-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0498BF841FBFFCAB0085D6A8 /* [CP] Check Pods Manifest.lock */ = {
@@ -818,7 +848,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RepDelivery2-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RepDelivery22018-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -831,7 +861,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery2/Pods-RepDelivery2-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery22018/Pods-RepDelivery22018-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GVUserDefaults/GVUserDefaults.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
@@ -846,7 +876,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery2/Pods-RepDelivery2-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery22018/Pods-RepDelivery22018-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0498BF981FBFFCAB0085D6A8 /* [CP] Copy Pods Resources */ = {
@@ -861,7 +891,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery2/Pods-RepDelivery2-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery22018/Pods-RepDelivery22018-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0498BF9F1FBFFCE70085D6A8 /* [CP] Check Pods Manifest.lock */ = {
@@ -875,7 +905,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RepDelivery3-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RepDelivery32018-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -888,7 +918,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery3/Pods-RepDelivery3-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery32018/Pods-RepDelivery32018-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GVUserDefaults/GVUserDefaults.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
@@ -903,7 +933,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery3/Pods-RepDelivery3-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery32018/Pods-RepDelivery32018-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0498BFB31FBFFCE70085D6A8 /* [CP] Copy Pods Resources */ = {
@@ -918,7 +948,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery3/Pods-RepDelivery3-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RepDelivery32018/Pods-RepDelivery32018-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		590CB485612E2F3518F6A286 /* [CP] Check Pods Manifest.lock */ = {
@@ -932,7 +962,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Rep1-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Rep12018-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -951,7 +981,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rep1/Pods-Rep1-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rep12018/Pods-Rep12018-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F281A8E7C527B6A72A24501D /* [CP] Embed Pods Frameworks */ = {
@@ -960,7 +990,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Rep1/Pods-Rep1-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rep12018/Pods-Rep12018-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GVUserDefaults/GVUserDefaults.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
@@ -975,7 +1005,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rep1/Pods-Rep1-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rep12018/Pods-Rep12018-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1182,7 +1212,7 @@
 		};
 		0431EA511E650D7C0041C09D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA6265DB7FC254074A3B286E /* Pods-Rep1.debug.xcconfig */;
+			baseConfigurationReference = 4E022B57C76DBC6067DFB4E2 /* Pods-Rep12018.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1198,14 +1228,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.VideoApp1;
-				PRODUCT_NAME = Rep1;
+				PRODUCT_NAME = Rep12018;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		0431EA521E650D7C0041C09D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE0C8091841AB0B332E07629 /* Pods-Rep1.release.xcconfig */;
+			baseConfigurationReference = 49D4271FA5EA7101E6604677 /* Pods-Rep12018.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1221,14 +1251,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.VideoApp1;
-				PRODUCT_NAME = Rep1;
+				PRODUCT_NAME = Rep12018;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 		043FB1401F9B3EA9006D79FD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E53C601478AF4407C6C2F811 /* Pods-Rep2.debug.xcconfig */;
+			baseConfigurationReference = C052EE8C306CBBAC531263C5 /* Pods-Rep22018.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
@@ -1242,13 +1272,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.VideoApp2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Rep22018;
 			};
 			name = Debug;
 		};
 		043FB1411F9B3EA9006D79FD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B0F192043F1228A983B84D4 /* Pods-Rep2.release.xcconfig */;
+			baseConfigurationReference = C22794F41F9BC85B666A1F72 /* Pods-Rep22018.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
@@ -1262,13 +1292,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.VideoApp2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Rep22018;
 			};
 			name = Release;
 		};
 		0498BF7F1FBFFC0D0085D6A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82BD08BB20EFE13EF290203A /* Pods-RepDelivery1.debug.xcconfig */;
+			baseConfigurationReference = 76BFD988839EE833F9141B50 /* Pods-RepDelivery12018.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
@@ -1282,13 +1312,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RepDelivery12018;
 			};
 			name = Debug;
 		};
 		0498BF801FBFFC0D0085D6A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA85E1298A66FD647CFEC6F7 /* Pods-RepDelivery1.release.xcconfig */;
+			baseConfigurationReference = E7589756AB96BA769931C21A /* Pods-RepDelivery12018.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
@@ -1302,13 +1332,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RepDelivery12018;
 			};
 			name = Release;
 		};
 		0498BF9A1FBFFCAB0085D6A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6FC8E2C1AB2F7AAC440AD92 /* Pods-RepDelivery2.debug.xcconfig */;
+			baseConfigurationReference = F7CBB5DDD88CCC842820F40A /* Pods-RepDelivery22018.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
@@ -1322,13 +1352,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RepDelivery22018;
 			};
 			name = Debug;
 		};
 		0498BF9B1FBFFCAB0085D6A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A31EC8E1FD9EE66E5097130A /* Pods-RepDelivery2.release.xcconfig */;
+			baseConfigurationReference = 46D03A9232486C50C5212833 /* Pods-RepDelivery22018.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
@@ -1342,13 +1372,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RepDelivery22018;
 			};
 			name = Release;
 		};
 		0498BFB51FBFFCE70085D6A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2797E6ABDFA8E8F45EC78A6 /* Pods-RepDelivery3.debug.xcconfig */;
+			baseConfigurationReference = 9B73B8B714A911B329B41AFD /* Pods-RepDelivery32018.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
@@ -1362,13 +1392,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RepDelivery32018;
 			};
 			name = Debug;
 		};
 		0498BFB61FBFFCE70085D6A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF53C8EF0F4A2BC2A4F72A39 /* Pods-RepDelivery3.release.xcconfig */;
+			baseConfigurationReference = 76EC75930481B7177814F79F /* Pods-RepDelivery32018.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
@@ -1382,7 +1412,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RepDelivery32018;
 			};
 			name = Release;
 		};
@@ -1398,7 +1428,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0431EA501E650D7C0041C09D /* Build configuration list for PBXNativeTarget "Rep1" */ = {
+		0431EA501E650D7C0041C09D /* Build configuration list for PBXNativeTarget "Rep12018" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0431EA511E650D7C0041C09D /* Debug */,
@@ -1407,7 +1437,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		043FB13F1F9B3EA9006D79FD /* Build configuration list for PBXNativeTarget "Rep2" */ = {
+		043FB13F1F9B3EA9006D79FD /* Build configuration list for PBXNativeTarget "Rep22018" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				043FB1401F9B3EA9006D79FD /* Debug */,
@@ -1416,7 +1446,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0498BF7E1FBFFC0D0085D6A8 /* Build configuration list for PBXNativeTarget "RepDelivery1" */ = {
+		0498BF7E1FBFFC0D0085D6A8 /* Build configuration list for PBXNativeTarget "RepDelivery12018" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0498BF7F1FBFFC0D0085D6A8 /* Debug */,
@@ -1425,7 +1455,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0498BF991FBFFCAB0085D6A8 /* Build configuration list for PBXNativeTarget "RepDelivery2" */ = {
+		0498BF991FBFFCAB0085D6A8 /* Build configuration list for PBXNativeTarget "RepDelivery22018" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0498BF9A1FBFFCAB0085D6A8 /* Debug */,
@@ -1434,7 +1464,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0498BFB41FBFFCE70085D6A8 /* Build configuration list for PBXNativeTarget "RepDelivery3" */ = {
+		0498BFB41FBFFCE70085D6A8 /* Build configuration list for PBXNativeTarget "RepDelivery32018" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0498BFB51FBFFCE70085D6A8 /* Debug */,
