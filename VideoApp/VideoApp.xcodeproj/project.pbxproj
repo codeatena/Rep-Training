@@ -118,7 +118,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0431EA361E650D7B0041C09D /* Rep12018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep12018.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0431EA361E650D7B0041C09D /* Rep1Basement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep1Basement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0431EA3A1E650D7B0041C09D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0431EA3C1E650D7B0041C09D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0431EA3D1E650D7B0041C09D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -136,7 +136,7 @@
 		0431EA5D1E651BDE0041C09D /* MenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuTableViewCell.m; path = view/MenuTableViewCell.m; sourceTree = "<group>"; };
 		0431EA5F1E651FDB0041C09D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0431EA611E65202E0041C09D /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
-		043FB1421F9B3EA9006D79FD /* Rep22018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep22018.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043FB1421F9B3EA9006D79FD /* Rep2Basement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep2Basement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043FB1431F9B3EAA006D79FD /* Rep2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Rep2.plist; path = "/Work/Task/VirtusVentures/VideoApp/Rep-Training/VideoApp/VideoApp/Rep2.plist"; sourceTree = "<absolute>"; };
 		046E3D831E662DB8006064D9 /* Affected items.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Affected items.mp4"; sourceTree = "<group>"; };
 		046E3D841E662DB8006064D9 /* Area of interest.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Area of interest.mp4"; sourceTree = "<group>"; };
@@ -157,11 +157,11 @@
 		046E3D951E662DB8006064D9 /* Tools.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tools.mp4; sourceTree = "<group>"; };
 		046E3D961E662DB8006064D9 /* Welcome.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Welcome.mp4; sourceTree = "<group>"; };
 		046E3D971E662DB8006064D9 /* Wrapping it up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wrapping it up.mp4"; sourceTree = "<group>"; };
-		0498BF811FBFFC0D0085D6A8 /* RepDelivery12018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepDelivery12018.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0498BF811FBFFC0D0085D6A8 /* Rep1Upstairs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep1Upstairs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0498BF821FBFFC0D0085D6A8 /* RepDelivery1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RepDelivery1.plist; path = "/Work/Task/VirtusVentures/VideoApp/Rep-Training/VideoApp/VideoApp/RepDelivery1.plist"; sourceTree = "<absolute>"; };
-		0498BF9C1FBFFCAB0085D6A8 /* RepDelivery22018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepDelivery22018.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0498BF9C1FBFFCAB0085D6A8 /* Rep2Upstairs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep2Upstairs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0498BF9D1FBFFCAC0085D6A8 /* RepDelivery2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RepDelivery2.plist; path = "/Work/Task/VirtusVentures/VideoApp/Rep-Training/VideoApp/VideoApp/RepDelivery2.plist"; sourceTree = "<absolute>"; };
-		0498BFB71FBFFCE70085D6A8 /* RepDelivery32018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepDelivery32018.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0498BFB71FBFFCE70085D6A8 /* Rep3Upstairs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep3Upstairs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0498BFB81FBFFCE80085D6A8 /* RepDelivery3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RepDelivery3.plist; path = "/Work/Task/VirtusVentures/VideoApp/Rep-Training/VideoApp/VideoApp/RepDelivery3.plist"; sourceTree = "<absolute>"; };
 		0498BFD71FC0008F0085D6A8 /* Credentials.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Credentials.mp4; sourceTree = "<group>"; };
 		0498BFD81FC0008F0085D6A8 /* Four ways.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Four ways.mp4"; sourceTree = "<group>"; };
@@ -284,11 +284,11 @@
 		0431EA371E650D7B0041C09D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0431EA361E650D7B0041C09D /* Rep12018.app */,
-				043FB1421F9B3EA9006D79FD /* Rep22018.app */,
-				0498BF811FBFFC0D0085D6A8 /* RepDelivery12018.app */,
-				0498BF9C1FBFFCAB0085D6A8 /* RepDelivery22018.app */,
-				0498BFB71FBFFCE70085D6A8 /* RepDelivery32018.app */,
+				0431EA361E650D7B0041C09D /* Rep1Basement.app */,
+				043FB1421F9B3EA9006D79FD /* Rep2Basement.app */,
+				0498BF811FBFFC0D0085D6A8 /* Rep1Upstairs.app */,
+				0498BF9C1FBFFCAB0085D6A8 /* Rep2Upstairs.app */,
+				0498BFB71FBFFCE70085D6A8 /* Rep3Upstairs.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -498,7 +498,7 @@
 			);
 			name = Rep12018;
 			productName = VideoApp;
-			productReference = 0431EA361E650D7B0041C09D /* Rep12018.app */;
+			productReference = 0431EA361E650D7B0041C09D /* Rep1Basement.app */;
 			productType = "com.apple.product-type.application";
 		};
 		043FB1151F9B3EA9006D79FD /* Rep22018 */ = {
@@ -518,7 +518,7 @@
 			);
 			name = Rep22018;
 			productName = VideoApp;
-			productReference = 043FB1421F9B3EA9006D79FD /* Rep22018.app */;
+			productReference = 043FB1421F9B3EA9006D79FD /* Rep2Basement.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0498BF601FBFFC0D0085D6A8 /* RepDelivery12018 */ = {
@@ -538,7 +538,7 @@
 			);
 			name = RepDelivery12018;
 			productName = VideoApp;
-			productReference = 0498BF811FBFFC0D0085D6A8 /* RepDelivery12018.app */;
+			productReference = 0498BF811FBFFC0D0085D6A8 /* Rep1Upstairs.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0498BF831FBFFCAB0085D6A8 /* RepDelivery22018 */ = {
@@ -558,7 +558,7 @@
 			);
 			name = RepDelivery22018;
 			productName = VideoApp;
-			productReference = 0498BF9C1FBFFCAB0085D6A8 /* RepDelivery22018.app */;
+			productReference = 0498BF9C1FBFFCAB0085D6A8 /* Rep2Upstairs.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0498BF9E1FBFFCE70085D6A8 /* RepDelivery32018 */ = {
@@ -578,7 +578,7 @@
 			);
 			name = RepDelivery32018;
 			productName = VideoApp;
-			productReference = 0498BFB71FBFFCE70085D6A8 /* RepDelivery32018.app */;
+			productReference = 0498BFB71FBFFCE70085D6A8 /* Rep3Upstairs.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1228,7 +1228,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.VideoApp1;
-				PRODUCT_NAME = Rep12018;
+				PRODUCT_NAME = Rep1Basement;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
@@ -1251,7 +1251,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.VideoApp1;
-				PRODUCT_NAME = Rep12018;
+				PRODUCT_NAME = Rep1Basement;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
@@ -1272,7 +1272,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.VideoApp2;
-				PRODUCT_NAME = Rep22018;
+				PRODUCT_NAME = Rep2Basement;
 			};
 			name = Debug;
 		};
@@ -1292,7 +1292,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.VideoApp2;
-				PRODUCT_NAME = Rep22018;
+				PRODUCT_NAME = Rep2Basement;
 			};
 			name = Release;
 		};
@@ -1312,7 +1312,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery1;
-				PRODUCT_NAME = RepDelivery12018;
+				PRODUCT_NAME = Rep1Upstairs;
 			};
 			name = Debug;
 		};
@@ -1332,7 +1332,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery1;
-				PRODUCT_NAME = RepDelivery12018;
+				PRODUCT_NAME = Rep1Upstairs;
 			};
 			name = Release;
 		};
@@ -1352,7 +1352,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery2;
-				PRODUCT_NAME = RepDelivery22018;
+				PRODUCT_NAME = Rep2Upstairs;
 			};
 			name = Debug;
 		};
@@ -1372,7 +1372,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery2;
-				PRODUCT_NAME = RepDelivery22018;
+				PRODUCT_NAME = Rep2Upstairs;
 			};
 			name = Release;
 		};
@@ -1392,7 +1392,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery3;
-				PRODUCT_NAME = RepDelivery32018;
+				PRODUCT_NAME = Rep3Upstairs;
 			};
 			name = Debug;
 		};
@@ -1412,7 +1412,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery3;
-				PRODUCT_NAME = RepDelivery32018;
+				PRODUCT_NAME = Rep3Upstairs;
 			};
 			name = Release;
 		};
