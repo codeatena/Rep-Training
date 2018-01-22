@@ -33,7 +33,7 @@
 
 #ifdef repdelivery1
 
-#define VIDEO_TITLES   @[@"Table Time" ,@"Credentials" ,@"How Built" ,@"Materials" ,@"Stages" ,@"Four ways"]
+#define VIDEO_TITLES   @[@"TableTime" ,@"Credentials" ,@"How Built" ,@"Materials" ,@"Stages" ,@"Four ways"]
 
 #endif
 

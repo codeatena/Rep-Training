@@ -48,22 +48,22 @@ def shared_pods
 
 end
 
-target "Rep12018" do
+target "Rep1Basement" do
     shared_pods
 end
 
-target "Rep22018" do
+target "Rep2Basement" do
     shared_pods
 end
 
-target "RepDelivery12018" do
+target "Rep1Upstairs" do
     shared_pods
 end
 
-target "RepDelivery22018" do
+target "Rep2Upstairs" do
     shared_pods
 end
 
-target "RepDelivery32018" do
+target "Rep3Upstairs" do
     shared_pods
 end

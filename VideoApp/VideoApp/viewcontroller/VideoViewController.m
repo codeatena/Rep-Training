@@ -33,7 +33,7 @@
 #endif
         
 #ifdef repdelivery1
-        _videoName = @"Table Time";
+        _videoName = @"TableTime";
 #endif
 
 #ifdef repdelivery2
