@@ -40,6 +40,8 @@
 		043FB1361F9B3EA9006D79FD /* Getting started.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 046E3D8B1E662DB8006064D9 /* Getting started.mp4 */; };
 		043FB1381F9B3EA9006D79FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0431EA421E650D7B0041C09D /* Main.storyboard */; };
 		043FB1391F9B3EA9006D79FD /* Flashlight mold test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 046E3D8A1E662DB8006064D9 /* Flashlight mold test.mp4 */; };
+		0443860920184C1300D8ED4E /* Warm Up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0443860820184C1300D8ED4E /* Warm Up.mp4 */; };
+		0443860B20184C2500D8ED4E /* Inspection.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0443860A20184C2500D8ED4E /* Inspection.mp4 */; };
 		046E3D981E662DB8006064D9 /* Affected items.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 046E3D831E662DB8006064D9 /* Affected items.mp4 */; };
 		046E3D991E662DB8006064D9 /* Area of interest.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 046E3D841E662DB8006064D9 /* Area of interest.mp4 */; };
 		046E3D9B1E662DB8006064D9 /* Dehumidifier.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 046E3D861E662DB8006064D9 /* Dehumidifier.mp4 */; };
@@ -138,6 +140,8 @@
 		0431EA611E65202E0041C09D /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		043FB1421F9B3EA9006D79FD /* Rep2Basement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep2Basement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043FB1431F9B3EAA006D79FD /* Rep2Basement.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Rep2Basement.plist; path = "/Work/Task/VirtusVentures/VideoApp/Rep-Training/VideoApp/VideoApp/Rep2Basement.plist"; sourceTree = "<absolute>"; };
+		0443860820184C1300D8ED4E /* Warm Up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Warm Up.mp4"; sourceTree = "<group>"; };
+		0443860A20184C2500D8ED4E /* Inspection.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Inspection.mp4; sourceTree = "<group>"; };
 		046E3D831E662DB8006064D9 /* Affected items.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Affected items.mp4"; sourceTree = "<group>"; };
 		046E3D841E662DB8006064D9 /* Area of interest.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Area of interest.mp4"; sourceTree = "<group>"; };
 		046E3D851E662DB8006064D9 /* coming from help.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "coming from help.mp4"; sourceTree = "<group>"; };
@@ -390,6 +394,8 @@
 				046E3D951E662DB8006064D9 /* Tools.mp4 */,
 				046E3D961E662DB8006064D9 /* Welcome.mp4 */,
 				046E3D971E662DB8006064D9 /* Wrapping it up.mp4 */,
+				0443860820184C1300D8ED4E /* Warm Up.mp4 */,
+				0443860A20184C2500D8ED4E /* Inspection.mp4 */,
 			);
 			path = resource;
 			sourceTree = "<group>";
@@ -675,6 +681,7 @@
 				0498BFB91FBFFF580085D6A8 /* Exterior inspection.mp4 in Resources */,
 				046E3DA41E662DB8006064D9 /* Mechanicals.mp4 in Resources */,
 				046E3DAC1E662DB8006064D9 /* Wrapping it up.mp4 in Resources */,
+				0443860B20184C2500D8ED4E /* Inspection.mp4 in Resources */,
 				046E3DA61E662DB8006064D9 /* Mold Test.mp4 in Resources */,
 				04A7E02B1E67DDC4006B6BA1 /* Launch Screen.storyboard in Resources */,
 				046E3D991E662DB8006064D9 /* Area of interest.mp4 in Resources */,
@@ -710,6 +717,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0498BF701FBFFC0D0085D6A8 /* LaunchScreen.storyboard in Resources */,
+				0443860920184C1300D8ED4E /* Warm Up.mp4 in Resources */,
 				0498BFE11FC0008F0085D6A8 /* Stages.mp4 in Resources */,
 				0498BF731FBFFC0D0085D6A8 /* Assets.xcassets in Resources */,
 				0498BFDE1FC0008F0085D6A8 /* Four ways.mp4 in Resources */,

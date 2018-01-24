@@ -21,7 +21,7 @@
 
 #ifdef rep1
 
-#define VIDEO_TITLES   @[@"Welcome" , @"Tools" ,@"Area of interest" , @"moving around inspection" ,@"Affected items",@"Home Owners Stuff" ,@"Mold Test" ,@"Lift Test" ,@"Mechanicals" ,@"Electric" ,@"Dehumidifier" ,@"Wrapping it up" ,@"Exterior inspection"]
+#define VIDEO_TITLES   @[@"Inspection" ,@"Welcome" , @"Tools" ,@"Area of interest" , @"moving around inspection" ,@"Affected items",@"Home Owners Stuff" ,@"Mold Test" ,@"Lift Test" ,@"Mechanicals" ,@"Electric" ,@"Dehumidifier" ,@"Wrapping it up" ,@"Exterior inspection"]
 
 #endif
 
@@ -33,7 +33,7 @@
 
 #ifdef repdelivery1
 
-#define VIDEO_TITLES   @[@"TableTime" ,@"Credentials" ,@"How Built" ,@"Materials" ,@"Stages" ,@"Four ways"]
+#define VIDEO_TITLES   @[@"Warm Up" ,@"TableTime" ,@"Credentials" ,@"How Built" ,@"Materials" ,@"Stages" ,@"Four ways"]
 
 #endif
 

@@ -27,13 +27,13 @@
     _playerVC.view.backgroundColor = [UIColor whiteColor];
     if (_videoName == nil){
         
-        _videoName = @"Welcome";
+        _videoName = @"Inspection";
 #ifdef rep2
         _videoName = @"Finished basement";
 #endif
         
 #ifdef repdelivery1
-        _videoName = @"TableTime";
+        _videoName = @"Warm Up";
 #endif
 
 #ifdef repdelivery2
