@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041582BC202F24EB00B7A198 /* Inspection.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0443860A20184C2500D8ED4E /* Inspection.mp4 */; };
+		041582BD202F250700B7A198 /* Credentials.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFD71FC0008F0085D6A8 /* Credentials.mp4 */; };
+		041582BE202F250A00B7A198 /* How Built.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFD91FC0008F0085D6A8 /* How Built.mp4 */; };
+		041582BF202F250F00B7A198 /* Materials.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFDA1FC0008F0085D6A8 /* Materials.mp4 */; };
+		041582C0202F251200B7A198 /* Stages.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFDB1FC0008F0085D6A8 /* Stages.mp4 */; };
+		041582C1202F251800B7A198 /* Four ways.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFD81FC0008F0085D6A8 /* Four ways.mp4 */; };
+		04315FFE204729DA00B508DF /* Damages.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04315FFC204729DA00B508DF /* Damages.mp4 */; };
+		04315FFF204729DA00B508DF /* Accomplishment.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04315FFD204729DA00B508DF /* Accomplishment.mp4 */; };
 		0431EA3B1E650D7B0041C09D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA3A1E650D7B0041C09D /* main.m */; };
 		0431EA3E1E650D7B0041C09D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA3D1E650D7B0041C09D /* AppDelegate.m */; };
 		0431EA441E650D7B0041C09D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0431EA421E650D7B0041C09D /* Main.storyboard */; };
@@ -97,18 +105,12 @@
 		0498BFB01FBFFCE70085D6A8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A7E02A1E67DDC4006B6BA1 /* Launch Screen.storyboard */; };
 		0498BFB11FBFFCE70085D6A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0431EA421E650D7B0041C09D /* Main.storyboard */; };
 		0498BFB91FBFFF580085D6A8 /* Exterior inspection.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 046E3D881E662DB8006064D9 /* Exterior inspection.mp4 */; };
-		0498BFDD1FC0008F0085D6A8 /* Credentials.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFD71FC0008F0085D6A8 /* Credentials.mp4 */; };
-		0498BFDE1FC0008F0085D6A8 /* Four ways.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFD81FC0008F0085D6A8 /* Four ways.mp4 */; };
-		0498BFDF1FC0008F0085D6A8 /* How Built.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFD91FC0008F0085D6A8 /* How Built.mp4 */; };
-		0498BFE01FC0008F0085D6A8 /* Materials.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFDA1FC0008F0085D6A8 /* Materials.mp4 */; };
-		0498BFE11FC0008F0085D6A8 /* Stages.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFDB1FC0008F0085D6A8 /* Stages.mp4 */; };
 		0498BFE21FC0008F0085D6A8 /* TableTime.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFDC1FC0008F0085D6A8 /* TableTime.mp4 */; };
 		0498BFE71FC000950085D6A8 /* Accomplish.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFE41FC000950085D6A8 /* Accomplish.mp4 */; };
 		0498BFE81FC000950085D6A8 /* Damages.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFE51FC000950085D6A8 /* Damages.mp4 */; };
 		0498BFE91FC000950085D6A8 /* Report.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFE61FC000950085D6A8 /* Report.mp4 */; };
 		0498BFEE1FC0009C0085D6A8 /* Asking for the order.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFEB1FC0009C0085D6A8 /* Asking for the order.mp4 */; };
 		0498BFEF1FC0009C0085D6A8 /* Solution.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFEC1FC0009C0085D6A8 /* Solution.mp4 */; };
-		0498BFF01FC0009C0085D6A8 /* The button.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFED1FC0009C0085D6A8 /* The button.mp4 */; };
 		04A7E02B1E67DDC4006B6BA1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A7E02A1E67DDC4006B6BA1 /* Launch Screen.storyboard */; };
 		04A7E02E1E67E022006B6BA1 /* ActivateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E02D1E67E022006B6BA1 /* ActivateViewController.m */; };
 		04A7E0331E67F129006B6BA1 /* GVUserDefaults+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E0321E67F129006B6BA1 /* GVUserDefaults+Properties.m */; };
@@ -120,6 +122,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04315FFC204729DA00B508DF /* Damages.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Damages.mp4; path = VideoApp/resource/Damages.mp4; sourceTree = SOURCE_ROOT; };
+		04315FFD204729DA00B508DF /* Accomplishment.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Accomplishment.mp4; path = VideoApp/resource/Accomplishment.mp4; sourceTree = SOURCE_ROOT; };
 		0431EA361E650D7B0041C09D /* Rep1Basement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep1Basement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0431EA3A1E650D7B0041C09D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0431EA3C1E650D7B0041C09D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -403,6 +407,8 @@
 		0498BFD61FC0008F0085D6A8 /* Video Pressentation 1 */ = {
 			isa = PBXGroup;
 			children = (
+				04315FFD204729DA00B508DF /* Accomplishment.mp4 */,
+				04315FFC204729DA00B508DF /* Damages.mp4 */,
 				0498BFD71FC0008F0085D6A8 /* Credentials.mp4 */,
 				0498BFD81FC0008F0085D6A8 /* Four ways.mp4 */,
 				0498BFD91FC0008F0085D6A8 /* How Built.mp4 */,
@@ -718,13 +724,9 @@
 			files = (
 				0498BF701FBFFC0D0085D6A8 /* LaunchScreen.storyboard in Resources */,
 				0443860920184C1300D8ED4E /* Warm Up.mp4 in Resources */,
-				0498BFE11FC0008F0085D6A8 /* Stages.mp4 in Resources */,
 				0498BF731FBFFC0D0085D6A8 /* Assets.xcassets in Resources */,
-				0498BFDE1FC0008F0085D6A8 /* Four ways.mp4 in Resources */,
-				0498BFDD1FC0008F0085D6A8 /* Credentials.mp4 in Resources */,
 				0498BF761FBFFC0D0085D6A8 /* Launch Screen.storyboard in Resources */,
-				0498BFDF1FC0008F0085D6A8 /* How Built.mp4 in Resources */,
-				0498BFE01FC0008F0085D6A8 /* Materials.mp4 in Resources */,
+				041582BC202F24EB00B7A198 /* Inspection.mp4 in Resources */,
 				0498BFE21FC0008F0085D6A8 /* TableTime.mp4 in Resources */,
 				0498BF7A1FBFFC0D0085D6A8 /* Main.storyboard in Resources */,
 			);
@@ -734,10 +736,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041582C0202F251200B7A198 /* Stages.mp4 in Resources */,
 				0498BF931FBFFCAB0085D6A8 /* LaunchScreen.storyboard in Resources */,
 				0498BF941FBFFCAB0085D6A8 /* Assets.xcassets in Resources */,
 				0498BFE81FC000950085D6A8 /* Damages.mp4 in Resources */,
 				0498BFE91FC000950085D6A8 /* Report.mp4 in Resources */,
+				041582BE202F250A00B7A198 /* How Built.mp4 in Resources */,
+				041582BD202F250700B7A198 /* Credentials.mp4 in Resources */,
+				041582BF202F250F00B7A198 /* Materials.mp4 in Resources */,
 				0498BF951FBFFCAB0085D6A8 /* Launch Screen.storyboard in Resources */,
 				0498BF961FBFFCAB0085D6A8 /* Main.storyboard in Resources */,
 				0498BFE71FC000950085D6A8 /* Accomplish.mp4 in Resources */,
@@ -748,13 +754,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04315FFF204729DA00B508DF /* Accomplishment.mp4 in Resources */,
 				0498BFAE1FBFFCE70085D6A8 /* LaunchScreen.storyboard in Resources */,
-				0498BFF01FC0009C0085D6A8 /* The button.mp4 in Resources */,
 				0498BFAF1FBFFCE70085D6A8 /* Assets.xcassets in Resources */,
 				0498BFEF1FC0009C0085D6A8 /* Solution.mp4 in Resources */,
+				041582C1202F251800B7A198 /* Four ways.mp4 in Resources */,
 				0498BFB01FBFFCE70085D6A8 /* Launch Screen.storyboard in Resources */,
 				0498BFB11FBFFCE70085D6A8 /* Main.storyboard in Resources */,
 				0498BFEE1FC0009C0085D6A8 /* Asking for the order.mp4 in Resources */,
+				04315FFE204729DA00B508DF /* Damages.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

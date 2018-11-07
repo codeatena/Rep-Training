@@ -37,11 +37,11 @@
 #endif
 
 #ifdef repdelivery2
-        _videoName = @"Damages";
+        _videoName = @"Credentials";
 #endif
 
 #ifdef repdelivery3
-        _videoName = @"Solution";
+        _videoName = @"Four ways";
 #endif
 
     }

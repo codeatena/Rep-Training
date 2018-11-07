@@ -33,19 +33,19 @@
 
 #ifdef repdelivery1
 
-#define VIDEO_TITLES   @[@"Warm Up" ,@"TableTime" ,@"Credentials" ,@"How Built" ,@"Materials" ,@"Stages" ,@"Four ways"]
+#define VIDEO_TITLES   @[@"Warm Up" ,@"Inspection"]
 
 #endif
 
 #ifdef repdelivery2
 
-#define VIDEO_TITLES   @[@"Damages"  ,@"Report" ,@"Accomplish"]
+#define VIDEO_TITLES   @[@"Credentials" ,@"How Built" ,@"Materials" ,@"Stages"]
 
 #endif
 
 #ifdef repdelivery3
 
-#define VIDEO_TITLES   @[@"Solution"  ,@"Asking for the order" ,@"The button"]
+#define VIDEO_TITLES   @[@"Four ways" , @"Damages" , @"Accomplishment",@"Solution"  ,@"Asking for the order"]
 
 #endif
 
