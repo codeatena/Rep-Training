@@ -117,6 +117,10 @@
 		49F1CB2E1FD25744B3291C6A /* Pods_Rep2Upstairs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0A62D983F51057E37FD6B8 /* Pods_Rep2Upstairs.framework */; };
 		4D87B6576B221522A3E9BCDD /* Pods_Rep1Upstairs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED19C68518E9A7667991FD13 /* Pods_Rep1Upstairs.framework */; };
 		9010F1AE4B8E0B3C62568426 /* Pods_Rep1Basement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460880BF57ECAAD07DF644DD /* Pods_Rep1Basement.framework */; };
+		9766A89C21B867CC00EC3B40 /* Rep1Upstairs2019.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9766A89821B867CB00EC3B40 /* Rep1Upstairs2019.plist */; };
+		9766A89D21B867CC00EC3B40 /* Rep2Basement2019.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9766A89921B867CB00EC3B40 /* Rep2Basement2019.plist */; };
+		9766A89E21B867CC00EC3B40 /* Rep3Upstairs2019.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9766A89A21B867CC00EC3B40 /* Rep3Upstairs2019.plist */; };
+		9766A89F21B867CC00EC3B40 /* Rep2Upstairs2019.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9766A89B21B867CC00EC3B40 /* Rep2Upstairs2019.plist */; };
 		9B9BA4A35C45D5DC0E74BF68 /* Pods_Rep3Upstairs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B930EBE3E48EBC3519B694 /* Pods_Rep3Upstairs.framework */; };
 		B34E7D313731F44737C80BE8 /* Pods_Rep2Basement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE33C548DFF7F4500A53E2D4 /* Pods_Rep2Basement.framework */; };
 /* End PBXBuildFile section */
@@ -124,7 +128,7 @@
 /* Begin PBXFileReference section */
 		04315FFC204729DA00B508DF /* Damages.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Damages.mp4; path = VideoApp/resource/Damages.mp4; sourceTree = SOURCE_ROOT; };
 		04315FFD204729DA00B508DF /* Accomplishment.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Accomplishment.mp4; path = VideoApp/resource/Accomplishment.mp4; sourceTree = SOURCE_ROOT; };
-		0431EA361E650D7B0041C09D /* Rep1Basement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep1Basement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0431EA361E650D7B0041C09D /* Rep1Basement2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep1Basement2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0431EA3A1E650D7B0041C09D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0431EA3C1E650D7B0041C09D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0431EA3D1E650D7B0041C09D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -132,7 +136,7 @@
 		0431EA461E650D7B0041C09D /* VideoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VideoApp.xcdatamodel; sourceTree = "<group>"; };
 		0431EA481E650D7C0041C09D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0431EA4B1E650D7C0041C09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0431EA4D1E650D7C0041C09D /* Rep1Basement.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Rep1Basement.plist; sourceTree = "<group>"; };
+		0431EA4D1E650D7C0041C09D /* Rep1Basement2019.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Rep1Basement2019.plist; sourceTree = "<group>"; };
 		0431EA541E6510FB0041C09D /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoViewController.h; path = viewcontroller/VideoViewController.h; sourceTree = "<group>"; };
 		0431EA551E6510FB0041C09D /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoViewController.m; path = viewcontroller/VideoViewController.m; sourceTree = "<group>"; };
 		0431EA571E65131F0041C09D /* SideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SideViewController.h; path = viewcontroller/SideViewController.h; sourceTree = "<group>"; };
@@ -142,8 +146,7 @@
 		0431EA5D1E651BDE0041C09D /* MenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuTableViewCell.m; path = view/MenuTableViewCell.m; sourceTree = "<group>"; };
 		0431EA5F1E651FDB0041C09D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0431EA611E65202E0041C09D /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
-		043FB1421F9B3EA9006D79FD /* Rep2Basement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep2Basement.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		043FB1431F9B3EAA006D79FD /* Rep2Basement.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Rep2Basement.plist; path = "/Work/Task/VirtusVentures/VideoApp/Rep-Training/VideoApp/VideoApp/Rep2Basement.plist"; sourceTree = "<absolute>"; };
+		043FB1421F9B3EA9006D79FD /* Rep2Basement2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep2Basement2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0443860820184C1300D8ED4E /* Warm Up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Warm Up.mp4"; sourceTree = "<group>"; };
 		0443860A20184C2500D8ED4E /* Inspection.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Inspection.mp4; sourceTree = "<group>"; };
 		046E3D831E662DB8006064D9 /* Affected items.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Affected items.mp4"; sourceTree = "<group>"; };
@@ -165,12 +168,9 @@
 		046E3D951E662DB8006064D9 /* Tools.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tools.mp4; sourceTree = "<group>"; };
 		046E3D961E662DB8006064D9 /* Welcome.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Welcome.mp4; sourceTree = "<group>"; };
 		046E3D971E662DB8006064D9 /* Wrapping it up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wrapping it up.mp4"; sourceTree = "<group>"; };
-		0498BF811FBFFC0D0085D6A8 /* Rep1Upstairs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep1Upstairs.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0498BF821FBFFC0D0085D6A8 /* Rep1Upstairs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Rep1Upstairs.plist; path = "/Work/Task/VirtusVentures/VideoApp/Rep-Training/VideoApp/VideoApp/Rep1Upstairs.plist"; sourceTree = "<absolute>"; };
-		0498BF9C1FBFFCAB0085D6A8 /* Rep2Upstairs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep2Upstairs.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0498BF9D1FBFFCAC0085D6A8 /* Rep2Upstairs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Rep2Upstairs.plist; path = "/Work/Task/VirtusVentures/VideoApp/Rep-Training/VideoApp/VideoApp/Rep2Upstairs.plist"; sourceTree = "<absolute>"; };
-		0498BFB71FBFFCE70085D6A8 /* Rep3Upstairs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep3Upstairs.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0498BFB81FBFFCE80085D6A8 /* Rep3Upstairs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Rep3Upstairs.plist; path = "/Work/Task/VirtusVentures/VideoApp/Rep-Training/VideoApp/VideoApp/Rep3Upstairs.plist"; sourceTree = "<absolute>"; };
+		0498BF811FBFFC0D0085D6A8 /* Rep1Upstairs2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep1Upstairs2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0498BF9C1FBFFCAB0085D6A8 /* Rep2Upstairs2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep2Upstairs2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0498BFB71FBFFCE70085D6A8 /* Rep3Upstairs2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep3Upstairs2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0498BFD71FC0008F0085D6A8 /* Credentials.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Credentials.mp4; sourceTree = "<group>"; };
 		0498BFD81FC0008F0085D6A8 /* Four ways.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Four ways.mp4"; sourceTree = "<group>"; };
 		0498BFD91FC0008F0085D6A8 /* How Built.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How Built.mp4"; sourceTree = "<group>"; };
@@ -212,6 +212,10 @@
 		856DF299E13792B8DE48462B /* Pods-Rep2Upstairs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep2Upstairs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep2Upstairs/Pods-Rep2Upstairs.release.xcconfig"; sourceTree = "<group>"; };
 		86C293C758B4FFB26409547D /* Pods_RepDelivery3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepDelivery3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		948D4BEE2DDEF70B88FB0046 /* Pods_Rep12018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep12018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9766A89821B867CB00EC3B40 /* Rep1Upstairs2019.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Rep1Upstairs2019.plist; sourceTree = "<group>"; };
+		9766A89921B867CB00EC3B40 /* Rep2Basement2019.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Rep2Basement2019.plist; sourceTree = "<group>"; };
+		9766A89A21B867CC00EC3B40 /* Rep3Upstairs2019.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Rep3Upstairs2019.plist; sourceTree = "<group>"; };
+		9766A89B21B867CC00EC3B40 /* Rep2Upstairs2019.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Rep2Upstairs2019.plist; sourceTree = "<group>"; };
 		993361136BCD4ECEA0797C9C /* Pods-Rep3Upstairs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep3Upstairs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep3Upstairs/Pods-Rep3Upstairs.debug.xcconfig"; sourceTree = "<group>"; };
 		9B73B8B714A911B329B41AFD /* Pods-RepDelivery32018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery32018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery32018/Pods-RepDelivery32018.debug.xcconfig"; sourceTree = "<group>"; };
 		A31EC8E1FD9EE66E5097130A /* Pods-RepDelivery2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery2.release.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery2/Pods-RepDelivery2.release.xcconfig"; sourceTree = "<group>"; };
@@ -307,11 +311,11 @@
 		0431EA371E650D7B0041C09D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0431EA361E650D7B0041C09D /* Rep1Basement.app */,
-				043FB1421F9B3EA9006D79FD /* Rep2Basement.app */,
-				0498BF811FBFFC0D0085D6A8 /* Rep1Upstairs.app */,
-				0498BF9C1FBFFCAB0085D6A8 /* Rep2Upstairs.app */,
-				0498BFB71FBFFCE70085D6A8 /* Rep3Upstairs.app */,
+				0431EA361E650D7B0041C09D /* Rep1Basement2019.app */,
+				043FB1421F9B3EA9006D79FD /* Rep2Basement2019.app */,
+				0498BF811FBFFC0D0085D6A8 /* Rep1Upstairs2019.app */,
+				0498BF9C1FBFFCAB0085D6A8 /* Rep2Upstairs2019.app */,
+				0498BFB71FBFFCE70085D6A8 /* Rep3Upstairs2019.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -329,11 +333,11 @@
 				0431EA421E650D7B0041C09D /* Main.storyboard */,
 				0431EA481E650D7C0041C09D /* Assets.xcassets */,
 				0431EA4A1E650D7C0041C09D /* LaunchScreen.storyboard */,
-				0431EA4D1E650D7C0041C09D /* Rep1Basement.plist */,
-				043FB1431F9B3EAA006D79FD /* Rep2Basement.plist */,
-				0498BF821FBFFC0D0085D6A8 /* Rep1Upstairs.plist */,
-				0498BF9D1FBFFCAC0085D6A8 /* Rep2Upstairs.plist */,
-				0498BFB81FBFFCE80085D6A8 /* Rep3Upstairs.plist */,
+				0431EA4D1E650D7C0041C09D /* Rep1Basement2019.plist */,
+				9766A89821B867CB00EC3B40 /* Rep1Upstairs2019.plist */,
+				9766A89921B867CB00EC3B40 /* Rep2Basement2019.plist */,
+				9766A89B21B867CC00EC3B40 /* Rep2Upstairs2019.plist */,
+				9766A89A21B867CC00EC3B40 /* Rep3Upstairs2019.plist */,
 				0431EA451E650D7B0041C09D /* VideoApp.xcdatamodeld */,
 				0431EA391E650D7B0041C09D /* Supporting Files */,
 				04A7E02A1E67DDC4006B6BA1 /* Launch Screen.storyboard */,
@@ -523,9 +527,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0431EA351E650D7B0041C09D /* Rep1Basement */ = {
+		0431EA351E650D7B0041C09D /* Rep1Basement2019 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0431EA501E650D7C0041C09D /* Build configuration list for PBXNativeTarget "Rep1Basement" */;
+			buildConfigurationList = 0431EA501E650D7C0041C09D /* Build configuration list for PBXNativeTarget "Rep1Basement2019" */;
 			buildPhases = (
 				590CB485612E2F3518F6A286 /* [CP] Check Pods Manifest.lock */,
 				0431EA321E650D7B0041C09D /* Sources */,
@@ -538,14 +542,14 @@
 			);
 			dependencies = (
 			);
-			name = Rep1Basement;
+			name = Rep1Basement2019;
 			productName = VideoApp;
-			productReference = 0431EA361E650D7B0041C09D /* Rep1Basement.app */;
+			productReference = 0431EA361E650D7B0041C09D /* Rep1Basement2019.app */;
 			productType = "com.apple.product-type.application";
 		};
-		043FB1151F9B3EA9006D79FD /* Rep2Basement */ = {
+		043FB1151F9B3EA9006D79FD /* Rep2Basement2019 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 043FB13F1F9B3EA9006D79FD /* Build configuration list for PBXNativeTarget "Rep2Basement" */;
+			buildConfigurationList = 043FB13F1F9B3EA9006D79FD /* Build configuration list for PBXNativeTarget "Rep2Basement2019" */;
 			buildPhases = (
 				043FB1161F9B3EA9006D79FD /* [CP] Check Pods Manifest.lock */,
 				043FB1171F9B3EA9006D79FD /* Sources */,
@@ -558,14 +562,14 @@
 			);
 			dependencies = (
 			);
-			name = Rep2Basement;
+			name = Rep2Basement2019;
 			productName = VideoApp;
-			productReference = 043FB1421F9B3EA9006D79FD /* Rep2Basement.app */;
+			productReference = 043FB1421F9B3EA9006D79FD /* Rep2Basement2019.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0498BF601FBFFC0D0085D6A8 /* Rep1Upstairs */ = {
+		0498BF601FBFFC0D0085D6A8 /* Rep1Upstairs2019 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0498BF7E1FBFFC0D0085D6A8 /* Build configuration list for PBXNativeTarget "Rep1Upstairs" */;
+			buildConfigurationList = 0498BF7E1FBFFC0D0085D6A8 /* Build configuration list for PBXNativeTarget "Rep1Upstairs2019" */;
 			buildPhases = (
 				0498BF611FBFFC0D0085D6A8 /* [CP] Check Pods Manifest.lock */,
 				0498BF621FBFFC0D0085D6A8 /* Sources */,
@@ -578,14 +582,14 @@
 			);
 			dependencies = (
 			);
-			name = Rep1Upstairs;
+			name = Rep1Upstairs2019;
 			productName = VideoApp;
-			productReference = 0498BF811FBFFC0D0085D6A8 /* Rep1Upstairs.app */;
+			productReference = 0498BF811FBFFC0D0085D6A8 /* Rep1Upstairs2019.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0498BF831FBFFCAB0085D6A8 /* Rep2Upstairs */ = {
+		0498BF831FBFFCAB0085D6A8 /* Rep2Upstairs2019 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0498BF991FBFFCAB0085D6A8 /* Build configuration list for PBXNativeTarget "Rep2Upstairs" */;
+			buildConfigurationList = 0498BF991FBFFCAB0085D6A8 /* Build configuration list for PBXNativeTarget "Rep2Upstairs2019" */;
 			buildPhases = (
 				0498BF841FBFFCAB0085D6A8 /* [CP] Check Pods Manifest.lock */,
 				0498BF851FBFFCAB0085D6A8 /* Sources */,
@@ -598,14 +602,14 @@
 			);
 			dependencies = (
 			);
-			name = Rep2Upstairs;
+			name = Rep2Upstairs2019;
 			productName = VideoApp;
-			productReference = 0498BF9C1FBFFCAB0085D6A8 /* Rep2Upstairs.app */;
+			productReference = 0498BF9C1FBFFCAB0085D6A8 /* Rep2Upstairs2019.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0498BF9E1FBFFCE70085D6A8 /* Rep3Upstairs */ = {
+		0498BF9E1FBFFCE70085D6A8 /* Rep3Upstairs2019 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0498BFB41FBFFCE70085D6A8 /* Build configuration list for PBXNativeTarget "Rep3Upstairs" */;
+			buildConfigurationList = 0498BFB41FBFFCE70085D6A8 /* Build configuration list for PBXNativeTarget "Rep3Upstairs2019" */;
 			buildPhases = (
 				0498BF9F1FBFFCE70085D6A8 /* [CP] Check Pods Manifest.lock */,
 				0498BFA01FBFFCE70085D6A8 /* Sources */,
@@ -618,9 +622,9 @@
 			);
 			dependencies = (
 			);
-			name = Rep3Upstairs;
+			name = Rep3Upstairs2019;
 			productName = VideoApp;
-			productReference = 0498BFB71FBFFCE70085D6A8 /* Rep3Upstairs.app */;
+			productReference = 0498BFB71FBFFCE70085D6A8 /* Rep3Upstairs2019.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -664,11 +668,11 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0431EA351E650D7B0041C09D /* Rep1Basement */,
-				043FB1151F9B3EA9006D79FD /* Rep2Basement */,
-				0498BF601FBFFC0D0085D6A8 /* Rep1Upstairs */,
-				0498BF831FBFFCAB0085D6A8 /* Rep2Upstairs */,
-				0498BF9E1FBFFCE70085D6A8 /* Rep3Upstairs */,
+				0431EA351E650D7B0041C09D /* Rep1Basement2019 */,
+				043FB1151F9B3EA9006D79FD /* Rep2Basement2019 */,
+				0498BF601FBFFC0D0085D6A8 /* Rep1Upstairs2019 */,
+				0498BF831FBFFCAB0085D6A8 /* Rep2Upstairs2019 */,
+				0498BF9E1FBFFCE70085D6A8 /* Rep3Upstairs2019 */,
 			);
 		};
 /* End PBXProject section */
@@ -682,6 +686,7 @@
 				0431EA4C1E650D7C0041C09D /* LaunchScreen.storyboard in Resources */,
 				046E3DA11E662DB8006064D9 /* Home Owners Stuff.mp4 in Resources */,
 				046E3DAA1E662DB8006064D9 /* Tools.mp4 in Resources */,
+				9766A89D21B867CC00EC3B40 /* Rep2Basement2019.plist in Resources */,
 				046E3D981E662DB8006064D9 /* Affected items.mp4 in Resources */,
 				0431EA491E650D7C0041C09D /* Assets.xcassets in Resources */,
 				0498BFB91FBFFF580085D6A8 /* Exterior inspection.mp4 in Resources */,
@@ -690,11 +695,14 @@
 				0443860B20184C2500D8ED4E /* Inspection.mp4 in Resources */,
 				046E3DA61E662DB8006064D9 /* Mold Test.mp4 in Resources */,
 				04A7E02B1E67DDC4006B6BA1 /* Launch Screen.storyboard in Resources */,
+				9766A89E21B867CC00EC3B40 /* Rep3Upstairs2019.plist in Resources */,
+				9766A89C21B867CC00EC3B40 /* Rep1Upstairs2019.plist in Resources */,
 				046E3D991E662DB8006064D9 /* Area of interest.mp4 in Resources */,
 				046E3DAB1E662DB8006064D9 /* Welcome.mp4 in Resources */,
 				0431EA441E650D7B0041C09D /* Main.storyboard in Resources */,
 				046E3DA31E662DB8006064D9 /* Lift Test.mp4 in Resources */,
 				046E3D9C1E662DB8006064D9 /* Electric.mp4 in Resources */,
+				9766A89F21B867CC00EC3B40 /* Rep2Upstairs2019.plist in Resources */,
 				046E3D9B1E662DB8006064D9 /* Dehumidifier.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1270,11 +1278,11 @@
 					"COCOAPODS=1",
 					"rep1=1",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep1Basement.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep1Basement2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.VideoApp1;
-				PRODUCT_NAME = Rep1Basement;
+				PRODUCT_NAME = Rep1Basement2019;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
@@ -1293,11 +1301,11 @@
 					"COCOAPODS=1",
 					"rep1=1",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep1Basement.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep1Basement2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.VideoApp1;
-				PRODUCT_NAME = Rep1Basement;
+				PRODUCT_NAME = Rep1Basement2019;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
@@ -1314,11 +1322,11 @@
 					"COCOAPODS=1",
 					"rep2=1",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep2Basement.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep2Basement2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.VideoApp2;
-				PRODUCT_NAME = Rep2Basement;
+				PRODUCT_NAME = Rep2Basement2019;
 			};
 			name = Debug;
 		};
@@ -1334,11 +1342,11 @@
 					"COCOAPODS=1",
 					"rep2=1",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep2Basement.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep2Basement2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.VideoApp2;
-				PRODUCT_NAME = Rep2Basement;
+				PRODUCT_NAME = Rep2Basement2019;
 			};
 			name = Release;
 		};
@@ -1354,11 +1362,11 @@
 					"COCOAPODS=1",
 					"repdelivery1=1",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep1Upstairs.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep1Upstairs2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery1;
-				PRODUCT_NAME = Rep1Upstairs;
+				PRODUCT_NAME = Rep1Upstairs2019;
 			};
 			name = Debug;
 		};
@@ -1374,11 +1382,11 @@
 					"COCOAPODS=1",
 					"repdelivery1=1",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep1Upstairs.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep1Upstairs2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery1;
-				PRODUCT_NAME = Rep1Upstairs;
+				PRODUCT_NAME = Rep1Upstairs2019;
 			};
 			name = Release;
 		};
@@ -1394,11 +1402,11 @@
 					"COCOAPODS=1",
 					"repdelivery2=1",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep2Upstairs.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep2Upstairs2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery2;
-				PRODUCT_NAME = Rep2Upstairs;
+				PRODUCT_NAME = Rep2Upstairs2019;
 			};
 			name = Debug;
 		};
@@ -1414,11 +1422,11 @@
 					"COCOAPODS=1",
 					"repdelivery2=1",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep2Upstairs.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep2Upstairs2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery2;
-				PRODUCT_NAME = Rep2Upstairs;
+				PRODUCT_NAME = Rep2Upstairs2019;
 			};
 			name = Release;
 		};
@@ -1434,11 +1442,11 @@
 					"COCOAPODS=1",
 					"repdelivery3=1",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep3Upstairs.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep3Upstairs2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery3;
-				PRODUCT_NAME = Rep3Upstairs;
+				PRODUCT_NAME = Rep3Upstairs2019;
 			};
 			name = Debug;
 		};
@@ -1454,11 +1462,11 @@
 					"COCOAPODS=1",
 					"repdelivery3=1",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep3Upstairs.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep3Upstairs2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery3;
-				PRODUCT_NAME = Rep3Upstairs;
+				PRODUCT_NAME = Rep3Upstairs2019;
 			};
 			name = Release;
 		};
@@ -1474,7 +1482,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0431EA501E650D7C0041C09D /* Build configuration list for PBXNativeTarget "Rep1Basement" */ = {
+		0431EA501E650D7C0041C09D /* Build configuration list for PBXNativeTarget "Rep1Basement2019" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0431EA511E650D7C0041C09D /* Debug */,
@@ -1483,7 +1491,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		043FB13F1F9B3EA9006D79FD /* Build configuration list for PBXNativeTarget "Rep2Basement" */ = {
+		043FB13F1F9B3EA9006D79FD /* Build configuration list for PBXNativeTarget "Rep2Basement2019" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				043FB1401F9B3EA9006D79FD /* Debug */,
@@ -1492,7 +1500,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0498BF7E1FBFFC0D0085D6A8 /* Build configuration list for PBXNativeTarget "Rep1Upstairs" */ = {
+		0498BF7E1FBFFC0D0085D6A8 /* Build configuration list for PBXNativeTarget "Rep1Upstairs2019" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0498BF7F1FBFFC0D0085D6A8 /* Debug */,
@@ -1501,7 +1509,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0498BF991FBFFCAB0085D6A8 /* Build configuration list for PBXNativeTarget "Rep2Upstairs" */ = {
+		0498BF991FBFFCAB0085D6A8 /* Build configuration list for PBXNativeTarget "Rep2Upstairs2019" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0498BF9A1FBFFCAB0085D6A8 /* Debug */,
@@ -1510,7 +1518,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0498BFB41FBFFCE70085D6A8 /* Build configuration list for PBXNativeTarget "Rep3Upstairs" */ = {
+		0498BFB41FBFFCE70085D6A8 /* Build configuration list for PBXNativeTarget "Rep3Upstairs2019" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0498BFB51FBFFCE70085D6A8 /* Debug */,
