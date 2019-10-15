@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0431EA351E650D7B0041C09D"
-               BuildableName = "Rep1Basement.app"
-               BlueprintName = "Rep1Basement"
+               BuildableName = "Rep1Basement2019.app"
+               BlueprintName = "Rep1Basement2019"
                ReferencedContainer = "container:VideoApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,19 +27,17 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <Testables>
-      </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0431EA351E650D7B0041C09D"
-            BuildableName = "Rep1Basement.app"
-            BlueprintName = "Rep1Basement"
+            BuildableName = "Rep1Basement2019.app"
+            BlueprintName = "Rep1Basement2019"
             ReferencedContainer = "container:VideoApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
+      <Testables>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -56,13 +54,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0431EA351E650D7B0041C09D"
-            BuildableName = "Rep1Basement.app"
-            BlueprintName = "Rep1Basement"
+            BuildableName = "Rep1Basement2019.app"
+            BlueprintName = "Rep1Basement2019"
             ReferencedContainer = "container:VideoApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -75,8 +71,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0431EA351E650D7B0041C09D"
-            BuildableName = "Rep1Basement.app"
-            BlueprintName = "Rep1Basement"
+            BuildableName = "Rep1Basement2019.app"
+            BlueprintName = "Rep1Basement2019"
             ReferencedContainer = "container:VideoApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -14,7 +14,6 @@
 		041582C0202F251200B7A198 /* Stages.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFDB1FC0008F0085D6A8 /* Stages.mp4 */; };
 		041582C1202F251800B7A198 /* Four ways.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFD81FC0008F0085D6A8 /* Four ways.mp4 */; };
 		04315FFE204729DA00B508DF /* Damages.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04315FFC204729DA00B508DF /* Damages.mp4 */; };
-		04315FFF204729DA00B508DF /* Accomplishment.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04315FFD204729DA00B508DF /* Accomplishment.mp4 */; };
 		0431EA3B1E650D7B0041C09D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA3A1E650D7B0041C09D /* main.m */; };
 		0431EA3E1E650D7B0041C09D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431EA3D1E650D7B0041C09D /* AppDelegate.m */; };
 		0431EA441E650D7B0041C09D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0431EA421E650D7B0041C09D /* Main.storyboard */; };
@@ -127,7 +126,6 @@
 
 /* Begin PBXFileReference section */
 		04315FFC204729DA00B508DF /* Damages.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Damages.mp4; path = VideoApp/resource/Damages.mp4; sourceTree = SOURCE_ROOT; };
-		04315FFD204729DA00B508DF /* Accomplishment.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Accomplishment.mp4; path = VideoApp/resource/Accomplishment.mp4; sourceTree = SOURCE_ROOT; };
 		0431EA361E650D7B0041C09D /* Rep1Basement2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep1Basement2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0431EA3A1E650D7B0041C09D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0431EA3C1E650D7B0041C09D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -411,7 +409,6 @@
 		0498BFD61FC0008F0085D6A8 /* Video Pressentation 1 */ = {
 			isa = PBXGroup;
 			children = (
-				04315FFD204729DA00B508DF /* Accomplishment.mp4 */,
 				04315FFC204729DA00B508DF /* Damages.mp4 */,
 				0498BFD71FC0008F0085D6A8 /* Credentials.mp4 */,
 				0498BFD81FC0008F0085D6A8 /* Four ways.mp4 */,
@@ -660,6 +657,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -762,7 +760,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04315FFF204729DA00B508DF /* Accomplishment.mp4 in Resources */,
 				0498BFAE1FBFFCE70085D6A8 /* LaunchScreen.storyboard in Resources */,
 				0498BFAF1FBFFCE70085D6A8 /* Assets.xcassets in Resources */,
 				0498BFEF1FC0009C0085D6A8 /* Solution.mp4 in Resources */,
@@ -1271,6 +1268,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1294,6 +1292,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1315,6 +1314,7 @@
 			baseConfigurationReference = 097905E6829A05937530ABA6 /* Pods-Rep2Basement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1335,6 +1335,7 @@
 			baseConfigurationReference = 1ED00CE735D03CEDC5DD1CDF /* Pods-Rep2Basement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1355,6 +1356,7 @@
 			baseConfigurationReference = BA5651FE07A00E40572189C5 /* Pods-Rep1Upstairs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1375,6 +1377,7 @@
 			baseConfigurationReference = F381FCAF8F0F372629477822 /* Pods-Rep1Upstairs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1395,6 +1398,7 @@
 			baseConfigurationReference = 3361D29D2D7585FDD4B86001 /* Pods-Rep2Upstairs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1415,6 +1419,7 @@
 			baseConfigurationReference = 856DF299E13792B8DE48462B /* Pods-Rep2Upstairs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1435,6 +1440,7 @@
 			baseConfigurationReference = 993361136BCD4ECEA0797C9C /* Pods-Rep3Upstairs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1455,6 +1461,7 @@
 			baseConfigurationReference = B09FE29E069A3335C0D18DF8 /* Pods-Rep3Upstairs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (

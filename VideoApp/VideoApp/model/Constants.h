@@ -45,7 +45,7 @@
 
 #ifdef repdelivery3
 
-#define VIDEO_TITLES   @[@"Four ways" , @"Damages" , @"Accomplishment",@"Solution"  ,@"Asking for the order"]
+#define VIDEO_TITLES   @[@"Four ways" , @"Damages",@"Solution"  ,@"Asking for the order"]
 
 #endif
 
