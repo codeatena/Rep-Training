@@ -1268,7 +1268,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1292,7 +1292,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1314,7 +1314,7 @@
 			baseConfigurationReference = 097905E6829A05937530ABA6 /* Pods-Rep2Basement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1335,7 +1335,7 @@
 			baseConfigurationReference = 1ED00CE735D03CEDC5DD1CDF /* Pods-Rep2Basement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1356,7 +1356,7 @@
 			baseConfigurationReference = BA5651FE07A00E40572189C5 /* Pods-Rep1Upstairs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1377,7 +1377,7 @@
 			baseConfigurationReference = F381FCAF8F0F372629477822 /* Pods-Rep1Upstairs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1398,7 +1398,7 @@
 			baseConfigurationReference = 3361D29D2D7585FDD4B86001 /* Pods-Rep2Upstairs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1419,7 +1419,7 @@
 			baseConfigurationReference = 856DF299E13792B8DE48462B /* Pods-Rep2Upstairs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1440,7 +1440,7 @@
 			baseConfigurationReference = 993361136BCD4ECEA0797C9C /* Pods-Rep3Upstairs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1449,7 +1449,7 @@
 					"repdelivery3=1",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep3Upstairs2019.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery3;
 				PRODUCT_NAME = Rep3Upstairs2019;
@@ -1461,7 +1461,7 @@
 			baseConfigurationReference = B09FE29E069A3335C0D18DF8 /* Pods-Rep3Upstairs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = ADYVQ46KY2;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1470,7 +1470,7 @@
 					"repdelivery3=1",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep3Upstairs2019.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VirtusVentures.RepDelivery3;
 				PRODUCT_NAME = Rep3Upstairs2019;
