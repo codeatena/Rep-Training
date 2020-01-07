@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		035982735A4C39440E347315 /* Pods_Rep1Basement2019.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830A194D3E1A791D6D501E3D /* Pods_Rep1Basement2019.framework */; };
 		041582BC202F24EB00B7A198 /* Inspection.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0443860A20184C2500D8ED4E /* Inspection.mp4 */; };
 		041582BD202F250700B7A198 /* Credentials.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFD71FC0008F0085D6A8 /* Credentials.mp4 */; };
 		041582BE202F250A00B7A198 /* How Built.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0498BFD91FC0008F0085D6A8 /* How Built.mp4 */; };
@@ -113,15 +114,14 @@
 		04A7E02B1E67DDC4006B6BA1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A7E02A1E67DDC4006B6BA1 /* Launch Screen.storyboard */; };
 		04A7E02E1E67E022006B6BA1 /* ActivateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E02D1E67E022006B6BA1 /* ActivateViewController.m */; };
 		04A7E0331E67F129006B6BA1 /* GVUserDefaults+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E0321E67F129006B6BA1 /* GVUserDefaults+Properties.m */; };
-		49F1CB2E1FD25744B3291C6A /* Pods_Rep2Upstairs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0A62D983F51057E37FD6B8 /* Pods_Rep2Upstairs.framework */; };
-		4D87B6576B221522A3E9BCDD /* Pods_Rep1Upstairs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED19C68518E9A7667991FD13 /* Pods_Rep1Upstairs.framework */; };
-		9010F1AE4B8E0B3C62568426 /* Pods_Rep1Basement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460880BF57ECAAD07DF644DD /* Pods_Rep1Basement.framework */; };
+		42D6D4D1016AF192C97806C7 /* Pods_Rep3Upstairs2019.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA02CD48E9CF095B2F853CDE /* Pods_Rep3Upstairs2019.framework */; };
 		9766A89C21B867CC00EC3B40 /* Rep1Upstairs2019.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9766A89821B867CB00EC3B40 /* Rep1Upstairs2019.plist */; };
 		9766A89D21B867CC00EC3B40 /* Rep2Basement2019.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9766A89921B867CB00EC3B40 /* Rep2Basement2019.plist */; };
 		9766A89E21B867CC00EC3B40 /* Rep3Upstairs2019.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9766A89A21B867CC00EC3B40 /* Rep3Upstairs2019.plist */; };
 		9766A89F21B867CC00EC3B40 /* Rep2Upstairs2019.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9766A89B21B867CC00EC3B40 /* Rep2Upstairs2019.plist */; };
-		9B9BA4A35C45D5DC0E74BF68 /* Pods_Rep3Upstairs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B930EBE3E48EBC3519B694 /* Pods_Rep3Upstairs.framework */; };
-		B34E7D313731F44737C80BE8 /* Pods_Rep2Basement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE33C548DFF7F4500A53E2D4 /* Pods_Rep2Basement.framework */; };
+		C729890B9A80F2287F66E807 /* Pods_Rep2Basement2019.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA9EE6B6507A10616BB3C07 /* Pods_Rep2Basement2019.framework */; };
+		DE4913CF2E91E0B91768F0EB /* Pods_Rep1Upstairs2019.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDC6DBB30C3491D45EBDB9 /* Pods_Rep1Upstairs2019.framework */; };
+		E037E100A725141979D9F10F /* Pods_Rep2Upstairs2019.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD088D306EB42A95A91491D /* Pods_Rep2Upstairs2019.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -147,6 +147,7 @@
 		043FB1421F9B3EA9006D79FD /* Rep2Basement2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep2Basement2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0443860820184C1300D8ED4E /* Warm Up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Warm Up.mp4"; sourceTree = "<group>"; };
 		0443860A20184C2500D8ED4E /* Inspection.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Inspection.mp4; sourceTree = "<group>"; };
+		04485B91CB558C957EB613BB /* Pods-Rep3Upstairs2019.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep3Upstairs2019.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep3Upstairs2019/Pods-Rep3Upstairs2019.debug.xcconfig"; sourceTree = "<group>"; };
 		046E3D831E662DB8006064D9 /* Affected items.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Affected items.mp4"; sourceTree = "<group>"; };
 		046E3D841E662DB8006064D9 /* Area of interest.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Area of interest.mp4"; sourceTree = "<group>"; };
 		046E3D851E662DB8006064D9 /* coming from help.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "coming from help.mp4"; sourceTree = "<group>"; };
@@ -188,27 +189,32 @@
 		04A7E0321E67F129006B6BA1 /* GVUserDefaults+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GVUserDefaults+Properties.m"; path = "model/GVUserDefaults+Properties.m"; sourceTree = "<group>"; };
 		04A7E0351E67F838006B6BA1 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = model/Constants.h; sourceTree = "<group>"; };
 		04D358271F6A6BCE008B8957 /* Under _ Behind finished.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Under _ Behind finished.mp4"; sourceTree = "<group>"; };
+		059AF23B2FF852F36C3573BE /* Pods-Rep1Basement2019.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep1Basement2019.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep1Basement2019/Pods-Rep1Basement2019.release.xcconfig"; sourceTree = "<group>"; };
 		097905E6829A05937530ABA6 /* Pods-Rep2Basement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep2Basement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep2Basement/Pods-Rep2Basement.debug.xcconfig"; sourceTree = "<group>"; };
 		0A57F37D4B91A475304C9106 /* Pods_Rep22018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep22018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED00CE735D03CEDC5DD1CDF /* Pods-Rep2Basement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep2Basement.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep2Basement/Pods-Rep2Basement.release.xcconfig"; sourceTree = "<group>"; };
 		225D35189EAFC2703F643FC2 /* Pods_RepDelivery2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepDelivery2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F8F9DDFE7A5AB89FEA40FB /* Pods-Rep1Upstairs2019.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep1Upstairs2019.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep1Upstairs2019/Pods-Rep1Upstairs2019.debug.xcconfig"; sourceTree = "<group>"; };
 		2C698E00B4B5D818C090F392 /* Pods-VideoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoApp/Pods-VideoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		31EBADEBD726F2A800EA19B4 /* Pods-VideoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoApp/Pods-VideoApp.release.xcconfig"; sourceTree = "<group>"; };
 		3361D29D2D7585FDD4B86001 /* Pods-Rep2Upstairs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep2Upstairs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep2Upstairs/Pods-Rep2Upstairs.debug.xcconfig"; sourceTree = "<group>"; };
-		3D0A62D983F51057E37FD6B8 /* Pods_Rep2Upstairs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep2Upstairs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		460880BF57ECAAD07DF644DD /* Pods_Rep1Basement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep1Basement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D03A9232486C50C5212833 /* Pods-RepDelivery22018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery22018.release.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery22018/Pods-RepDelivery22018.release.xcconfig"; sourceTree = "<group>"; };
 		48DE0881CEBF7849AACC392E /* Pods-Rep1Basement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep1Basement.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep1Basement/Pods-Rep1Basement.release.xcconfig"; sourceTree = "<group>"; };
+		49C6200484BE9F8706008686 /* Pods-Rep1Upstairs2019.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep1Upstairs2019.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep1Upstairs2019/Pods-Rep1Upstairs2019.release.xcconfig"; sourceTree = "<group>"; };
 		49D4271FA5EA7101E6604677 /* Pods-Rep12018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep12018.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep12018/Pods-Rep12018.release.xcconfig"; sourceTree = "<group>"; };
 		4E022B57C76DBC6067DFB4E2 /* Pods-Rep12018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep12018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep12018/Pods-Rep12018.debug.xcconfig"; sourceTree = "<group>"; };
+		5FDF47289F191996E85A6493 /* Pods-Rep2Upstairs2019.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep2Upstairs2019.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep2Upstairs2019/Pods-Rep2Upstairs2019.debug.xcconfig"; sourceTree = "<group>"; };
 		6EA4CE40079E4A663186CA28 /* Pods_RepDelivery12018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepDelivery12018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76BFD988839EE833F9141B50 /* Pods-RepDelivery12018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery12018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery12018/Pods-RepDelivery12018.debug.xcconfig"; sourceTree = "<group>"; };
 		76EC75930481B7177814F79F /* Pods-RepDelivery32018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery32018.release.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery32018/Pods-RepDelivery32018.release.xcconfig"; sourceTree = "<group>"; };
+		7844A7037E41219881DE1B8A /* Pods-Rep2Basement2019.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep2Basement2019.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep2Basement2019/Pods-Rep2Basement2019.release.xcconfig"; sourceTree = "<group>"; };
 		7B0F192043F1228A983B84D4 /* Pods-Rep2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep2/Pods-Rep2.release.xcconfig"; sourceTree = "<group>"; };
 		7D0C5AC14D6EE4FE12403038 /* Pods_RepDelivery22018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepDelivery22018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BD08BB20EFE13EF290203A /* Pods-RepDelivery1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery1/Pods-RepDelivery1.debug.xcconfig"; sourceTree = "<group>"; };
+		830A194D3E1A791D6D501E3D /* Pods_Rep1Basement2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep1Basement2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		856DF299E13792B8DE48462B /* Pods-Rep2Upstairs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep2Upstairs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep2Upstairs/Pods-Rep2Upstairs.release.xcconfig"; sourceTree = "<group>"; };
 		86C293C758B4FFB26409547D /* Pods_RepDelivery3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepDelivery3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD088D306EB42A95A91491D /* Pods_Rep2Upstairs2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep2Upstairs2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		948D4BEE2DDEF70B88FB0046 /* Pods_Rep12018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep12018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9766A89821B867CB00EC3B40 /* Rep1Upstairs2019.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Rep1Upstairs2019.plist; sourceTree = "<group>"; };
 		9766A89921B867CB00EC3B40 /* Rep2Basement2019.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Rep2Basement2019.plist; sourceTree = "<group>"; };
@@ -216,27 +222,31 @@
 		9766A89B21B867CC00EC3B40 /* Rep2Upstairs2019.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Rep2Upstairs2019.plist; sourceTree = "<group>"; };
 		993361136BCD4ECEA0797C9C /* Pods-Rep3Upstairs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep3Upstairs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep3Upstairs/Pods-Rep3Upstairs.debug.xcconfig"; sourceTree = "<group>"; };
 		9B73B8B714A911B329B41AFD /* Pods-RepDelivery32018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery32018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery32018/Pods-RepDelivery32018.debug.xcconfig"; sourceTree = "<group>"; };
+		9D301695C60135D644F9C56C /* Pods-Rep2Basement2019.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep2Basement2019.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep2Basement2019/Pods-Rep2Basement2019.debug.xcconfig"; sourceTree = "<group>"; };
 		A31EC8E1FD9EE66E5097130A /* Pods-RepDelivery2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery2.release.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery2/Pods-RepDelivery2.release.xcconfig"; sourceTree = "<group>"; };
 		B09FE29E069A3335C0D18DF8 /* Pods-Rep3Upstairs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep3Upstairs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep3Upstairs/Pods-Rep3Upstairs.release.xcconfig"; sourceTree = "<group>"; };
 		BA5651FE07A00E40572189C5 /* Pods-Rep1Upstairs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep1Upstairs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep1Upstairs/Pods-Rep1Upstairs.debug.xcconfig"; sourceTree = "<group>"; };
 		BA6265DB7FC254074A3B286E /* Pods-Rep1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep1/Pods-Rep1.debug.xcconfig"; sourceTree = "<group>"; };
-		BE33C548DFF7F4500A53E2D4 /* Pods_Rep2Basement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep2Basement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0BEBCB05EEC6721A405273 /* Pods-Rep3Upstairs2019.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep3Upstairs2019.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep3Upstairs2019/Pods-Rep3Upstairs2019.release.xcconfig"; sourceTree = "<group>"; };
 		C052EE8C306CBBAC531263C5 /* Pods-Rep22018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep22018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep22018/Pods-Rep22018.debug.xcconfig"; sourceTree = "<group>"; };
 		C22794F41F9BC85B666A1F72 /* Pods-Rep22018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep22018.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep22018/Pods-Rep22018.release.xcconfig"; sourceTree = "<group>"; };
-		C5B930EBE3E48EBC3519B694 /* Pods_Rep3Upstairs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep3Upstairs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B695D9C567AD6559057553 /* Pods_RepDelivery1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepDelivery1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA85E1298A66FD647CFEC6F7 /* Pods-RepDelivery1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery1.release.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery1/Pods-RepDelivery1.release.xcconfig"; sourceTree = "<group>"; };
 		CE483A7330A7BD70F254AB7C /* Pods-Rep1Basement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep1Basement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep1Basement/Pods-Rep1Basement.debug.xcconfig"; sourceTree = "<group>"; };
 		D2797E6ABDFA8E8F45EC78A6 /* Pods-RepDelivery3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery3/Pods-RepDelivery3.debug.xcconfig"; sourceTree = "<group>"; };
 		D2CC7D74F20EE9602B929483 /* Pods_RepDelivery32018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepDelivery32018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35A98CBD7C03FE468B03560 /* Pods_Rep2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D99029CBF0873D0925237074 /* Pods-Rep1Basement2019.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep1Basement2019.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep1Basement2019/Pods-Rep1Basement2019.debug.xcconfig"; sourceTree = "<group>"; };
+		E0A20963FE44AAAA63EC0F87 /* Pods-Rep2Upstairs2019.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep2Upstairs2019.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep2Upstairs2019/Pods-Rep2Upstairs2019.release.xcconfig"; sourceTree = "<group>"; };
 		E53C601478AF4407C6C2F811 /* Pods-Rep2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep2/Pods-Rep2.debug.xcconfig"; sourceTree = "<group>"; };
 		E6FC8E2C1AB2F7AAC440AD92 /* Pods-RepDelivery2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery2/Pods-RepDelivery2.debug.xcconfig"; sourceTree = "<group>"; };
 		E7589756AB96BA769931C21A /* Pods-RepDelivery12018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery12018.release.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery12018/Pods-RepDelivery12018.release.xcconfig"; sourceTree = "<group>"; };
-		ED19C68518E9A7667991FD13 /* Pods_Rep1Upstairs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep1Upstairs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEB990EA999C1BFFA8481C6 /* Pods_Rep1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F381FCAF8F0F372629477822 /* Pods-Rep1Upstairs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep1Upstairs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep1Upstairs/Pods-Rep1Upstairs.release.xcconfig"; sourceTree = "<group>"; };
 		F7CBB5DDD88CCC842820F40A /* Pods-RepDelivery22018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery22018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery22018/Pods-RepDelivery22018.debug.xcconfig"; sourceTree = "<group>"; };
+		FA02CD48E9CF095B2F853CDE /* Pods_Rep3Upstairs2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep3Upstairs2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA9EE6B6507A10616BB3C07 /* Pods_Rep2Basement2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep2Basement2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBDC6DBB30C3491D45EBDB9 /* Pods_Rep1Upstairs2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep1Upstairs2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0C8091841AB0B332E07629 /* Pods-Rep1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep1/Pods-Rep1.release.xcconfig"; sourceTree = "<group>"; };
 		FEDBBDF278195B6BB0C05D43 /* Pods_VideoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF53C8EF0F4A2BC2A4F72A39 /* Pods-RepDelivery3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery3.release.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery3/Pods-RepDelivery3.release.xcconfig"; sourceTree = "<group>"; };
@@ -249,7 +259,7 @@
 			files = (
 				0431EA621E65202E0041C09D /* AVKit.framework in Frameworks */,
 				0431EA601E651FDB0041C09D /* AVFoundation.framework in Frameworks */,
-				9010F1AE4B8E0B3C62568426 /* Pods_Rep1Basement.framework in Frameworks */,
+				035982735A4C39440E347315 /* Pods_Rep1Basement2019.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +269,7 @@
 			files = (
 				043FB1211F9B3EA9006D79FD /* AVKit.framework in Frameworks */,
 				043FB1221F9B3EA9006D79FD /* AVFoundation.framework in Frameworks */,
-				B34E7D313731F44737C80BE8 /* Pods_Rep2Basement.framework in Frameworks */,
+				C729890B9A80F2287F66E807 /* Pods_Rep2Basement2019.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +279,7 @@
 			files = (
 				0498BF6C1FBFFC0D0085D6A8 /* AVKit.framework in Frameworks */,
 				0498BF6D1FBFFC0D0085D6A8 /* AVFoundation.framework in Frameworks */,
-				4D87B6576B221522A3E9BCDD /* Pods_Rep1Upstairs.framework in Frameworks */,
+				DE4913CF2E91E0B91768F0EB /* Pods_Rep1Upstairs2019.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +289,7 @@
 			files = (
 				0498BF8F1FBFFCAB0085D6A8 /* AVKit.framework in Frameworks */,
 				0498BF901FBFFCAB0085D6A8 /* AVFoundation.framework in Frameworks */,
-				49F1CB2E1FD25744B3291C6A /* Pods_Rep2Upstairs.framework in Frameworks */,
+				E037E100A725141979D9F10F /* Pods_Rep2Upstairs2019.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +299,7 @@
 			files = (
 				0498BFAA1FBFFCE70085D6A8 /* AVKit.framework in Frameworks */,
 				0498BFAB1FBFFCE70085D6A8 /* AVFoundation.framework in Frameworks */,
-				9B9BA4A35C45D5DC0E74BF68 /* Pods_Rep3Upstairs.framework in Frameworks */,
+				42D6D4D1016AF192C97806C7 /* Pods_Rep3Upstairs2019.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,11 +483,11 @@
 				6EA4CE40079E4A663186CA28 /* Pods_RepDelivery12018.framework */,
 				7D0C5AC14D6EE4FE12403038 /* Pods_RepDelivery22018.framework */,
 				D2CC7D74F20EE9602B929483 /* Pods_RepDelivery32018.framework */,
-				460880BF57ECAAD07DF644DD /* Pods_Rep1Basement.framework */,
-				ED19C68518E9A7667991FD13 /* Pods_Rep1Upstairs.framework */,
-				BE33C548DFF7F4500A53E2D4 /* Pods_Rep2Basement.framework */,
-				3D0A62D983F51057E37FD6B8 /* Pods_Rep2Upstairs.framework */,
-				C5B930EBE3E48EBC3519B694 /* Pods_Rep3Upstairs.framework */,
+				830A194D3E1A791D6D501E3D /* Pods_Rep1Basement2019.framework */,
+				FCBDC6DBB30C3491D45EBDB9 /* Pods_Rep1Upstairs2019.framework */,
+				FCA9EE6B6507A10616BB3C07 /* Pods_Rep2Basement2019.framework */,
+				8AD088D306EB42A95A91491D /* Pods_Rep2Upstairs2019.framework */,
+				FA02CD48E9CF095B2F853CDE /* Pods_Rep3Upstairs2019.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -517,6 +527,16 @@
 				856DF299E13792B8DE48462B /* Pods-Rep2Upstairs.release.xcconfig */,
 				993361136BCD4ECEA0797C9C /* Pods-Rep3Upstairs.debug.xcconfig */,
 				B09FE29E069A3335C0D18DF8 /* Pods-Rep3Upstairs.release.xcconfig */,
+				D99029CBF0873D0925237074 /* Pods-Rep1Basement2019.debug.xcconfig */,
+				059AF23B2FF852F36C3573BE /* Pods-Rep1Basement2019.release.xcconfig */,
+				28F8F9DDFE7A5AB89FEA40FB /* Pods-Rep1Upstairs2019.debug.xcconfig */,
+				49C6200484BE9F8706008686 /* Pods-Rep1Upstairs2019.release.xcconfig */,
+				9D301695C60135D644F9C56C /* Pods-Rep2Basement2019.debug.xcconfig */,
+				7844A7037E41219881DE1B8A /* Pods-Rep2Basement2019.release.xcconfig */,
+				5FDF47289F191996E85A6493 /* Pods-Rep2Upstairs2019.debug.xcconfig */,
+				E0A20963FE44AAAA63EC0F87 /* Pods-Rep2Upstairs2019.release.xcconfig */,
+				04485B91CB558C957EB613BB /* Pods-Rep3Upstairs2019.debug.xcconfig */,
+				BD0BEBCB05EEC6721A405273 /* Pods-Rep3Upstairs2019.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -533,7 +553,6 @@
 				0431EA331E650D7B0041C09D /* Frameworks */,
 				0431EA341E650D7B0041C09D /* Resources */,
 				F281A8E7C527B6A72A24501D /* [CP] Embed Pods Frameworks */,
-				D649F8F377F17BE84B6475CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -553,7 +572,6 @@
 				043FB1201F9B3EA9006D79FD /* Frameworks */,
 				043FB1241F9B3EA9006D79FD /* Resources */,
 				043FB13D1F9B3EA9006D79FD /* [CP] Embed Pods Frameworks */,
-				043FB13E1F9B3EA9006D79FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -573,7 +591,6 @@
 				0498BF6B1FBFFC0D0085D6A8 /* Frameworks */,
 				0498BF6F1FBFFC0D0085D6A8 /* Resources */,
 				0498BF7C1FBFFC0D0085D6A8 /* [CP] Embed Pods Frameworks */,
-				0498BF7D1FBFFC0D0085D6A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -593,7 +610,6 @@
 				0498BF8E1FBFFCAB0085D6A8 /* Frameworks */,
 				0498BF921FBFFCAB0085D6A8 /* Resources */,
 				0498BF971FBFFCAB0085D6A8 /* [CP] Embed Pods Frameworks */,
-				0498BF981FBFFCAB0085D6A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -613,7 +629,6 @@
 				0498BFA91FBFFCE70085D6A8 /* Frameworks */,
 				0498BFAD1FBFFCE70085D6A8 /* Resources */,
 				0498BFB21FBFFCE70085D6A8 /* [CP] Embed Pods Frameworks */,
-				0498BFB31FBFFCE70085D6A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -785,7 +800,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Rep2Basement-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Rep2Basement2019-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -798,7 +813,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Rep2Basement/Pods-Rep2Basement-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Rep2Basement2019/Pods-Rep2Basement2019-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GVUserDefaults/GVUserDefaults.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
@@ -813,22 +828,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rep2Basement/Pods-Rep2Basement-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		043FB13E1F9B3EA9006D79FD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rep2Basement/Pods-Rep2Basement-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rep2Basement2019/Pods-Rep2Basement2019-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0498BF611FBFFC0D0085D6A8 /* [CP] Check Pods Manifest.lock */ = {
@@ -842,7 +842,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Rep1Upstairs-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Rep1Upstairs2019-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -855,7 +855,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Rep1Upstairs/Pods-Rep1Upstairs-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Rep1Upstairs2019/Pods-Rep1Upstairs2019-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GVUserDefaults/GVUserDefaults.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
@@ -870,22 +870,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rep1Upstairs/Pods-Rep1Upstairs-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0498BF7D1FBFFC0D0085D6A8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rep1Upstairs/Pods-Rep1Upstairs-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rep1Upstairs2019/Pods-Rep1Upstairs2019-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0498BF841FBFFCAB0085D6A8 /* [CP] Check Pods Manifest.lock */ = {
@@ -899,7 +884,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Rep2Upstairs-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Rep2Upstairs2019-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -912,7 +897,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Rep2Upstairs/Pods-Rep2Upstairs-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Rep2Upstairs2019/Pods-Rep2Upstairs2019-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GVUserDefaults/GVUserDefaults.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
@@ -927,22 +912,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rep2Upstairs/Pods-Rep2Upstairs-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0498BF981FBFFCAB0085D6A8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rep2Upstairs/Pods-Rep2Upstairs-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rep2Upstairs2019/Pods-Rep2Upstairs2019-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0498BF9F1FBFFCE70085D6A8 /* [CP] Check Pods Manifest.lock */ = {
@@ -956,7 +926,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Rep3Upstairs-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Rep3Upstairs2019-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -969,7 +939,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Rep3Upstairs/Pods-Rep3Upstairs-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Rep3Upstairs2019/Pods-Rep3Upstairs2019-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GVUserDefaults/GVUserDefaults.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
@@ -984,22 +954,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rep3Upstairs/Pods-Rep3Upstairs-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0498BFB31FBFFCE70085D6A8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rep3Upstairs/Pods-Rep3Upstairs-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rep3Upstairs2019/Pods-Rep3Upstairs2019-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		590CB485612E2F3518F6A286 /* [CP] Check Pods Manifest.lock */ = {
@@ -1013,26 +968,11 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Rep1Basement-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Rep1Basement2019-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D649F8F377F17BE84B6475CD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rep1Basement/Pods-Rep1Basement-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F281A8E7C527B6A72A24501D /* [CP] Embed Pods Frameworks */ = {
@@ -1041,7 +981,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Rep1Basement/Pods-Rep1Basement-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Rep1Basement2019/Pods-Rep1Basement2019-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GVUserDefaults/GVUserDefaults.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
@@ -1056,7 +996,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rep1Basement/Pods-Rep1Basement-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rep1Basement2019/Pods-Rep1Basement2019-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1263,7 +1203,7 @@
 		};
 		0431EA511E650D7C0041C09D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE483A7330A7BD70F254AB7C /* Pods-Rep1Basement.debug.xcconfig */;
+			baseConfigurationReference = D99029CBF0873D0925237074 /* Pods-Rep1Basement2019.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1288,7 +1228,7 @@
 		};
 		0431EA521E650D7C0041C09D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48DE0881CEBF7849AACC392E /* Pods-Rep1Basement.release.xcconfig */;
+			baseConfigurationReference = 059AF23B2FF852F36C3573BE /* Pods-Rep1Basement2019.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1313,7 +1253,7 @@
 		};
 		043FB1401F9B3EA9006D79FD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 097905E6829A05937530ABA6 /* Pods-Rep2Basement.debug.xcconfig */;
+			baseConfigurationReference = 9D301695C60135D644F9C56C /* Pods-Rep2Basement2019.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1335,7 +1275,7 @@
 		};
 		043FB1411F9B3EA9006D79FD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1ED00CE735D03CEDC5DD1CDF /* Pods-Rep2Basement.release.xcconfig */;
+			baseConfigurationReference = 7844A7037E41219881DE1B8A /* Pods-Rep2Basement2019.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1357,7 +1297,7 @@
 		};
 		0498BF7F1FBFFC0D0085D6A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA5651FE07A00E40572189C5 /* Pods-Rep1Upstairs.debug.xcconfig */;
+			baseConfigurationReference = 28F8F9DDFE7A5AB89FEA40FB /* Pods-Rep1Upstairs2019.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1379,7 +1319,7 @@
 		};
 		0498BF801FBFFC0D0085D6A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F381FCAF8F0F372629477822 /* Pods-Rep1Upstairs.release.xcconfig */;
+			baseConfigurationReference = 49C6200484BE9F8706008686 /* Pods-Rep1Upstairs2019.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1401,7 +1341,7 @@
 		};
 		0498BF9A1FBFFCAB0085D6A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3361D29D2D7585FDD4B86001 /* Pods-Rep2Upstairs.debug.xcconfig */;
+			baseConfigurationReference = 5FDF47289F191996E85A6493 /* Pods-Rep2Upstairs2019.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1423,7 +1363,7 @@
 		};
 		0498BF9B1FBFFCAB0085D6A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 856DF299E13792B8DE48462B /* Pods-Rep2Upstairs.release.xcconfig */;
+			baseConfigurationReference = E0A20963FE44AAAA63EC0F87 /* Pods-Rep2Upstairs2019.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1445,7 +1385,7 @@
 		};
 		0498BFB51FBFFCE70085D6A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 993361136BCD4ECEA0797C9C /* Pods-Rep3Upstairs.debug.xcconfig */;
+			baseConfigurationReference = 04485B91CB558C957EB613BB /* Pods-Rep3Upstairs2019.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1467,7 +1407,7 @@
 		};
 		0498BFB61FBFFCE70085D6A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B09FE29E069A3335C0D18DF8 /* Pods-Rep3Upstairs.release.xcconfig */;
+			baseConfigurationReference = BD0BEBCB05EEC6721A405273 /* Pods-Rep3Upstairs2019.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
