@@ -28,15 +28,15 @@
     gai.logger.logLevel = kGAILogLevelVerbose;
 #endif
     
-    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
-    SideViewController *vc = [mainStoryboard instantiateViewControllerWithIdentifier:@"SideViewController"];
-    [SlideNavigationController sharedInstance].leftMenu = vc;
-    [SlideNavigationController sharedInstance].leftBarButtonItem.tintColor = [UIColor whiteColor];
-    [[SlideNavigationController sharedInstance] setEnableSwipeGesture:NO];
-    [SlideNavigationController sharedInstance].portraitSlideOffset = 400.0f;
-    [SlideNavigationController sharedInstance].landscapeSlideOffset = 656.0f;
-    [SlideNavigationController sharedInstance].enableShadow = NO;
-    [SlideNavigationController sharedInstance].avoidSwitchingToSameClassViewController = NO;
+//    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
+//    SideViewController *vc = [mainStoryboard instantiateViewControllerWithIdentifier:@"SideViewController"];
+//    [SlideNavigationController sharedInstance].leftMenu = vc;
+//    [SlideNavigationController sharedInstance].leftBarButtonItem.tintColor = [UIColor whiteColor];
+//    [[SlideNavigationController sharedInstance] setEnableSwipeGesture:NO];
+//    [SlideNavigationController sharedInstance].portraitSlideOffset = 400.0f;
+//    [SlideNavigationController sharedInstance].landscapeSlideOffset = 656.0f;
+//    [SlideNavigationController sharedInstance].enableShadow = NO;
+//    [SlideNavigationController sharedInstance].avoidSwitchingToSameClassViewController = NO;
     
     [self generatePassword];
     

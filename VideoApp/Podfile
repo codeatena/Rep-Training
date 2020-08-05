@@ -43,6 +43,7 @@ def shared_pods
     pod 'PureLayout'
     pod 'MBProgressHUD'
     pod 'iOS-Slide-Menu'
+    pod 'LMSideBarController'
     pod 'GVUserDefaults'
     pod 'GoogleAnalytics'
 

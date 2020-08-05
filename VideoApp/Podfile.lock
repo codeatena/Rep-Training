@@ -2,6 +2,7 @@ PODS:
   - GoogleAnalytics (3.17.0)
   - GVUserDefaults (1.0.2)
   - iOS-Slide-Menu (1.5)
+  - LMSideBarController (1.0.2)
   - MBProgressHUD (1.0.0)
   - PureLayout (3.0.2)
 
@@ -9,6 +10,7 @@ DEPENDENCIES:
   - GoogleAnalytics
   - GVUserDefaults
   - iOS-Slide-Menu
+  - LMSideBarController
   - MBProgressHUD
   - PureLayout
 
@@ -17,6 +19,7 @@ SPEC REPOS:
     - GoogleAnalytics
     - GVUserDefaults
     - iOS-Slide-Menu
+    - LMSideBarController
     - MBProgressHUD
     - PureLayout
 
@@ -24,9 +27,10 @@ SPEC CHECKSUMS:
   GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
   GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
   iOS-Slide-Menu: 40b0cbd8916c42afc755f0869793cd09e7a32102
+  LMSideBarController: f949cf59a1d8f20ba7a7acc60244327fa2de54fd
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
 
-PODFILE CHECKSUM: 5bafd727c9a2123cbaae9b7c1be390214d1640c2
+PODFILE CHECKSUM: 172cc5943d4f27b3533a75e3265d20b04d6004f9
 
 COCOAPODS: 1.8.4

@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SideViewController : UIViewController <UITableViewDelegate ,UITableViewDataSource>
+@interface SideViewController : UIViewController <UITableViewDelegate ,UITableViewDataSource> {
+    id playerTimer;
+}
+
+@property (nonatomic ,strong) NSString *videoName;
+
+- (void)setPlayer;
 
 @end

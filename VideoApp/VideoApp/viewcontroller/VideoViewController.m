@@ -8,9 +8,12 @@
 
 #import "VideoViewController.h"
 #import "ActivateViewController.h"
+#import "UIViewController+LMSideBarController.h"
+#import "SideViewController.h"
 
 @interface VideoViewController ()
 
+@property (strong, nonatomic) AVPlayerViewController *playerVC;
 
 @end
 
@@ -24,31 +27,29 @@
     [tracker set:kGAIScreenName value:@"VideoViewController"];
     [tracker send:[[GAIDictionaryBuilder createScreenView] build]];
     
-    _playerVC.view.backgroundColor = [UIColor whiteColor];
-    if (_videoName == nil){
+    #ifdef rep1
+        [self setPlayer:@"Inspection"];
+    #endif
         
-        _videoName = @"Inspection";
-#ifdef rep2
-        _videoName = @"Finished basement";
-#endif
+    #ifdef rep2
+        [self setPlayer:@"Finished basement"];
+    #endif
+
+    #ifdef repdelivery1
+        [self setPlayer:@"Warm Up"];
+    #endif
         
-#ifdef repdelivery1
-        _videoName = @"Warm Up";
-#endif
-
-#ifdef repdelivery2
-        _videoName = @"Credentials";
-#endif
-
-#ifdef repdelivery3
-        _videoName = @"Four ways";
-#endif
-
-    }
-    NSString *path = [[NSBundle mainBundle] pathForResource:_videoName ofType:@"mp4"];
-    AVPlayer *player = [AVPlayer playerWithURL:[NSURL fileURLWithPath:path]];
-    _playerVC.player = player;
-    [player play];
+    #ifdef repdelivery2
+        [self setPlayer:@"Credentials"];
+    #endif
+        
+    #ifdef repdelivery3
+        [self setPlayer:@"Four ways"];
+    #endif
+    //    NSString *path = [[NSBundle mainBundle] pathForResource:_videoName ofType:@"mp4"];
+    //    AVPlayer *player = [AVPlayer playerWithURL:[NSURL fileURLWithPath:path]];
+    //    _playerVC.player = player;
+    //    [player play];
     
 }
 
@@ -61,29 +62,35 @@
 {
     [super viewWillAppear:animated];
     
+    if (_playerVC.player)
+        [_playerVC.player play];
+    
     [[NSNotificationCenter defaultCenter]addObserver:self
                                             selector:@selector(didBecomeForground)
                                                 name:UIApplicationDidBecomeActiveNotification
                                               object:nil];
     
-    [[NSNotificationCenter defaultCenter] addObserverForName:SlideNavigationControllerDidClose object:nil queue:nil usingBlock:^(NSNotification *note) {
-        [_playerVC.player play];
-
-    }];
-    
-    [[NSNotificationCenter defaultCenter] addObserverForName:SlideNavigationControllerDidOpen object:nil queue:nil usingBlock:^(NSNotification *note) {
-        [_playerVC.player pause];
-
-    }];
+//    [[NSNotificationCenter defaultCenter] addObserverForName:SlideNavigationControllerDidClose object:nil queue:nil usingBlock:^(NSNotification *note) {
+//        [_playerVC.player play];
+//
+//    }];
+//
+//    [[NSNotificationCenter defaultCenter] addObserverForName:SlideNavigationControllerDidOpen object:nil queue:nil usingBlock:^(NSNotification *note) {
+//        [_playerVC.player pause];
+//
+//    }];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
     
+    if (_playerVC.player)
+        [_playerVC.player pause];
+    
     [[NSNotificationCenter defaultCenter] removeObserver:self name:UIApplicationDidBecomeActiveNotification object:nil];
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:SlideNavigationControllerDidClose object:nil];
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:SlideNavigationControllerDidOpen object:nil];
+//    [[NSNotificationCenter defaultCenter] removeObserver:self name:SlideNavigationControllerDidClose object:nil];
+//    [[NSNotificationCenter defaultCenter] removeObserver:self name:SlideNavigationControllerDidOpen object:nil];
 
     
 }
@@ -108,7 +115,8 @@
     
     if ([segue.identifier isEqualToString:@"playSegue"])
     {
-        _playerVC = [segue destinationViewController];
+        _playerVC = (AVPlayerViewController *)[segue destinationViewController];
+        _playerVC.view.backgroundColor = [UIColor whiteColor];
     }
     else if ([segue.identifier isEqualToString:@"activateSegue"])
     {
@@ -133,11 +141,21 @@
                 break;
         }
     }
+    else if ([segue.identifier isEqualToString:@"listSegue"])
+    {
+        SideViewController *selectVC = (SideViewController *)[segue destinationViewController];
+        selectVC.videoName = _videoName;
+    }
 }
 
-- (IBAction)toggleMenu:(id)sender
+- (void)setPlayer:(NSString *)videoName
 {
-    [[SlideNavigationController sharedInstance] toggleLeftMenu];
+    _videoName = videoName;
+    if (_playerVC.player != nil)  _playerVC.player = nil;
+    NSString *path = [[NSBundle mainBundle] pathForResource:_videoName ofType:@"mp4"];
+    AVPlayer *player = [AVPlayer playerWithURL:[NSURL fileURLWithPath:path]];
+    _playerVC.player = player;
+    [player play];
 }
 
 - (void)showActivate

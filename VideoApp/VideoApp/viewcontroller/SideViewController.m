@@ -9,8 +9,10 @@
 #import "SideViewController.h"
 #import "MenuTableViewCell.h"
 #import "VideoViewController.h"
+#import "UIViewController+LMSideBarController.h"
+#import "MainNavigationController.h"
 
-@interface SideViewController ()
+@interface SideViewController () <UITableViewDataSource ,UITableViewDelegate>
 
 @end
 
@@ -33,6 +35,51 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    [[NSNotificationCenter defaultCenter] addObserverForName:SlideNavigationControllerDidClose object:nil queue:nil usingBlock:^(NSNotification *note) {
+
+    }];
+    
+    [[NSNotificationCenter defaultCenter] addObserverForName:SlideNavigationControllerDidOpen object:nil queue:nil usingBlock:^(NSNotification *note) {
+
+    }];
+
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:SlideNavigationControllerDidClose object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:SlideNavigationControllerDidOpen object:nil];
+    
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+}
+
+- (void)setPlayer
+{
+    VideoViewController *videoVC = (VideoViewController *)[self.navigationController.viewControllers objectAtIndex:0];
+    [videoVC setPlayer:_videoName];
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+
+}
+
 #pragma mark - UITableViewDelegate ,UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -43,6 +90,16 @@
 {
     MenuTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"menuCell"];
     cell.nameLbl.text = [VIDEO_TITLES objectAtIndex:indexPath.row];
+    if ([VIDEO_TITLES[indexPath.row] isEqualToString:_videoName])
+    {
+        cell.accessoryType = UITableViewCellAccessoryCheckmark;
+    }
+    else
+    {
+        cell.accessoryType = UITableViewCellAccessoryNone;
+
+    }
+    
     return cell;
 }
 
@@ -53,18 +110,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UIViewController *topVC = [SlideNavigationController sharedInstance].topViewController;
-    if ([topVC isKindOfClass:[VideoViewController class]])
-    {
-        [(VideoViewController *)topVC playerVC].player = nil;
-    }
-    
-    VideoViewController *videoVC = [self.storyboard instantiateViewControllerWithIdentifier:@"VideoViewController"];
-    videoVC.videoName = [VIDEO_TITLES objectAtIndex:indexPath.row];
-    [[SlideNavigationController sharedInstance] popAllAndSwitchToViewController:videoVC withSlideOutAnimation:YES andCompletion:^(void){
-        
-    }];
-
+    self.videoName = [VIDEO_TITLES objectAtIndex:indexPath.row];
+    [self setPlayer];
 }
 
 @end

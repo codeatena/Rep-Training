@@ -115,6 +115,8 @@
 		04A7E02E1E67E022006B6BA1 /* ActivateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E02D1E67E022006B6BA1 /* ActivateViewController.m */; };
 		04A7E0331E67F129006B6BA1 /* GVUserDefaults+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7E0321E67F129006B6BA1 /* GVUserDefaults+Properties.m */; };
 		42D6D4D1016AF192C97806C7 /* Pods_Rep3Upstairs2019.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA02CD48E9CF095B2F853CDE /* Pods_Rep3Upstairs2019.framework */; };
+		842F763F24D9C70500B1643B /* SideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F763E24D9C70500B1643B /* SideBarController.m */; };
+		842F764224D9C73200B1643B /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F764124D9C73200B1643B /* MainNavigationController.m */; };
 		9766A89C21B867CC00EC3B40 /* Rep1Upstairs2019.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9766A89821B867CB00EC3B40 /* Rep1Upstairs2019.plist */; };
 		9766A89D21B867CC00EC3B40 /* Rep2Basement2019.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9766A89921B867CB00EC3B40 /* Rep2Basement2019.plist */; };
 		9766A89E21B867CC00EC3B40 /* Rep3Upstairs2019.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9766A89A21B867CC00EC3B40 /* Rep3Upstairs2019.plist */; };
@@ -212,6 +214,10 @@
 		7D0C5AC14D6EE4FE12403038 /* Pods_RepDelivery22018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepDelivery22018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BD08BB20EFE13EF290203A /* Pods-RepDelivery1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepDelivery1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RepDelivery1/Pods-RepDelivery1.debug.xcconfig"; sourceTree = "<group>"; };
 		830A194D3E1A791D6D501E3D /* Pods_Rep1Basement2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep1Basement2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		842F763D24D9C70500B1643B /* SideBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SideBarController.h; sourceTree = "<group>"; };
+		842F763E24D9C70500B1643B /* SideBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SideBarController.m; sourceTree = "<group>"; };
+		842F764024D9C73200B1643B /* MainNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		842F764124D9C73200B1643B /* MainNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
 		856DF299E13792B8DE48462B /* Pods-Rep2Upstairs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep2Upstairs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rep2Upstairs/Pods-Rep2Upstairs.release.xcconfig"; sourceTree = "<group>"; };
 		86C293C758B4FFB26409547D /* Pods_RepDelivery3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepDelivery3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD088D306EB42A95A91491D /* Pods_Rep2Upstairs2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rep2Upstairs2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -365,12 +371,15 @@
 		0431EA531E6510DE0041C09D /* viewcontroller */ = {
 			isa = PBXGroup;
 			children = (
+				842F763C24D9C6D300B1643B /* Navigation */,
 				0431EA541E6510FB0041C09D /* VideoViewController.h */,
 				0431EA551E6510FB0041C09D /* VideoViewController.m */,
 				0431EA571E65131F0041C09D /* SideViewController.h */,
 				0431EA581E65131F0041C09D /* SideViewController.m */,
 				04A7E02C1E67E022006B6BA1 /* ActivateViewController.h */,
 				04A7E02D1E67E022006B6BA1 /* ActivateViewController.m */,
+				842F763D24D9C70500B1643B /* SideBarController.h */,
+				842F763E24D9C70500B1643B /* SideBarController.m */,
 			);
 			name = viewcontroller;
 			sourceTree = "<group>";
@@ -539,6 +548,15 @@
 				BD0BEBCB05EEC6721A405273 /* Pods-Rep3Upstairs2019.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		842F763C24D9C6D300B1643B /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				842F764024D9C73200B1643B /* MainNavigationController.h */,
+				842F764124D9C73200B1643B /* MainNavigationController.m */,
+			);
+			name = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -819,6 +837,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Rep2Basement2019/Pods-Rep2Basement2019-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GVUserDefaults/GVUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/LMSideBarController/LMSideBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/iOS-Slide-Menu/iOS_Slide_Menu.framework",
@@ -826,6 +845,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GVUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LMSideBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOS_Slide_Menu.framework",
@@ -861,6 +881,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Rep1Upstairs2019/Pods-Rep1Upstairs2019-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GVUserDefaults/GVUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/LMSideBarController/LMSideBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/iOS-Slide-Menu/iOS_Slide_Menu.framework",
@@ -868,6 +889,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GVUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LMSideBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOS_Slide_Menu.framework",
@@ -903,6 +925,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Rep2Upstairs2019/Pods-Rep2Upstairs2019-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GVUserDefaults/GVUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/LMSideBarController/LMSideBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/iOS-Slide-Menu/iOS_Slide_Menu.framework",
@@ -910,6 +933,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GVUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LMSideBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOS_Slide_Menu.framework",
@@ -945,6 +969,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Rep3Upstairs2019/Pods-Rep3Upstairs2019-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GVUserDefaults/GVUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/LMSideBarController/LMSideBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/iOS-Slide-Menu/iOS_Slide_Menu.framework",
@@ -952,6 +977,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GVUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LMSideBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOS_Slide_Menu.framework",
@@ -987,6 +1013,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Rep1Basement2019/Pods-Rep1Basement2019-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GVUserDefaults/GVUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/LMSideBarController/LMSideBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/iOS-Slide-Menu/iOS_Slide_Menu.framework",
@@ -994,6 +1021,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GVUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LMSideBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOS_Slide_Menu.framework",
@@ -1010,9 +1038,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842F763F24D9C70500B1643B /* SideBarController.m in Sources */,
 				04A7E02E1E67E022006B6BA1 /* ActivateViewController.m in Sources */,
 				0431EA591E65131F0041C09D /* SideViewController.m in Sources */,
 				04A7E0331E67F129006B6BA1 /* GVUserDefaults+Properties.m in Sources */,
+				842F764224D9C73200B1643B /* MainNavigationController.m in Sources */,
 				0431EA471E650D7B0041C09D /* VideoApp.xcdatamodeld in Sources */,
 				0431EA3E1E650D7B0041C09D /* AppDelegate.m in Sources */,
 				0431EA561E6510FB0041C09D /* VideoViewController.m in Sources */,
