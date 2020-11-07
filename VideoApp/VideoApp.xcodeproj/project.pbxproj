@@ -669,7 +669,7 @@
 					0431EA351E650D7B0041C09D = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = S85HC5Z6M5;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					043FB1151F9B3EA9006D79FD = {
 						DevelopmentTeam = S85HC5Z6M5;
@@ -677,7 +677,7 @@
 					};
 					0498BF601FBFFC0D0085D6A8 = {
 						DevelopmentTeam = S85HC5Z6M5;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					0498BF831FBFFCAB0085D6A8 = {
 						DevelopmentTeam = S85HC5Z6M5;
@@ -1240,9 +1240,9 @@
 			baseConfigurationReference = D99029CBF0873D0925237074 /* Pods-Rep1Basement2019.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S85HC5Z6M5;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
@@ -1254,10 +1254,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep1Basement2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Basement1-2020";
 				PRODUCT_NAME = Rep1Basement2020;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Rep1Basement Apple Store Distribution_2020_02_12";
 			};
 			name = Debug;
 		};
@@ -1266,9 +1266,9 @@
 			baseConfigurationReference = 059AF23B2FF852F36C3573BE /* Pods-Rep1Basement2019.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S85HC5Z6M5;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
@@ -1280,10 +1280,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep1Basement2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Basement1-2020";
 				PRODUCT_NAME = Rep1Basement2020;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Rep1Basement Apple Store Distribution_2020_02_12";
 			};
 			name = Release;
 		};
@@ -1292,7 +1292,7 @@
 			baseConfigurationReference = 9D301695C60135D644F9C56C /* Pods-Rep2Basement2019.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S85HC5Z6M5;
@@ -1305,7 +1305,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep2Basement2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Basement2-2020";
 				PRODUCT_NAME = Rep2Basement2020;
 				PROVISIONING_PROFILE_SPECIFIER = "Rep2Basement Apple Store Distribution_2020_02_12";
@@ -1317,7 +1317,7 @@
 			baseConfigurationReference = 7844A7037E41219881DE1B8A /* Pods-Rep2Basement2019.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S85HC5Z6M5;
@@ -1330,7 +1330,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep2Basement2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Basement2-2020";
 				PRODUCT_NAME = Rep2Basement2020;
 				PROVISIONING_PROFILE_SPECIFIER = "Rep2Basement Apple Store Distribution_2020_02_12";
@@ -1342,10 +1342,10 @@
 			baseConfigurationReference = 28F8F9DDFE7A5AB89FEA40FB /* Pods-Rep1Upstairs2019.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = S85HC5Z6M5;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -1355,10 +1355,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep1Upstairs2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs1-2020";
 				PRODUCT_NAME = Rep1Upstairs2020;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Rep1Upstairs Apple Store Distribution_2020_02_12";
 			};
 			name = Debug;
 		};
@@ -1367,10 +1367,10 @@
 			baseConfigurationReference = 49C6200484BE9F8706008686 /* Pods-Rep1Upstairs2019.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = S85HC5Z6M5;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -1380,10 +1380,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep1Upstairs2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs1-2020";
 				PRODUCT_NAME = Rep1Upstairs2020;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Rep1Upstairs Apple Store Distribution_2020_02_12";
 			};
 			name = Release;
 		};
@@ -1392,7 +1392,7 @@
 			baseConfigurationReference = 5FDF47289F191996E85A6493 /* Pods-Rep2Upstairs2019.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S85HC5Z6M5;
@@ -1405,7 +1405,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep2Upstairs2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs2-2020";
 				PRODUCT_NAME = Rep2Upstairs2020;
 				PROVISIONING_PROFILE_SPECIFIER = "Rep2Upstairs Apple Store Distribution_2020_02_12";
@@ -1417,7 +1417,7 @@
 			baseConfigurationReference = E0A20963FE44AAAA63EC0F87 /* Pods-Rep2Upstairs2019.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S85HC5Z6M5;
@@ -1430,7 +1430,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep2Upstairs2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs2-2020";
 				PRODUCT_NAME = Rep2Upstairs2020;
 				PROVISIONING_PROFILE_SPECIFIER = "Rep2Upstairs Apple Store Distribution_2020_02_12";
@@ -1442,7 +1442,7 @@
 			baseConfigurationReference = 04485B91CB558C957EB613BB /* Pods-Rep3Upstairs2019.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S85HC5Z6M5;
@@ -1453,9 +1453,9 @@
 					"repdelivery3=1",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep3Upstairs2019.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs3-2020";
 				PRODUCT_NAME = Rep3Upstairs2020;
 				PROVISIONING_PROFILE_SPECIFIER = "Rep3Upstairs Apple Store Distribution_2020_02_12";
@@ -1467,7 +1467,7 @@
 			baseConfigurationReference = BD0BEBCB05EEC6721A405273 /* Pods-Rep3Upstairs2019.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S85HC5Z6M5;
@@ -1478,9 +1478,9 @@
 					"repdelivery3=1",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep3Upstairs2019.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs3-2020";
 				PRODUCT_NAME = Rep3Upstairs2020;
 				PROVISIONING_PROFILE_SPECIFIER = "Rep3Upstairs Apple Store Distribution_2020_02_12";
