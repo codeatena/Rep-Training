@@ -1243,7 +1243,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = S85HC5Z6M5;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1254,10 +1254,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep1Basement2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Basement1-2020";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Basement1-2021";
 				PRODUCT_NAME = Rep1Basement2020;
-				PROVISIONING_PROFILE_SPECIFIER = "Rep1Basement Apple Store Distribution_2020_02_12";
+				PROVISIONING_PROFILE_SPECIFIER = "Rep1Basement Apple Store Distribution_2021_02_08";
 			};
 			name = Debug;
 		};
@@ -1269,7 +1269,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = S85HC5Z6M5;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1280,10 +1280,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep1Basement2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Basement1-2020";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Basement1-2021";
 				PRODUCT_NAME = Rep1Basement2020;
-				PROVISIONING_PROFILE_SPECIFIER = "Rep1Basement Apple Store Distribution_2020_02_12";
+				PROVISIONING_PROFILE_SPECIFIER = "Rep1Basement Apple Store Distribution_2021_02_08";
 			};
 			name = Release;
 		};
@@ -1294,7 +1294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = S85HC5Z6M5;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1305,10 +1305,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep2Basement2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Basement2-2020";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Basement2-2021";
 				PRODUCT_NAME = Rep2Basement2020;
-				PROVISIONING_PROFILE_SPECIFIER = "Rep2Basement Apple Store Distribution_2020_02_12";
+				PROVISIONING_PROFILE_SPECIFIER = "Rep2Basement Apple Store Distribution_2021_02_08";
 			};
 			name = Debug;
 		};
@@ -1319,7 +1319,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = S85HC5Z6M5;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1330,10 +1330,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep2Basement2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Basement2-2020";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Basement2-2021";
 				PRODUCT_NAME = Rep2Basement2020;
-				PROVISIONING_PROFILE_SPECIFIER = "Rep2Basement Apple Store Distribution_2020_02_12";
+				PROVISIONING_PROFILE_SPECIFIER = "Rep2Basement Apple Store Distribution_2021_02_08";
 			};
 			name = Release;
 		};
@@ -1344,7 +1344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = S85HC5Z6M5;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1355,10 +1355,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep1Upstairs2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs1-2020";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs1-2021";
 				PRODUCT_NAME = Rep1Upstairs2020;
-				PROVISIONING_PROFILE_SPECIFIER = "Rep1Upstairs Apple Store Distribution_2020_02_12";
+				PROVISIONING_PROFILE_SPECIFIER = "Rep1Upstairs Apple Store Distribution_2021_02_08";
 			};
 			name = Debug;
 		};
@@ -1369,7 +1369,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = S85HC5Z6M5;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1380,10 +1380,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep1Upstairs2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs1-2020";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs1-2021";
 				PRODUCT_NAME = Rep1Upstairs2020;
-				PROVISIONING_PROFILE_SPECIFIER = "Rep1Upstairs Apple Store Distribution_2020_02_12";
+				PROVISIONING_PROFILE_SPECIFIER = "Rep1Upstairs Apple Store Distribution_2021_02_08";
 			};
 			name = Release;
 		};
@@ -1394,7 +1394,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = S85HC5Z6M5;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1405,10 +1405,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep2Upstairs2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs2-2020";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs2-2021";
 				PRODUCT_NAME = Rep2Upstairs2020;
-				PROVISIONING_PROFILE_SPECIFIER = "Rep2Upstairs Apple Store Distribution_2020_02_12";
+				PROVISIONING_PROFILE_SPECIFIER = "Rep2Upstairs Apple Store Distribution_2021_02_08";
 			};
 			name = Debug;
 		};
@@ -1419,7 +1419,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = S85HC5Z6M5;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1430,10 +1430,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep2Upstairs2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs2-2020";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs2-2021";
 				PRODUCT_NAME = Rep2Upstairs2020;
-				PROVISIONING_PROFILE_SPECIFIER = "Rep2Upstairs Apple Store Distribution_2020_02_12";
+				PROVISIONING_PROFILE_SPECIFIER = "Rep2Upstairs Apple Store Distribution_2021_02_08";
 			};
 			name = Release;
 		};
@@ -1444,7 +1444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = S85HC5Z6M5;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1455,10 +1455,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep3Upstairs2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs3-2020";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs3-2021";
 				PRODUCT_NAME = Rep3Upstairs2020;
-				PROVISIONING_PROFILE_SPECIFIER = "Rep3Upstairs Apple Store Distribution_2020_02_12";
+				PROVISIONING_PROFILE_SPECIFIER = "Rep3Upstairs Apple Store Distribution_2021_02_08";
 			};
 			name = Debug;
 		};
@@ -1469,7 +1469,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = S85HC5Z6M5;
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1480,10 +1480,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/VideoApp/Rep3Upstairs2019.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs3-2020";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs3-2021";
 				PRODUCT_NAME = Rep3Upstairs2020;
-				PROVISIONING_PROFILE_SPECIFIER = "Rep3Upstairs Apple Store Distribution_2020_02_12";
+				PROVISIONING_PROFILE_SPECIFIER = "Rep3Upstairs Apple Store Distribution_2021_02_08";
 			};
 			name = Release;
 		};
