@@ -128,7 +128,7 @@
 
 /* Begin PBXFileReference section */
 		04315FFC204729DA00B508DF /* Damages.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Damages.mp4; path = VideoApp/resource/Damages.mp4; sourceTree = SOURCE_ROOT; };
-		0431EA361E650D7B0041C09D /* Rep1Basement2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep1Basement2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0431EA361E650D7B0041C09D /* Rep1Basement2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep1Basement2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0431EA3A1E650D7B0041C09D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0431EA3C1E650D7B0041C09D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0431EA3D1E650D7B0041C09D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -146,7 +146,7 @@
 		0431EA5D1E651BDE0041C09D /* MenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuTableViewCell.m; path = view/MenuTableViewCell.m; sourceTree = "<group>"; };
 		0431EA5F1E651FDB0041C09D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0431EA611E65202E0041C09D /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
-		043FB1421F9B3EA9006D79FD /* Rep2Basement2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep2Basement2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043FB1421F9B3EA9006D79FD /* Rep2Basement2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep2Basement2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0443860820184C1300D8ED4E /* Warm Up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Warm Up.mp4"; sourceTree = "<group>"; };
 		0443860A20184C2500D8ED4E /* Inspection.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Inspection.mp4; sourceTree = "<group>"; };
 		04485B91CB558C957EB613BB /* Pods-Rep3Upstairs2019.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rep3Upstairs2019.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rep3Upstairs2019/Pods-Rep3Upstairs2019.debug.xcconfig"; sourceTree = "<group>"; };
@@ -169,9 +169,9 @@
 		046E3D951E662DB8006064D9 /* Tools.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tools.mp4; sourceTree = "<group>"; };
 		046E3D961E662DB8006064D9 /* Welcome.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Welcome.mp4; sourceTree = "<group>"; };
 		046E3D971E662DB8006064D9 /* Wrapping it up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wrapping it up.mp4"; sourceTree = "<group>"; };
-		0498BF811FBFFC0D0085D6A8 /* Rep1Upstairs2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep1Upstairs2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0498BF9C1FBFFCAB0085D6A8 /* Rep2Upstairs2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep2Upstairs2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0498BFB71FBFFCE70085D6A8 /* Rep3Upstairs2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep3Upstairs2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0498BF811FBFFC0D0085D6A8 /* Rep1Upstairs2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep1Upstairs2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0498BF9C1FBFFCAB0085D6A8 /* Rep2Upstairs2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep2Upstairs2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0498BFB71FBFFCE70085D6A8 /* Rep3Upstairs2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rep3Upstairs2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0498BFD71FC0008F0085D6A8 /* Credentials.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Credentials.mp4; sourceTree = "<group>"; };
 		0498BFD81FC0008F0085D6A8 /* Four ways.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Four ways.mp4"; sourceTree = "<group>"; };
 		0498BFD91FC0008F0085D6A8 /* How Built.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How Built.mp4"; sourceTree = "<group>"; };
@@ -325,11 +325,11 @@
 		0431EA371E650D7B0041C09D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0431EA361E650D7B0041C09D /* Rep1Basement2020.app */,
-				043FB1421F9B3EA9006D79FD /* Rep2Basement2020.app */,
-				0498BF811FBFFC0D0085D6A8 /* Rep1Upstairs2020.app */,
-				0498BF9C1FBFFCAB0085D6A8 /* Rep2Upstairs2020.app */,
-				0498BFB71FBFFCE70085D6A8 /* Rep3Upstairs2020.app */,
+				0431EA361E650D7B0041C09D /* Rep1Basement2022.app */,
+				043FB1421F9B3EA9006D79FD /* Rep2Basement2022.app */,
+				0498BF811FBFFC0D0085D6A8 /* Rep1Upstairs2022.app */,
+				0498BF9C1FBFFCAB0085D6A8 /* Rep2Upstairs2022.app */,
+				0498BFB71FBFFCE70085D6A8 /* Rep3Upstairs2022.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -578,7 +578,7 @@
 			);
 			name = Rep1Basement2019;
 			productName = VideoApp;
-			productReference = 0431EA361E650D7B0041C09D /* Rep1Basement2020.app */;
+			productReference = 0431EA361E650D7B0041C09D /* Rep1Basement2022.app */;
 			productType = "com.apple.product-type.application";
 		};
 		043FB1151F9B3EA9006D79FD /* Rep2Basement2019 */ = {
@@ -597,7 +597,7 @@
 			);
 			name = Rep2Basement2019;
 			productName = VideoApp;
-			productReference = 043FB1421F9B3EA9006D79FD /* Rep2Basement2020.app */;
+			productReference = 043FB1421F9B3EA9006D79FD /* Rep2Basement2022.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0498BF601FBFFC0D0085D6A8 /* Rep1Upstairs2019 */ = {
@@ -616,7 +616,7 @@
 			);
 			name = Rep1Upstairs2019;
 			productName = VideoApp;
-			productReference = 0498BF811FBFFC0D0085D6A8 /* Rep1Upstairs2020.app */;
+			productReference = 0498BF811FBFFC0D0085D6A8 /* Rep1Upstairs2022.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0498BF831FBFFCAB0085D6A8 /* Rep2Upstairs2019 */ = {
@@ -635,7 +635,7 @@
 			);
 			name = Rep2Upstairs2019;
 			productName = VideoApp;
-			productReference = 0498BF9C1FBFFCAB0085D6A8 /* Rep2Upstairs2020.app */;
+			productReference = 0498BF9C1FBFFCAB0085D6A8 /* Rep2Upstairs2022.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0498BF9E1FBFFCE70085D6A8 /* Rep3Upstairs2019 */ = {
@@ -654,7 +654,7 @@
 			);
 			name = Rep3Upstairs2019;
 			productName = VideoApp;
-			productReference = 0498BFB71FBFFCE70085D6A8 /* Rep3Upstairs2020.app */;
+			productReference = 0498BFB71FBFFCE70085D6A8 /* Rep3Upstairs2022.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -669,23 +669,23 @@
 					0431EA351E650D7B0041C09D = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = S85HC5Z6M5;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					043FB1151F9B3EA9006D79FD = {
 						DevelopmentTeam = S85HC5Z6M5;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					0498BF601FBFFC0D0085D6A8 = {
 						DevelopmentTeam = S85HC5Z6M5;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					0498BF831FBFFCAB0085D6A8 = {
 						DevelopmentTeam = S85HC5Z6M5;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					0498BF9E1FBFFCE70085D6A8 = {
 						DevelopmentTeam = S85HC5Z6M5;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -1240,11 +1240,11 @@
 			baseConfigurationReference = D99029CBF0873D0925237074 /* Pods-Rep1Basement2019.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = S85HC5Z6M5;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -1255,9 +1255,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Basement1-2021";
-				PRODUCT_NAME = Rep1Basement2020;
-				PROVISIONING_PROFILE_SPECIFIER = "Rep1Basement Apple Store Distribution_2021_02_08";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Basement1-2022";
+				PRODUCT_NAME = Rep1Basement2022;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -1266,11 +1266,11 @@
 			baseConfigurationReference = 059AF23B2FF852F36C3573BE /* Pods-Rep1Basement2019.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = S85HC5Z6M5;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -1281,9 +1281,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Basement1-2021";
-				PRODUCT_NAME = Rep1Basement2020;
-				PROVISIONING_PROFILE_SPECIFIER = "Rep1Basement Apple Store Distribution_2021_02_08";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Basement1-2022";
+				PRODUCT_NAME = Rep1Basement2022;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -1292,10 +1292,10 @@
 			baseConfigurationReference = 9D301695C60135D644F9C56C /* Pods-Rep2Basement2019.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = S85HC5Z6M5;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -1306,9 +1306,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Basement2-2021";
-				PRODUCT_NAME = Rep2Basement2020;
-				PROVISIONING_PROFILE_SPECIFIER = "Rep2Basement Apple Store Distribution_2021_02_08";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Basement2-2022";
+				PRODUCT_NAME = Rep2Basement2022;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -1317,10 +1317,10 @@
 			baseConfigurationReference = 7844A7037E41219881DE1B8A /* Pods-Rep2Basement2019.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = S85HC5Z6M5;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -1331,9 +1331,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Basement2-2021";
-				PRODUCT_NAME = Rep2Basement2020;
-				PROVISIONING_PROFILE_SPECIFIER = "Rep2Basement Apple Store Distribution_2021_02_08";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Basement2-2022";
+				PRODUCT_NAME = Rep2Basement2022;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -1342,10 +1342,10 @@
 			baseConfigurationReference = 28F8F9DDFE7A5AB89FEA40FB /* Pods-Rep1Upstairs2019.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = S85HC5Z6M5;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -1356,9 +1356,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs1-2021";
-				PRODUCT_NAME = Rep1Upstairs2020;
-				PROVISIONING_PROFILE_SPECIFIER = "Rep1Upstairs Apple Store Distribution_2021_02_08";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs1-2022";
+				PRODUCT_NAME = Rep1Upstairs2022;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -1367,10 +1367,10 @@
 			baseConfigurationReference = 49C6200484BE9F8706008686 /* Pods-Rep1Upstairs2019.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = S85HC5Z6M5;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -1381,9 +1381,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs1-2021";
-				PRODUCT_NAME = Rep1Upstairs2020;
-				PROVISIONING_PROFILE_SPECIFIER = "Rep1Upstairs Apple Store Distribution_2021_02_08";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs1-2022";
+				PRODUCT_NAME = Rep1Upstairs2022;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -1392,10 +1392,10 @@
 			baseConfigurationReference = 5FDF47289F191996E85A6493 /* Pods-Rep2Upstairs2019.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = S85HC5Z6M5;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -1406,9 +1406,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs2-2021";
-				PRODUCT_NAME = Rep2Upstairs2020;
-				PROVISIONING_PROFILE_SPECIFIER = "Rep2Upstairs Apple Store Distribution_2021_02_08";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs2-2022";
+				PRODUCT_NAME = Rep2Upstairs2022;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -1417,10 +1417,10 @@
 			baseConfigurationReference = E0A20963FE44AAAA63EC0F87 /* Pods-Rep2Upstairs2019.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = S85HC5Z6M5;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -1431,9 +1431,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs2-2021";
-				PRODUCT_NAME = Rep2Upstairs2020;
-				PROVISIONING_PROFILE_SPECIFIER = "Rep2Upstairs Apple Store Distribution_2021_02_08";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs2-2022";
+				PRODUCT_NAME = Rep2Upstairs2022;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -1442,10 +1442,10 @@
 			baseConfigurationReference = 04485B91CB558C957EB613BB /* Pods-Rep3Upstairs2019.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = S85HC5Z6M5;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -1456,9 +1456,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs3-2021";
-				PRODUCT_NAME = Rep3Upstairs2020;
-				PROVISIONING_PROFILE_SPECIFIER = "Rep3Upstairs Apple Store Distribution_2021_02_08";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs3-2022";
+				PRODUCT_NAME = Rep3Upstairs2022;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -1467,10 +1467,10 @@
 			baseConfigurationReference = BD0BEBCB05EEC6721A405273 /* Pods-Rep3Upstairs2019.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = S85HC5Z6M5;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = VideoApp/VideoApp.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -1481,9 +1481,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs3-2021";
-				PRODUCT_NAME = Rep3Upstairs2020;
-				PROVISIONING_PROFILE_SPECIFIER = "Rep3Upstairs Apple Store Distribution_2021_02_08";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OhioState.Upstairs3-2022";
+				PRODUCT_NAME = Rep3Upstairs2022;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

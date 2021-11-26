@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0498BF601FBFFC0D0085D6A8"
-               BuildableName = "Rep1Upstairs2020.app"
+               BuildableName = "Rep1Upstairs2022.app"
                BlueprintName = "Rep1Upstairs2019"
                ReferencedContainer = "container:VideoApp.xcodeproj">
             </BuildableReference>
@@ -31,7 +31,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0498BF601FBFFC0D0085D6A8"
-            BuildableName = "Rep1Upstairs2020.app"
+            BuildableName = "Rep1Upstairs2022.app"
             BlueprintName = "Rep1Upstairs2019"
             ReferencedContainer = "container:VideoApp.xcodeproj">
          </BuildableReference>
@@ -54,7 +54,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0498BF601FBFFC0D0085D6A8"
-            BuildableName = "Rep1Upstairs2020.app"
+            BuildableName = "Rep1Upstairs2022.app"
             BlueprintName = "Rep1Upstairs2019"
             ReferencedContainer = "container:VideoApp.xcodeproj">
          </BuildableReference>
@@ -71,7 +71,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0498BF601FBFFC0D0085D6A8"
-            BuildableName = "Rep1Upstairs2020.app"
+            BuildableName = "Rep1Upstairs2022.app"
             BlueprintName = "Rep1Upstairs2019"
             ReferencedContainer = "container:VideoApp.xcodeproj">
          </BuildableReference>
